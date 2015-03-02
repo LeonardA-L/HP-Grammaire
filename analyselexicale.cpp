@@ -5,71 +5,108 @@
 using namespace std;
 using namespace boost;
 
-// Keywords
-regex re_const("const");
-regex re_var("var");
-regex re_lire("lire");
-regex re_ecrire("ecrire");
-// Symbols
-regex re_oppA("(\+|-)");
-regex re_oppM("(*|/)");
-regex re_equals("=");
-regex re_affects(":=");
-// Terminal
-regex re_identifier("(^(?!const|var|lire|ecrire)(\w+)|^\w+(const|var|lire|ecrire)|(const|var|lire|ecrire)\w+)");
-regex re_numeral("(\d+)");
+//regex
+	// Keywords
+	regex re_const("const");
+	regex re_var("var");
+	regex re_lire("lire");
+	regex re_ecrire("ecrire");
+	// Symbols
+	regex re_oppA("[+-]");
+	regex re_oppM("[*/]");
+	regex re_equals(":?=?");
+	regex re_coma(",");
+	// Terminal
+	regex re_identifier("(^(?!const|var|lire|ecrire)(\\w+)|^\w+(const|var|lire|ecrire)|(const|var|lire|ecrire)\\w+)");
+	//regex re_identifier("\\w+");
+	regex re_numeral("(\\d+)");
 
-void checkRegexMatch(string s, regex re){
+bool checkRegexMatch(string s, regex re){
 	try
 	{
 	   if (!regex_match(s, re))
 	   {
-		  throw "The string doesn't match the regex";
+		  cerr << "The string " << s << " doesn't match the regex" << endl;
+		  return false;
 	   }
 	   else
 	   {
-		  throw "The string matches the regex";
+		  cerr << "The string " << s << " matches the regex" << endl;
+		  return true;
 	   }
 	}
 	catch (regex_error& e)
 	{
-	   cerr << "The regexp " << re << " is invalid!" << endl;
-	   throw(e);
+	   cout << "The regexp " << re << " is invalid!" << endl;
+	   //throw(e);
 	}
 	catch (char const* msg)
 	{
-		cerr << msg << endl;
+		cout << msg << endl;
 	}
 }
 
-void analyse()
+void ship(string& s, bool& matched)
+{
+	if(s != "" && matched){
+		cout << "sending "<< s << endl;
+		s = "";
+		matched = false;
+	}
+}
+
+void analyse(string line)
 {
 	char c;
+	int i=-1;
 	string buff("");
-	while(cin >> c)
+	bool matched = false;
+	for(int i=0;i<line.length();i++)
 	{
+		c = line.at(i);
 		switch(c)
 		{
+			case ',':
 			case ' ':
-			continue;
+			case ';':
+			case '\n':
+				//cout << "Special char "<<c<< " buff is :"<< buff<<endl;
+				ship(buff,matched);
+				continue;
 			break;
 		}
-		buff += c;
+		string tmp("");
+		tmp+=buff+c;
 		
-		/*
-		regex re("ok");
-		string a("ok");
-		string b("12");
-		checkRegexMatch(a,re);
-		checkRegexMatch(b,re);
-		*/
+		// Continue until it doesn't match anymore
+		if(checkRegexMatch(tmp,re_const) 
+			or checkRegexMatch(tmp,re_var) 
+			or checkRegexMatch(tmp,re_lire) 
+			or checkRegexMatch(tmp,re_ecrire) 
+			or checkRegexMatch(tmp,re_identifier) 
+			or checkRegexMatch(tmp,re_numeral) 
+			or checkRegexMatch(tmp,re_equals))
+		{
+			buff+=c;
+			matched = true;
+			continue;
+		}
+		
+		if(matched){
+			ship(buff,matched);
+			i--;
+		}		
 	}
 }
 
 
 int main()
 {
-	cout << "coucou" << endl;
-	analyse();
+	string code;
+	while(getline(cin,code)){
+		analyse(code);
+		//cin.ignore();
+	}
+	
 	return 0;
 }
