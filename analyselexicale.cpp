@@ -96,14 +96,17 @@ void analyse(string line)
 	
 }
 
-
-int main()
+void parseStdin()
 {
 	string code;
 	while(getline(cin,code)){
 		analyse(code);
 		//cin.ignore();
 	}
-	
+}
+
+int main()
+{
+	parseStdin();
 	return 0;
 }
