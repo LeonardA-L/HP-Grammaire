@@ -1,0 +1,5 @@
+var x;
+var y;
+const a=3;
+lire y;
+x := 123;
