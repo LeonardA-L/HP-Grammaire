@@ -53,6 +53,7 @@ void ship(string& s, bool& matched)
 		cout << "sending "<< s << endl;
 		s = "";
 		matched = false;
+		//TODO: Send as symbol
 	}
 }
 
