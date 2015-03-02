@@ -16,6 +16,7 @@ using namespace boost;
 	regex re_oppM("[*/]");
 	regex re_equals(":?=?");
 	regex re_coma(",");
+	regex re_semicolon(";");
 	// Terminal
 	regex re_identifier("(^(?!const|var|lire|ecrire)(\\w+)|^\w+(const|var|lire|ecrire)|(const|var|lire|ecrire)\\w+)");
 	//regex re_identifier("\\w+");
@@ -57,6 +58,7 @@ void ship(string& s, bool& matched)
 
 void analyse(string line)
 {
+	line+="|";							// end line character
 	char c;
 	int i=-1;
 	string buff("");
@@ -64,17 +66,7 @@ void analyse(string line)
 	for(int i=0;i<line.length();i++)
 	{
 		c = line.at(i);
-		switch(c)
-		{
-			case ',':
-			case ' ':
-			case ';':
-			case '\n':
-				//cout << "Special char "<<c<< " buff is :"<< buff<<endl;
-				ship(buff,matched);
-				continue;
-			break;
-		}
+
 		string tmp("");
 		tmp+=buff+c;
 		
@@ -85,7 +77,10 @@ void analyse(string line)
 			or checkRegexMatch(tmp,re_ecrire) 
 			or checkRegexMatch(tmp,re_identifier) 
 			or checkRegexMatch(tmp,re_numeral) 
-			or checkRegexMatch(tmp,re_equals))
+			or checkRegexMatch(tmp,re_equals)
+			or checkRegexMatch(tmp,re_coma)
+			or checkRegexMatch(tmp,re_semicolon)
+			)
 		{
 			buff+=c;
 			matched = true;
@@ -97,6 +92,7 @@ void analyse(string line)
 			i--;
 		}		
 	}
+	
 }
 
 
