@@ -91,19 +91,19 @@ void ship(string& s, bool& matched)
 		else if(checkRegexMatch(s,re_ecrire)){
 			sbl = new ST_ecrire();
 		}
-		else if (checkRegexMatch(tmp,tmp,re_identifier)) {
-			sbl = new ST_id();
+		else if (checkRegexMatch(s,re_identifier)) {
+			sbl = new Id();
 		}
-		else if (checkRegexMatch(tmp,re_numeral)) {
-			sbl = new ST_val();
+		else if (checkRegexMatch(s,re_numeral)) {
+			sbl = new Val();
 		}
-		else if (checkRegexMatch(tmp,re_equals)) {
+		else if (checkRegexMatch(s,re_equals)) {
 			sbl = new ST_egal();
 		}
-		else if (checkRegexMatch(tmp,re_coma)) {
+		else if (checkRegexMatch(s,re_coma)) {
 			sbl = new ST_virgule();
 		}
-		else if (checkRegexMatch(tmp,re_semicolon)) {
+		else if (checkRegexMatch(s,re_semicolon)) {
 			sbl = new ST_ptVirgule();
 		}
 		
