@@ -3,6 +3,7 @@
 using namespace std;
 using namespace boost;
 
+string text;
 int i;
 
 	//regex
@@ -23,13 +24,15 @@ int i;
 	regex re_numeral("(\\d+)");
 
 Symbole* Lexer::getNext(){
+	return analyse();
+	/*
 	Symbole* s = NULL;
 	if(!symboles.empty()){
 		s = symboles.front();
 	}
 	
 	symboles.pop();
-	return s;
+	return s;*/
 }
 
 bool checkRegexMatch(string s, regex re){
@@ -57,12 +60,10 @@ bool checkRegexMatch(string s, regex re){
 	}
 }
 
-void Lexer::ship(string& s, bool& matched)
+Symbole* Lexer::ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
 		cerr << "sending "<< s << endl;
-		
-		//TODO: Send as symbol
 		
 		Symbole* sbl;
 		
@@ -95,24 +96,21 @@ void Lexer::ship(string& s, bool& matched)
 			sbl = new ST_ptVirgule();
 		}
 		
-		symboles.push(sbl);
-		
-		/*cout << "Top" << pileSymboles.top() << endl;
-		pileSymboles.pop();*/
-		
 		s = "";
 		matched = false;
+		
+		return sbl;
 	}
 }
 
-void Lexer::analyse(string line)
+Symbole* Lexer::analyse()
 {
+	string line = text;
 	line+="|";							// end line character
 	char c;
-	int i=-1;
 	string buff("");
 	bool matched = false;
-	for(int i=0;i<line.length();i++)
+	for(;i<line.length();i++)
 	{
 		c = line.at(i);
 
@@ -137,18 +135,23 @@ void Lexer::analyse(string line)
 		}
 		
 		if(matched){
-			ship(buff,matched);
-			i--;
+			return ship(buff,matched);
 		}		
 	}
 	
 }
 
+Lexer::Lexer(){
+	parseStdin();
+}
+
 void Lexer::parseStdin()
 {
+	text = "";
 	string code;
 	while(getline(cin,code)){
-		analyse(code);
+		text+=code;
+		//analyse(code);
 		//cin.ignore();
 	}
 }
@@ -157,8 +160,6 @@ void Lexer::parseStdin()
 
 int main(){
 	Lexer l;
-	l.parseStdin();
-	
 	Symbole* s;
 	do{
 		s = l.getNext();
