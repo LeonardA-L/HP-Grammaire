@@ -5,6 +5,7 @@
 #include <string> 
 #include <boost/regex.hpp>
 #include <queue>
+#include <map>
 
 #include "Symbole.h"
 #include "ST_const.h"

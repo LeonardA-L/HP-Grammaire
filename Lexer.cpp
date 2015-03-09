@@ -3,6 +3,8 @@
 using namespace std;
 using namespace boost;
 
+typedef map<string, Symbole*>MAP;
+MAP laTable;
 string text;
 int i;
 
@@ -81,7 +83,14 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			sbl = new ST_ecrire();
 		}
 		else if (checkRegexMatch(s,re_identifier)) {
-			sbl = new Id();
+			MAP::const_iterator pos = laTable.find(s);
+			if(pos == laTable.end()){
+				sbl = new Id();
+				laTable.insert(make_pair(s,sbl));
+			}
+			else{
+				sbl = pos->second;
+			}
 		}
 		else if (checkRegexMatch(s,re_numeral)) {
 			sbl = new Val();
