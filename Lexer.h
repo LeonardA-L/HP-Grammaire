@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string> 
 #include <boost/regex.hpp>
-#include <stack>
+#include <queue>
 
 #include "Symbole.h"
 #include "ST_const.h"
@@ -29,10 +29,11 @@ using namespace std;
 class Lexer {
 	public:
 		void analyse(string line);
-		stack<Symbole*>* parseStdin();
+		void parseStdin();
+		Symbole* getNext();
 	
 	private:
-		stack<Symbole*> pileSymboles;
+		queue<Symbole*> symboles;
 		void ship(string& s, bool& matched);
 		
 };

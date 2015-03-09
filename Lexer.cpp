@@ -20,6 +20,16 @@ using namespace boost;
 	//regex re_identifier("\\w+");
 	regex re_numeral("(\\d+)");
 
+Symbole* Lexer::getNext(){
+	Symbole* s = NULL;
+	if(!symboles.empty()){
+		s = symboles.front();
+	}
+	
+	symboles.pop();
+	return s;
+}
+
 bool checkRegexMatch(string s, regex re){
 	try
 	{
@@ -83,7 +93,7 @@ void Lexer::ship(string& s, bool& matched)
 			sbl = new ST_ptVirgule();
 		}
 		
-		pileSymboles.push(sbl);
+		symboles.push(sbl);
 		
 		/*cout << "Top" << pileSymboles.top() << endl;
 		pileSymboles.pop();*/
@@ -132,7 +142,7 @@ void Lexer::analyse(string line)
 	
 }
 
-stack<Symbole*>* Lexer::parseStdin()
+void Lexer::parseStdin()
 {
 	string code;
 	while(getline(cin,code)){
@@ -141,8 +151,18 @@ stack<Symbole*>* Lexer::parseStdin()
 	}
 }
 
+
+
 int main(){
 	Lexer l;
 	l.parseStdin();
+	
+	Symbole* s;
+	do{
+		s = l.getNext();
+		cout << s << endl;
+	}
+	while(s != NULL);
+	
 	return 0;
 };
