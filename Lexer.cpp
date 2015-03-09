@@ -3,7 +3,7 @@
 using namespace std;
 using namespace boost;
 
-
+int i;
 
 	//regex
 	// Keywords
