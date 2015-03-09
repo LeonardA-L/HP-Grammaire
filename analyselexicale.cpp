@@ -5,6 +5,22 @@
 
 #include "Symbole.h"
 #include "ST_const.h"
+#include "ST_var.h"
+#include "ST_asterix.h"
+#include "ST_doublePoint.h"
+#include "ST_ecrire.h"
+#include "ST_egal.h"
+#include "ST_lire.h"
+#include "ST_moins.h"
+#include "ST_parenthesisClose.h"
+#include "ST_parenthesisOpen.h"
+#include "ST_plus.h"
+#include "ST_ptVirgule.h"
+#include "ST_slash.h"
+#include "ST_virgule.h"
+#include "Id.h"
+#include "Val.h"
+
 
 using namespace std;
 using namespace boost;
@@ -67,7 +83,15 @@ void ship(string& s, bool& matched)
 		}
 		
 		//----- L
-		
+		else if(checkRegexMatch(s,re_var)){
+			sbl = new ST_var();
+		}
+		else if(checkRegexMatch(s,re_lire)){
+			sbl = new ST_lire();
+		}
+		else if(checkRegexMatch(s,re_ecrire)){
+			sbl = new ST_ecrire();
+		}
 		// ---- M
 		else if (checkRegexMatch(tmp,tmp,re_identifier)) {
 			sbl = new ST_id();
