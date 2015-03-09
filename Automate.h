@@ -6,20 +6,26 @@
 #include <map>
 #include "Id.h"
 #include "Val.h"
+#include "Etat.h"
+#include "Lexer.h"
 
 using namespace std;
 
-class Etat;
+
 
 class Automate{
 	
 	public : 
+	Automate();
 	void lecture();
+	void decalage(Symbole *s, Etat* etat);
+	void reduction(int nbUnstack, Symbole* s, Etat* etat);
 	
 	private :
-	stack<Symbole> *pileSymboles;
-	stack<Etat> *pileEtats; 
+	stack<Symbole*> *pileSymboles;
+	stack<Etat*> *pileEtats; 
 	map<Id, Val> variables;
+	Lexer lex;
 };
 
 #endif Automate_H
