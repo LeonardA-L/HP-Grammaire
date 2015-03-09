@@ -1,9 +1,31 @@
 #include <iostream>
 #include <string> 
 #include <boost/regex.hpp>
+#include <stack>
+
+#include "Symbole.h"
+#include "ST_const.h"
+#include "ST_var.h"
+#include "ST_asterix.h"
+#include "ST_doublePoint.h"
+#include "ST_ecrire.h"
+#include "ST_egal.h"
+#include "ST_lire.h"
+#include "ST_moins.h"
+#include "ST_parenthesisClose.h"
+#include "ST_parenthesisOpen.h"
+#include "ST_plus.h"
+#include "ST_ptVirgule.h"
+#include "ST_slash.h"
+#include "ST_virgule.h"
+#include "Id.h"
+#include "Val.h"
+
 
 using namespace std;
 using namespace boost;
+
+static stack<Symbole*> pileSymboles;
 
 //regex
 	// Keywords
@@ -51,9 +73,47 @@ void ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
 		cout << "sending "<< s << endl;
+		
+		//TODO: Send as symbol
+		
+		Symbole* sbl;
+		
+		if(checkRegexMatch(s,re_const)){
+			sbl = new ST_const();
+		}
+		
+		else if(checkRegexMatch(s,re_var)){
+			sbl = new ST_var();
+		}
+		else if(checkRegexMatch(s,re_lire)){
+			sbl = new ST_lire();
+		}
+		else if(checkRegexMatch(s,re_ecrire)){
+			sbl = new ST_ecrire();
+		}
+		else if (checkRegexMatch(s,re_identifier)) {
+			sbl = new Id();
+		}
+		else if (checkRegexMatch(s,re_numeral)) {
+			sbl = new Val();
+		}
+		else if (checkRegexMatch(s,re_equals)) {
+			sbl = new ST_egal();
+		}
+		else if (checkRegexMatch(s,re_coma)) {
+			sbl = new ST_virgule();
+		}
+		else if (checkRegexMatch(s,re_semicolon)) {
+			sbl = new ST_ptVirgule();
+		}
+		
+		pileSymboles.push(sbl);
+		
+		/*cout << "Top" << pileSymboles.top() << endl;
+		pileSymboles.pop();*/
+		
 		s = "";
 		matched = false;
-		//TODO: Send as symbol
 	}
 }
 
@@ -96,7 +156,7 @@ void analyse(string line)
 	
 }
 
-void parseStdin()
+stack<Symbole*>* parseStdin()
 {
 	string code;
 	while(getline(cin,code)){
