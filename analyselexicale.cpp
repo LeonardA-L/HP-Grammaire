@@ -1,9 +1,15 @@
 #include <iostream>
 #include <string> 
 #include <boost/regex.hpp>
+#include <stack>
+
+#include "Symbole.h"
+#include "ST_const.h"
 
 using namespace std;
 using namespace boost;
+
+static stack<Symbole*> pileSymboles;
 
 //regex
 	// Keywords
@@ -51,9 +57,20 @@ void ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
 		cout << "sending "<< s << endl;
+		
+		//TODO: Send as symbol
+		
+		Symbole* sbl;
+		if(checkRegexMatch(s,re_const)){
+			sbl = new ST_const();
+		}
+		pileSymboles.push(sbl);
+		
+		/*cout << "Top" << pileSymboles.top() << endl;
+		pileSymboles.pop();*/
+		
 		s = "";
 		matched = false;
-		//TODO: Send as symbol
 	}
 }
 
@@ -96,7 +113,7 @@ void analyse(string line)
 	
 }
 
-void parseStdin()
+stack<Symbole*>* parseStdin()
 {
 	string code;
 	while(getline(cin,code)){

@@ -1,2 +1,2 @@
 void analyse(string line);
-void parseStdin();
+stack<Symbole*>* parseStdin();
