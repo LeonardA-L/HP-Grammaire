@@ -163,6 +163,8 @@ stack<Symbole*>* parseStdin()
 		analyse(code);
 		//cin.ignore();
 	}
+	
+	return &pileSymboles;
 }
 
 int main()

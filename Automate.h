@@ -9,6 +9,8 @@
 
 using namespace std;
 
+class Etat;
+
 class Automate{
 	
 	public : 
@@ -16,7 +18,7 @@ class Automate{
 	
 	private :
 	stack<Symbole> *pileSymboles;
-	// stack<Etat> *pileEtats;  TODO : mettre la ligne lors de l'intégration avec la partie états
+	stack<Etat> *pileEtats; 
 	map<Id, Val> variables;
 };
 
