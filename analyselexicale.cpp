@@ -69,6 +69,21 @@ void ship(string& s, bool& matched)
 		//----- L
 		
 		// ---- M
+		else if (checkRegexMatch(tmp,tmp,re_identifier)) {
+			sbl = new ST_id();
+		}
+		else if (checkRegexMatch(tmp,re_numeral)) {
+			sbl = new ST_val();
+		}
+		else if (checkRegexMatch(tmp,re_equals)) {
+			sbl = new ST_egal();
+		}
+		else if (checkRegexMatch(tmp,re_coma)) {
+			sbl = new ST_virgule();
+		}
+		else if (checkRegexMatch(tmp,re_semicolon)) {
+			sbl = new ST_ptVirgule();
+		}
 		
 		pileSymboles.push(sbl);
 		
