@@ -3,6 +3,8 @@
 using namespace std;
 using namespace boost;
 
+
+
 	//regex
 	// Keywords
 	regex re_const("const");
@@ -35,12 +37,12 @@ bool checkRegexMatch(string s, regex re){
 	{
 	   if (!regex_match(s, re))
 	   {
-		  cerr << "The string " << s << " doesn't match the regex" << endl;
+		  //cerr << "The string " << s << " doesn't match the regex" << endl;
 		  return false;
 	   }
 	   else
 	   {
-		  cerr << "The string " << s << " matches the regex" << endl;
+		  //cerr << "The string " << s << " matches the regex" << endl;
 		  return true;
 	   }
 	}
@@ -58,7 +60,7 @@ bool checkRegexMatch(string s, regex re){
 void Lexer::ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
-		cout << "sending "<< s << endl;
+		cerr << "sending "<< s << endl;
 		
 		//TODO: Send as symbol
 		
@@ -160,7 +162,7 @@ int main(){
 	Symbole* s;
 	do{
 		s = l.getNext();
-		cout << s << endl;
+		//cout << s << endl;
 	}
 	while(s != NULL);
 	
