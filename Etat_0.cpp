@@ -19,8 +19,7 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-void Etat_0::transition ( Automate a, Symbole s )
-
+bool Etat_0::transition ( Automate & a, Symbole * s )
 {
 
 } 

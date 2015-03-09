@@ -15,6 +15,7 @@ class Etat
 
 public:
 //----------------------------------------------------- Méthodes publiques
+    virtual bool transition ( Automate & a, Symbole * s ) = 0;
 
 
 //------------------------------------------------- Surcharge d'opérateurs
