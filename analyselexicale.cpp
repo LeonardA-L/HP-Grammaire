@@ -82,7 +82,6 @@ void ship(string& s, bool& matched)
 			sbl = new ST_const();
 		}
 		
-		//----- L
 		else if(checkRegexMatch(s,re_var)){
 			sbl = new ST_var();
 		}
@@ -92,7 +91,6 @@ void ship(string& s, bool& matched)
 		else if(checkRegexMatch(s,re_ecrire)){
 			sbl = new ST_ecrire();
 		}
-		// ---- M
 		else if (checkRegexMatch(tmp,tmp,re_identifier)) {
 			sbl = new ST_id();
 		}
