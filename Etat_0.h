@@ -46,16 +46,8 @@ public:
 
 //-------------------------------------------- Constructeurs - destructeur
     Etat_0 ( );
-    // Mode d'emploi :
-    //
-    // Contrat :
-    //
 
     virtual ~Etat_0 ( );
-    // Mode d'emploi :
-    //
-    // Contrat :
-    //
 
 //------------------------------------------------------------------ PRIVE 
 
