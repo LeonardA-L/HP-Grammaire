@@ -28,14 +28,13 @@ using namespace std;
 
 class Lexer {
 	public:
-		Symbole* analyse();
-		void parseStdin();
 		Symbole* getNext();
 		Lexer();
 	
 	private:
-		queue<Symbole*> symboles;
 		Symbole* ship(string& s, bool& matched);
+		Symbole* analyse();
+		void parseStdin();
 		
 };
 
