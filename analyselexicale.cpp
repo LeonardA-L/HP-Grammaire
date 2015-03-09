@@ -61,9 +61,15 @@ void ship(string& s, bool& matched)
 		//TODO: Send as symbol
 		
 		Symbole* sbl;
+		
 		if(checkRegexMatch(s,re_const)){
 			sbl = new ST_const();
 		}
+		
+		//----- L
+		
+		// ---- M
+		
 		pileSymboles.push(sbl);
 		
 		/*cout << "Top" << pileSymboles.top() << endl;
