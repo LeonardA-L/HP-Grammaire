@@ -16,7 +16,7 @@ using namespace std;
 class Automate{
 	
 	public : 
-		Automate(vector<Symbole*> * smbl_table) : lex(smbl_table) {};
+		Automate(vector<Symbole*> * smbl_table, istream* is) : lex(smbl_table, is) {};
 		void lecture();
 		void decalage(Symbole *s, Etat* etat);
 		void reduction(int nbUnstack, Symbole* s, Etat* etat);

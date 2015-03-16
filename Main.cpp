@@ -1,4 +1,6 @@
 #include "Lexer.h"
+#include <iostream>
+#include <fstream>
 #include "StaticAnalyse.h"
 #include "Symbole.h"
 #include <vector>
@@ -9,6 +11,8 @@ using namespace boost;
 
 
 int main(int argc, char* argv[]){
+	 
+	 istream * sin = &cin;
 	 
 	 bool display = false;
 	 bool analyse = false;
@@ -33,11 +37,16 @@ int main(int argc, char* argv[]){
 			optimize = true;
 		}
 		
-		regex re_source("(\w+).lt");
+		regex re_source("\\w+\\.lt");
 		if(checkRegexMatch(s,re_source)){
 			source = true;
 			sourceFile = s;
+			sin = new ifstream(argv[i]);
 		}
+	}
+	
+	if(!source){
+		cout << "Pas de fichier .lt en entrée. Lecture de l'entrée standard" << endl;
 	}
 	
 	if(!display && !analyse && !execute && !optimize){	// You do nothing, John Snow
@@ -55,7 +64,7 @@ int main(int argc, char* argv[]){
 	
 	// Parsing
 	cerr << "Parse" << endl;
-	Lexer l(&symbol_table);
+	Lexer l(&symbol_table, sin);
 	Symbole* s;
 	do{
 		s = l.getNext();
@@ -94,6 +103,10 @@ int main(int argc, char* argv[]){
 	for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
 		Symbole* s = *it;
 		delete s;
+	}
+	
+	if(source){
+		delete sin;
 	}
 	
 	return 0;

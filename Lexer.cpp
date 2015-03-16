@@ -158,8 +158,9 @@ Symbole* Lexer::analyse()
 	
 }
 
-Lexer::Lexer(vector<Symbole*> * symbol_table){
+Lexer::Lexer(vector<Symbole*> * symbol_table, istream* is){
 	smbl_table = symbol_table;
+	sin = is;
 	parseStdin();
 }
 
@@ -167,7 +168,7 @@ void Lexer::parseStdin()
 {
 	text = "";
 	string code;
-	while(getline(cin,code)){
+	while(getline(*sin,code)){
 		text+=code;
 		//analyse(code);
 		//cin.ignore();
