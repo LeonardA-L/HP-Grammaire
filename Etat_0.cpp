@@ -24,17 +24,6 @@ bool Etat_0::transition ( Automate & a, Symbole * s )
 	if(*s >= 100)
 	{
 		//Symboles non terminaux
-		switch(*s)
-		{
-			case(P) :
-				a.decalage(s, new Etat_1());
-				break;
-			case(DEC) :
-				a.decalage(s, new Etat_2());
-				break;
-			default :
-				break;
-		}
 	}else
 	{
 		//Symboles terminaux

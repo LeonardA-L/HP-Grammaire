@@ -7,7 +7,6 @@ using namespace std;
 	Automate::Automate()
 	{
 		lex=Lexer();
-			lex.parseStdin();
 	}
 
  void Automate::lecture(){
