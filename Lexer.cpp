@@ -82,6 +82,9 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		else if(checkRegexMatch(s,re_ecrire)){
 			sbl = new ST_ecrire();
 		}
+		else if (checkRegexMatch(s,re_numeral)) {
+			sbl = new Val();
+		}
 		else if (checkRegexMatch(s,re_identifier)) {
 			MAP::const_iterator pos = laTable.find(s);
 			if(pos == laTable.end()){
@@ -91,9 +94,6 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			else{
 				sbl = pos->second;
 			}
-		}
-		else if (checkRegexMatch(s,re_numeral)) {
-			sbl = new Val();
 		}
 		else if (checkRegexMatch(s,re_equals)) {
 			sbl = new ST_egal();

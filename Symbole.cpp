@@ -1,11 +1,9 @@
-class Symbole{
-	protected : 
-	int ident;
+#include "Symbole.h"
 
-	public :
-	Symbole(int id) : ident(id) {}
-	virtual ~Symbole(){}
-	void print();
-	operator int() const {return ident;}
-
-};
+Symbole::Symbole(int id){
+	ident = id;
+}
+Symbole::Symbole(){}
+Symbole::~Symbole(){}
+void Symbole::print(){}
+//operator int() const {return ident;}

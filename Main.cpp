@@ -1,4 +1,5 @@
 #include "Lexer.h"
+#include "StaticAnalyse.h"
 #include "Symbole.h"
 #include <vector>
 
@@ -14,6 +15,8 @@ int main(){
 	}
 	while(s != NULL);
 	
+	// Static analyse
+	staticAnalyse(symbol_table);
 	// Destroy stuff
 	
 	
