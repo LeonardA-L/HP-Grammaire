@@ -6,6 +6,7 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_36.h"
+#include "SI.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -22,7 +23,7 @@ using namespace std;
 bool Etat_36::transition ( Automate & a, Symbole * s )
 {
 	Etat_21 *etat21=new Etat_21();
-	I *i=new I();
+	SI *i=new SI();
 	a.reduction(4,i,etat21);
 	return true;
 } 
@@ -37,7 +38,7 @@ Etat_36::Etat_36 ( )
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_36>" << endl;
 #endif
-    _state_num = 0;
+    _state_num = 36;
 }
 
 

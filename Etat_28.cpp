@@ -7,6 +7,7 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_28.h"
 #include "Etat_32.h"
+#include "F.h"
 
 //------------------------------------------------------------- Constantes
 

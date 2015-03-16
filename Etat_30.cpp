@@ -7,6 +7,7 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_30.h"
 #include "Etat_38.h"
+#include "OpA.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -38,7 +39,7 @@ Etat_30::Etat_30 ( )
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_30>" << endl;
 #endif
-    _state_num = 0;
+    _state_num = 30;
 }
 
 

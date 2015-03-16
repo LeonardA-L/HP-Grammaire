@@ -9,7 +9,7 @@ using namespace std;
 class F : public Symbole{
 	
 	public :
-		F() : Symbole(F) {}
+		F() : Symbole(Symbole::F) {}
 	
 };
 
