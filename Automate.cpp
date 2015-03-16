@@ -42,20 +42,22 @@ void Automate::reduction(int nbUnstack, Symbole* s, Etat* etat)
 
 int Automate::getPreviousState(int value)
 {
-	if(pileEtats.size()<value){
+	if(pileEtats->size()<value){
 		return NULL;
 	}
 	else
 	{
 		stack<Etat*> tmp;
 		for(int i = 0; i < value ; i++){
-			tmp.push(pileSymboles.pop());
+			tmp.push(pileEtats->top());
+			pileEtats->pop();
 		}
-		Etat * state = pileSymboles.top();
-		for(i = 0; i < value ; i++){
-			pileSymboles.push(tmp.pop());
+		Etat * state = pileEtats->top();
+		for(int i = 0; i < value ; i++){
+			pileEtats->push(tmp.top());
+			tmp.pop();
 		}
-		return state;
+		return state->getNumState();
 	}
 }
 
