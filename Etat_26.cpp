@@ -59,7 +59,7 @@ bool Etat_26::transition ( Automate & a, Symbole * s )
 Etat_26::Etat_26 ( )
 {
 #ifdef MAP
-    cout << "Appel au constructeur de <Etat_0>" << endl;
+    cout << "Appel au constructeur de <Etat_26>" << endl;
 #endif
     _state_num = 0;
 }
@@ -68,7 +68,7 @@ Etat_26::Etat_26 ( )
 Etat_26::~Etat_26 ( )
 {
 #ifdef MAP
-    cout << "Appel au destructeur de <Etat_0>" << endl;
+    cout << "Appel au destructeur de <Etat_26>" << endl;
 #endif
 }
 

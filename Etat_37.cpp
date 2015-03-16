@@ -26,17 +26,7 @@ using namespace std;
 
 bool Etat_37::transition ( Automate & a, Symbole * s )
 {
-	switch(*s)
-	{
-		case(Symbole::ASTERIX) :
-			Etat_40 *etat40=new Etat_40();
-			a.decalage(s,etat40);
-			break;
-		case(Symbole::SLASH) :
-			Etat_41 *etat41=new Etat_41();
-			a.decalage(s, etat41);
-			break;
-		case(Symbole::POINT_VIRGULE || Symbole::PLUS || Symbole::MOINS || Symbole::PARENTHESIS_CLOSE) :
+	if(*s==Symbole::POINT_VIRGULE || *s==Symbole::PLUS || *s==Symbole::MOINS || *s==Symbole::PARENTHESIS_CLOSE) {
 			int previousState= a.getPreviousState(1);
 			T *t=new T();
 			switch (previousState)
@@ -54,7 +44,19 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 					a.reduction(1,t,etat45);
 					break;
 			}
-			break;	
+			return true;
+	}
+	
+	switch(*s)
+	{
+		case(Symbole::ASTERIX) :
+			Etat_40 *etat40=new Etat_40();
+			a.decalage(s,etat40);
+			break;
+		case(Symbole::SLASH) :
+			Etat_41 *etat41=new Etat_41();
+			a.decalage(s, etat41);
+			break;		
 		default : 
 			return false;
 	}
@@ -69,7 +71,7 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 Etat_37::Etat_37 ( )
 {
 #ifdef MAP
-    cout << "Appel au constructeur de <Etat_0>" << endl;
+    cout << "Appel au constructeur de <Etat_37>" << endl;
 #endif
     _state_num = 0;
 }
@@ -78,7 +80,7 @@ Etat_37::Etat_37 ( )
 Etat_37::~Etat_37 ( )
 {
 #ifdef MAP
-    cout << "Appel au destructeur de <Etat_0>" << endl;
+    cout << "Appel au destructeur de <Etat_37>" << endl;
 #endif
 }
 
