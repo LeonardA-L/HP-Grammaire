@@ -5,8 +5,8 @@ using namespace std;
 #include <iostream>
 
 //------------------------------------------------------ Include personnel
-#include "Etat_28.h"
-#include "Etat_32.h"
+#include "Etat_30.h"
+#include "Etat_38.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -20,11 +20,11 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-bool Etat_28::transition ( Automate & a, Symbole * s )
+bool Etat_30::transition ( Automate & a, Symbole * s )
 {
-	F *f = new F();
-	Etat_32 *etat32= new Etat_32();
-	a.reduction(1,f,etat32);
+	OpA *opa = new OpA();
+	Etat_38 *etat38= new Etat_38();
+	a.reduction(1,opa,etat38);
 	return true;
 } 
 
@@ -33,7 +33,7 @@ bool Etat_28::transition ( Automate & a, Symbole * s )
 
 
 //-------------------------------------------- Constructeurs - destructeur
-Etat_28::Etat_28 ( )
+Etat_30::Etat_30 ( )
 {
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_0>" << endl;
@@ -42,7 +42,7 @@ Etat_28::Etat_28 ( )
 }
 
 
-Etat_28::~Etat_28 ( )
+Etat_30::~Etat_30 ( )
 {
 #ifdef MAP
     cout << "Appel au destructeur de <Etat_0>" << endl;

@@ -5,7 +5,7 @@ using namespace std;
 #include <iostream>
 
 //------------------------------------------------------ Include personnel
-#include "Etat_28.h"
+#include "Etat_29.h"
 #include "Etat_32.h"
 
 //------------------------------------------------------------- Constantes
@@ -20,7 +20,7 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-bool Etat_28::transition ( Automate & a, Symbole * s )
+bool Etat_29::transition ( Automate & a, Symbole * s )
 {
 	F *f = new F();
 	Etat_32 *etat32= new Etat_32();
@@ -33,7 +33,7 @@ bool Etat_28::transition ( Automate & a, Symbole * s )
 
 
 //-------------------------------------------- Constructeurs - destructeur
-Etat_28::Etat_28 ( )
+Etat_29::Etat_29 ( )
 {
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_0>" << endl;
@@ -42,7 +42,7 @@ Etat_28::Etat_28 ( )
 }
 
 
-Etat_28::~Etat_28 ( )
+Etat_29::~Etat_29 ( )
 {
 #ifdef MAP
     cout << "Appel au destructeur de <Etat_0>" << endl;
