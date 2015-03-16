@@ -7,6 +7,7 @@
 #include "Id.h"
 #include "Val.h"
 #include "Lexer.h"
+#include <list>
 
 class Etat;
 
@@ -20,7 +21,8 @@ class Automate{
 	Automate();
 	void lecture();
 	void decalage(Symbole *s, Etat* etat);
-	void reduction(int nbUnstack, Symbole* s, Etat* etat);
+	List<Symbole> reductionUnstack(int nbUnstack);
+	void reductionPush(Symbole* s, Etat* etat);
 	int getPreviousState(int value);
 	void accept();
 	
