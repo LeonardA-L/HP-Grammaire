@@ -3,7 +3,41 @@
 #include "Symbole.h"
 #include <vector>
 
-int main(){
+int main(int argc, char* argv[]){
+
+	/*
+	  [-p] affiche le code source reconnu
+      [-a] analyse le programme de maniere statique
+      [-e] execute interactivement le programme
+      [-o] optimise les expressions et instructions
+	 */
+	 
+	 bool display = false;
+	 bool analyse = false;
+	 bool execute = false;
+	 bool optimize = false;
+	
+	for (int i = 1; i < argc; i++) {
+		string s(argv[i]);
+		if (s == "-p") {
+			display = true;
+		}
+		if (s == "-a") {
+			cout << "??" << endl;
+			analyse = true;
+		}
+		if (s == "-e") {
+			execute = true;
+		}
+		if (s == "-o") {
+			optimize = true;
+		}
+	}
+	
+	
+	
+	
+	
 	vector<Symbole*> symbol_table;
 	
 	// Parsing
@@ -19,14 +53,26 @@ int main(){
 	
 	// Static analyse
 	cerr << "Analyse" << endl;
-	if(staticAnalyse(symbol_table)){
+	if(!analyse || staticAnalyse(symbol_table)){
 		// If the analyse is successful,
-		//Transformation
-		cerr << "Optimize" << endl;
+
+		if(optimize){
+			// Transformation
+			cerr << "Optimize" << endl;
+			//...
+		}
 		
-		// Execution
-		cerr << "Execute" << endl;
+		if(display){
+			// Display
+			cerr << "Display" << endl;
+			//...
+		}
 		
+		if(execute){
+			// Execution
+			cerr << "Execute" << endl;
+			//...
+		}
 	}
 	
 	// Destroy stuff
