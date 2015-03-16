@@ -5,11 +5,10 @@ using namespace std;
 #include <iostream>
 
 //------------------------------------------------------ Include personnel
-#include "Etat_2.h"
+#include "Etat_14.h"
 
-#include "Etat_3.h"
-#include "Etat_10.h"
-#include "Etat_20.h"
+#include "Etat_15.h"
+#include "Etat_19.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -23,40 +22,37 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-bool Etat_2::transition ( Automate & a, Symbole * s )
+bool Etat_14::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(CONST) :
-			a.decalage(s, new Etat_10());
+		case(POINT_VIRGULE) :
+			a.decalage(s, new Etat_19());
 			break;
-		case(VAR) :
-			a.decalage(s, new Etat_3());
-			break;
-		default :
-			a.reduction(0, new Inst(), new Etat_20());
+		case(VIRGULE) :
+			a.decalage(s, new Etat_15());
 			break;
 	}
-}
+} 
 
 //------------------------------------------------- Surcharge d'opérateurs
 
 
 
 //-------------------------------------------- Constructeurs - destructeur
-Etat_2::Etat_2 ( )
+Etat_14::Etat_14 ( )
 {
 #ifdef MAP
-    cout << "Appel au constructeur de <Etat_2>" << endl;
+    cout << "Appel au constructeur de <Etat_14>" << endl;
 #endif
-    _state_num = 2;
+    _state_num = 14;
 }
 
 
-Etat_2::~Etat_2 ( )
+Etat_14::~Etat_14 ( )
 {
 #ifdef MAP
-    cout << "Appel au destructeur de <Etat_2>" << endl;
+    cout << "Appel au destructeur de <Etat_14>" << endl;
 #endif
 }
 

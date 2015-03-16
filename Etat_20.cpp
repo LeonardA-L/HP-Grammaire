@@ -5,12 +5,9 @@ using namespace std;
 #include <iostream>
 
 //------------------------------------------------------ Include personnel
-#include "Etat_2.h"
-
-#include "Etat_3.h"
-#include "Etat_10.h"
 #include "Etat_20.h"
 
+#include "Etat_1.h"
 //------------------------------------------------------------- Constantes
 
 //---------------------------------------------------- Variables de classe
@@ -23,40 +20,44 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-bool Etat_2::transition ( Automate & a, Symbole * s )
+bool Etat_20::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(CONST) :
-			a.decalage(s, new Etat_10());
+		case(DOLLAR) :
+			a.reduction(2, new P(), new Etat_1());
 			break;
-		case(VAR) :
-			a.decalage(s, new Etat_3());
+		case(LIRE) :
+			a.decalage(s, new Etat_22());
 			break;
-		default :
-			a.reduction(0, new Inst(), new Etat_20());
+		case(ECRIRE) :
+			a.decalage(s, new Etat_25());
+			break;
+		case(ID) :
+			a.decalage(s, new Etat_33());
 			break;
 	}
-}
+	
+} 
 
 //------------------------------------------------- Surcharge d'opérateurs
 
 
 
 //-------------------------------------------- Constructeurs - destructeur
-Etat_2::Etat_2 ( )
+Etat_20::Etat_20 ( )
 {
 #ifdef MAP
-    cout << "Appel au constructeur de <Etat_2>" << endl;
+    cout << "Appel au constructeur de <Etat_20>" << endl;
 #endif
-    _state_num = 2;
+    _state_num = 20;
 }
 
 
-Etat_2::~Etat_2 ( )
+Etat_20::~Etat_20 ( )
 {
 #ifdef MAP
-    cout << "Appel au destructeur de <Etat_2>" << endl;
+    cout << "Appel au destructeur de <Etat_20>" << endl;
 #endif
 }
 
