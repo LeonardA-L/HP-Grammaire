@@ -9,7 +9,7 @@ using namespace std;
 class MC : public Symbole{
 	
 	public :
-		MC() : Symbole(MC) {}
+		MC() : Symbole(Symbole::MC) {}
 	
 };
 

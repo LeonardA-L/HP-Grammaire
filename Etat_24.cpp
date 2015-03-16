@@ -6,7 +6,7 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_24.h"
-
+#include "SI.h"
 #include "Etat_21.h"
 
 //------------------------------------------------------------- Constantes
@@ -23,7 +23,7 @@ using namespace std;
 
 bool Etat_24::transition ( Automate & a, Symbole * s )
 {
-	a.reduction(3, new I(), new Etat_21());	
+	a.reduction(3, new SI(), new Etat_21());	
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

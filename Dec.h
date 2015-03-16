@@ -4,6 +4,7 @@
 
 #include "Symbole.h"
 #include <list>
+#include "SD.h"
 
 using namespace std;
 
@@ -12,7 +13,7 @@ class Dec : public Symbole{
 	
 	private :
 		
-		list<D> _dList;
+		list<SD> _dList;
 
 	public :
 		Dec() : Symbole(DEC) {}

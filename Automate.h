@@ -22,6 +22,7 @@ class Automate{
 	void decalage(Symbole *s, Etat* etat);
 	void reduction(int nbUnstack, Symbole* s, Etat* etat);
 	int getPreviousState(int value);
+	void accept();
 	
 	private :
 	stack<Symbole*> *pileSymboles;

@@ -21,6 +21,11 @@ using namespace std;
 	
 }
 
+void accept()
+{
+
+}
+
 void Automate::decalage(Symbole *s, Etat* etat)
 {
 	pileSymboles->push(s);

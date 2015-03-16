@@ -6,6 +6,8 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_27.h"
+#include "Etat_21.h"
+#include "SI.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -22,7 +24,7 @@ using namespace std;
 bool Etat_27::transition ( Automate & a, Symbole * s )
 {
 	Etat_21 *etat21=new Etat_21();
-	I *i=new I();
+	SI *i=new SI();
 	a.reduction(3,i,etat21);
 	return true;
 } 

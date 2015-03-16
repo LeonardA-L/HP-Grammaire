@@ -6,8 +6,11 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_20.h"
-
+#include "Etat_22.h"
+#include "Etat_25.h"
+#include "Etat_33.h"
 #include "Etat_1.h"
+#include "P.h"
 //------------------------------------------------------------- Constantes
 
 //---------------------------------------------------- Variables de classe

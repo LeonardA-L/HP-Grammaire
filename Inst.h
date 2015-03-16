@@ -4,15 +4,16 @@
 
 #include "Symbole.h"
 #include <list>
+#include "SI.h"
 
 using namespace std;
 
 
 class Inst : public Symbole{
 	private :
-		list<I> _iList;
+		list<SI> _iList;
 	public :
-		Inst() : Symbole(INST) {}
+		Inst() : Symbole(Symbole::INST) {}
 };
 
 #endif Inst_H
