@@ -21,6 +21,7 @@ class Automate{
 	void lecture();
 	void decalage(Symbole *s, Etat* etat);
 	void reduction(int nbUnstack, Symbole* s, Etat* etat);
+	Etat* getPreviousState(int value);
 	
 	private :
 	stack<Symbole*> *pileSymboles;

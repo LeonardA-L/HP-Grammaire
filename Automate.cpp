@@ -40,6 +40,26 @@ void Automate::reduction(int nbUnstack, Symbole* s, Etat* etat)
 	pileEtats->push(etat);
 }
 
+Etat* Automate::getPreviousState(int value)
+{
+	if(pileEtats.size()<value){
+		return NULL;
+	}
+	else
+	{
+		stack<Etat*> tmp;
+		for(int i = 0; i < value ; i++){
+			tmp.push(pileSymboles.pop());
+		}
+		Etat * state = pileSymboles.top();
+		for(i = 0; i < value ; i++){
+			pileSymboles.push(tmp.pop());
+		}
+		return state;
+	}
+}
+
+
 
 
 
