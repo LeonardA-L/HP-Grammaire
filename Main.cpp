@@ -16,9 +16,16 @@ int main(){
 	while(s != NULL);
 	
 	// Static analyse
-	staticAnalyse(symbol_table);
+	if(staticAnalyse(symbol_table)){
+		// If the analyse is successful,
+		cout << "Execution" << endl;
+		//Transformation
+		
+		// Execution
+		
+	}
+	
 	// Destroy stuff
-	
-	
+	cout << "Destroy" << endl;
 	return 0;
 };
