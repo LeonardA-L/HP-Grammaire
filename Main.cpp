@@ -34,7 +34,15 @@ int main(int argc, char* argv[]){
 		}
 	}
 	
-	
+	if(!display && !analyse && !execute && !optimize){	// You do nothing, John Snow
+		cout << "Erreur, veuillez specifier des arguments" << endl;
+		cout << "  Utilisation :" << endl;
+		cout << "    " << argv[0] << " [-p] [-a] [-e] [-o] source.lt" << endl;
+		cout << "      [-p] affiche le code source reconnu" << endl;
+		cout << "      [-a] analyse le programme de maniere statique" << endl;
+		cout << "      [-e] execute interactivement le programme" << endl;
+		cout << "      [-o] optimise les expressions et instructions" << endl;
+	}
 	
 	
 	
