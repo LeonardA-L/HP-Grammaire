@@ -27,6 +27,8 @@
 
 using namespace std;
 
+bool checkRegexMatch(string s, boost::regex re);
+
 class Lexer {
 	public:
 		Symbole* getNext();

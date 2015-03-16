@@ -2,20 +2,21 @@
 #include "StaticAnalyse.h"
 #include "Symbole.h"
 #include <vector>
+#include <boost/regex.hpp>
+
+using namespace std;
+using namespace boost;
+
 
 int main(int argc, char* argv[]){
-
-	/*
-	  [-p] affiche le code source reconnu
-      [-a] analyse le programme de maniere statique
-      [-e] execute interactivement le programme
-      [-o] optimise les expressions et instructions
-	 */
 	 
 	 bool display = false;
 	 bool analyse = false;
 	 bool execute = false;
 	 bool optimize = false;
+	
+	bool source = false;
+	string sourceFile;
 	
 	for (int i = 1; i < argc; i++) {
 		string s(argv[i]);
@@ -23,7 +24,6 @@ int main(int argc, char* argv[]){
 			display = true;
 		}
 		if (s == "-a") {
-			cout << "??" << endl;
 			analyse = true;
 		}
 		if (s == "-e") {
@@ -31,6 +31,12 @@ int main(int argc, char* argv[]){
 		}
 		if (s == "-o") {
 			optimize = true;
+		}
+		
+		regex re_source("(\w+).lt");
+		if(checkRegexMatch(s,re_source)){
+			source = true;
+			sourceFile = s;
 		}
 	}
 	
@@ -43,7 +49,6 @@ int main(int argc, char* argv[]){
 		cout << "      [-e] execute interactivement le programme" << endl;
 		cout << "      [-o] optimise les expressions et instructions" << endl;
 	}
-	
 	
 	
 	vector<Symbole*> symbol_table;
