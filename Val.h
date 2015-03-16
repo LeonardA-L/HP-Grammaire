@@ -7,7 +7,9 @@ using namespace std;
 
 class Val : public E {
 	private :
-	double _value;	
+		double _value;
+	public :
+	 	Val() : E(VAL) {}		
 };
 
 #endif Val_H

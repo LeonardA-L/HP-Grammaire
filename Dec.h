@@ -13,6 +13,9 @@ class Dec : public Symbole{
 	private :
 		
 		list<D> _dList;
+
+	public :
+		Dec() : Symbole(DEC) {}
 	
 };
 

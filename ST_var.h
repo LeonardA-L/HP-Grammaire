@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_var : public Symbole{
 	
-
+public :
+	ST_var() : Symbole(VAR) {}	
 	
 };
 

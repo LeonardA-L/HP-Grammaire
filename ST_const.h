@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_const : public Symbole{
 	
-
+public :
+	ST_const() : Symbole(CONST) {}
 	
 };
 

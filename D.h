@@ -8,7 +8,9 @@ using namespace std;
 
 
 class D : public Symbole{
-		
+
+public :
+	D() : Symbole(D) {}		
 	
 };
 

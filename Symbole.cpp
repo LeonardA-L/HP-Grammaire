@@ -1,11 +1,6 @@
-class Symbole{
-	protected : 
-	int ident;
+#include "Symbole.h"
 
-	public :
-	Symbole(int id) : ident(id) {}
-	virtual ~Symbole(){}
-	void print();
-	operator int() const {return ident;}
-
-};
+void print()
+{
+	
+}

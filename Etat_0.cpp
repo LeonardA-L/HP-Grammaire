@@ -21,7 +21,11 @@ using namespace std;
 
 bool Etat_0::transition ( Automate & a, Symbole * s )
 {
-
+	switch(*s)
+	{
+		case(0) :
+			break;
+	}
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

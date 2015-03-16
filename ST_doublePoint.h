@@ -9,6 +9,9 @@ using namespace std;
 
 class ST_doublePoint : public Symbole{
 	
+public :
+	ST_doublePoint() : Symbole(DOUBLE_POINT) {}
+
 };
 
 #endif STDP_H

@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_ptVirgule : public Symbole{
 	
-
+public :
+	ST_ptVirgule() : Symbole(POINT_VIRGULE) {}
 	
 };
 

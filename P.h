@@ -14,6 +14,8 @@ class P : public Symbole{
 	private :
 		Dec *_dec;
 		Inst *_inst;
+	public :
+		P() : Symbole(P) {}
 	
 };
 

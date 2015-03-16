@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_plus : public Symbole{
 	
-
+public :
+	ST_plus() : Symbole(PLUS) {}
 	
 };
 

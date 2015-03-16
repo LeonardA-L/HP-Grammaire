@@ -6,6 +6,10 @@
 using namespace std;
 
 class ST_parenthesisOpen : public Symbole {
+
+public :
+	ST_parenthesisOpen() : Symbole(PARENTHESIS_OPEN) {}
+
 };
 
 #endif ST_PARENTHESISOPEN_H
