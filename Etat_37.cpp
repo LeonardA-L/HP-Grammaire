@@ -8,7 +8,9 @@ using namespace std;
 #include "Etat_37.h"
 #include "Etat_40.h"
 #include "Etat_41.h"
-#include "Etat_31.h"
+#include "Etat_26.h"
+#include "Etat_35.h"
+#include "Etat_45.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -35,9 +37,23 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 			a.decalage(s, etat41);
 			break;
 		case(POINT_VIRGULE || PLUS || MOINS || PARENTHESIS_CLOSE) :
-		Etat_21 *etat21=new Etat_21();
-		T *t=new T();
-		a.reduction(1,t,etat21);
+			int previousState= a.getPreviousState(1);
+			T *t=new T();
+			switch (previousState)
+			{
+				case 25: 
+					Etat_26 etat26= new Etat_26();
+					a.reduction(1,t,etat26);
+					break;
+				case 34: 
+					Etat_35 etat35= new Etat_35();
+					a.reduction(1,t,etat35);
+					break;
+				case 44: 
+				Etat_45 etat45= new Etat_45();
+					a.reduction(1,t,etat45);
+					break;
+			}
 			break;	
 		default : 
 			return false;
