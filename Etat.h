@@ -21,7 +21,7 @@ public:
 
 //------------------------------------------------- Surcharge d'opérateurs
     bool operator == ( const Etat & unEtat );
-
+	operator int() const {return _state_num;}
 
 
 //-------------------------------------------- Constructeurs - destructeur
