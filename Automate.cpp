@@ -3,13 +3,13 @@
 
 
 using namespace std;
-
-	Automate::Automate()
+/*
+	Automate::Automate(vector<Symbole*> & smbl_table)
 	{
-		lex=Lexer();
+		//lex(smbl_table);
 			//lex.parseStdin();
 	}
-
+*/
  void Automate::lecture(){
 	Symbole * i=lex.getNext();
 	

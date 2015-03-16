@@ -30,12 +30,13 @@ using namespace std;
 class Lexer {
 	public:
 		Symbole* getNext();
-		Lexer();
+		Lexer(vector<Symbole*> * symbol_table);
 	
 	private:
 		Symbole* ship(string& s, bool& matched);
 		Symbole* analyse();
 		void parseStdin();
+		vector<Symbole*> * smbl_table;
 		
 };
 

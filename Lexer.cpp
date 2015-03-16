@@ -69,6 +69,8 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		
 		Symbole* sbl;
 		
+		bool pushedToTable = false;
+		
 		if(checkRegexMatch(s,re_const)){
 			sbl = new ST_const();
 		}
@@ -86,10 +88,12 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			sbl = new Val();
 		}
 		else if (checkRegexMatch(s,re_identifier)) {
+			pushedToTable = true;
 			MAP::const_iterator pos = laTable.find(s);
 			if(pos == laTable.end()){
 				sbl = new Id(s);
 				laTable.insert(make_pair(s,sbl));
+				smbl_table->push_back(sbl);
 			}
 			else{
 				sbl = pos->second;
@@ -107,6 +111,10 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		
 		s = "";
 		matched = false;
+		
+		if(!pushedToTable){
+			smbl_table->push_back(sbl);
+		}
 		
 		return sbl;
 	}
@@ -150,7 +158,8 @@ Symbole* Lexer::analyse()
 	
 }
 
-Lexer::Lexer(){
+Lexer::Lexer(vector<Symbole*> * symbol_table){
+	smbl_table = symbol_table;
 	parseStdin();
 }
 

@@ -16,16 +16,16 @@ using namespace std;
 class Automate{
 	
 	public : 
-	Automate();
-	void lecture();
-	void decalage(Symbole *s, Etat* etat);
-	void reduction(int nbUnstack, Symbole* s, Etat* etat);
+		Automate(vector<Symbole*> * smbl_table) : lex(smbl_table) {};
+		void lecture();
+		void decalage(Symbole *s, Etat* etat);
+		void reduction(int nbUnstack, Symbole* s, Etat* etat);
 	
 	private :
-	stack<Symbole*> *pileSymboles;
-	stack<Etat*> *pileEtats; 
-	map<Id, Val> variables;
-	Lexer lex;
+		stack<Symbole*> *pileSymboles;
+		stack<Etat*> *pileEtats; 
+		map<Id, Val> variables;
+		Lexer lex;
 };
 
 #endif Automate_H

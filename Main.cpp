@@ -6,26 +6,36 @@
 int main(){
 	vector<Symbole*> symbol_table;
 	
-	Lexer l;
+	// Parsing
+	cerr << "Parse" << endl;
+	Lexer l(&symbol_table);
 	Symbole* s;
 	do{
 		s = l.getNext();
-		symbol_table.push_back(s);
+		
 		//cout << s << endl;
 	}
 	while(s != NULL);
 	
 	// Static analyse
+	cerr << "Analyse" << endl;
 	if(staticAnalyse(symbol_table)){
 		// If the analyse is successful,
-		cout << "Execution" << endl;
 		//Transformation
+		cerr << "Optimize" << endl;
 		
 		// Execution
+		cerr << "Execute" << endl;
 		
 	}
 	
 	// Destroy stuff
-	cout << "Destroy" << endl;
+	cerr << "Destroy" << endl;
+	
+	for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
+		Symbole* s = *it;
+		delete s;
+	}
+	
 	return 0;
 };
