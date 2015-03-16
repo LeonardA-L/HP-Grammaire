@@ -5,10 +5,8 @@ using namespace std;
 #include <iostream>
 
 //------------------------------------------------------ Include personnel
-#include "Etat_26.h"
-#include "Etat_27.h"
-#include "Etat_30.h"
-#include "Etat_31.h"
+#include "Etat_28.h"
+
 
 //------------------------------------------------------------- Constantes
 
@@ -22,26 +20,11 @@ using namespace std;
 
 //----------------------------------------------------- Méthodes publiques
 
-bool Etat_26::transition ( Automate & a, Symbole * s )
+bool Etat_28::transition ( Automate & a, Symbole * s )
 {
-	switch(*s)
-	{
-		case(POINT_VIRGULE) :
-			Etat_27 *etat27=new Etat_27();
-			a.decalage(s,etat27);
-			break;
-		case(PLUS) :
-			Etat_30 *etat30=new Etat_30();
-			a.decalage(s, etat30);
-			break;
-		case(MOINS) :
-			Etat_31 *etat31=new Etat_31();
-			a.decalage(s, etat31);
-			break;	
-		// case OPA
-		default : 
-			return false;
-	}
+	F *f = new F();
+	Etat_32 *etat32= new Etat_32();
+	a.reduction(1,f,etat32);
 	return true;
 } 
 
@@ -50,7 +33,7 @@ bool Etat_26::transition ( Automate & a, Symbole * s )
 
 
 //-------------------------------------------- Constructeurs - destructeur
-Etat_26::Etat_26 ( )
+Etat_28::Etat_28 ( )
 {
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_0>" << endl;
@@ -59,7 +42,7 @@ Etat_26::Etat_26 ( )
 }
 
 
-Etat_26::~Etat_26 ( )
+Etat_28::~Etat_28 ( )
 {
 #ifdef MAP
     cout << "Appel au destructeur de <Etat_0>" << endl;

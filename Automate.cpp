@@ -13,7 +13,9 @@ using namespace std;
 	
 	while(i!=NULL)
 	{
-		pileEtats->top()->transition(*(this), i);
+		do{
+			pileEtats->top()->transition(*(this), i);
+		} while(pileSymboles->top() != i);
 		i=lex.getNext();
 	}
 	
