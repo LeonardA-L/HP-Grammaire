@@ -6,6 +6,7 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_8.h"
+#include "Etat_9.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -27,7 +28,7 @@ bool Etat_8::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//Symboles terminaux
-		a.reduction(4, new D(), new Etat_2());
+		a.reduction(4, new D(), new Etat_9());
 	}
 	
 } 

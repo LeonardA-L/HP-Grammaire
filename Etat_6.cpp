@@ -6,6 +6,7 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_6.h"
+#include "Etat_7.h"
 
 //------------------------------------------------------------- Constantes
 
