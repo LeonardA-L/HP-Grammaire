@@ -85,7 +85,7 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		else if (checkRegexMatch(s,re_identifier)) {
 			MAP::const_iterator pos = laTable.find(s);
 			if(pos == laTable.end()){
-				sbl = new Id();
+				sbl = new Id(s);
 				laTable.insert(make_pair(s,sbl));
 			}
 			else{
@@ -167,14 +167,4 @@ void Lexer::parseStdin()
 
 
 
-int main(){
-	Lexer l;
-	Symbole* s;
-	do{
-		s = l.getNext();
-		//cout << s << endl;
-	}
-	while(s != NULL);
-	
-	return 0;
-};
+

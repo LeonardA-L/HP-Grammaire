@@ -6,9 +6,26 @@
 
 using namespace std;
 
-class Id : public E {	
+class Id : public E {
+	public:
+		bool isVar();
+		bool isDeclared();
+		bool isAssigned();
+		bool isUsed();
+		string getName();
+		void setVar(bool v);
+		void setDeclared(bool d);
+		void setAssigned(bool a);
+		void setUsed(bool u);
+		Id(string name);
+		virtual ~Id();
+	
 	private :
-		string _name;	
+		string _name;
+		bool _var;	// True if var, false if const
+		bool _declared;
+		bool _assigned;
+		bool _used;
 };
 
 #endif Id_H
