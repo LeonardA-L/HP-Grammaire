@@ -6,8 +6,9 @@
 #include <map>
 #include "Id.h"
 #include "Val.h"
-#include "Etat.h"
 #include "Lexer.h"
+
+class Etat;
 
 using namespace std;
 

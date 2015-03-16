@@ -1,6 +1,5 @@
 #include "Automate.h"
-
-
+#include "Etat.h"
 
 using namespace std;
 
