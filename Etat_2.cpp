@@ -27,10 +27,10 @@ bool Etat_2::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(CONST) :
+		case(Symbole::CONST) :
 			a.decalage(s, new Etat_10());
 			break;
-		case(VAR) :
+		case(Symbole::VAR) :
 			a.decalage(s, new Etat_3());
 			break;
 		default :

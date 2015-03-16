@@ -24,16 +24,16 @@ bool Etat_20::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(DOLLAR) :
+		case(Symbole::DOLLAR) :
 			a.reduction(2, new P(), new Etat_1());
 			break;
-		case(LIRE) :
+		case(Symbole::LIRE) :
 			a.decalage(s, new Etat_22());
 			break;
-		case(ECRIRE) :
+		case(Symbole::ECRIRE) :
 			a.decalage(s, new Etat_25());
 			break;
-		case(ID) :
+		case(Symbole::ID) :
 			a.decalage(s, new Etat_33());
 			break;
 	}

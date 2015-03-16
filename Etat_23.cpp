@@ -30,7 +30,7 @@ bool Etat_23::transition ( Automate & a, Symbole * s )
 		//Symboles terminaux
 		switch(*s)
 		{
-			case(POINT_VIRGULE) :
+			case(Symbole::POINT_VIRGULE) :
 				a.decalage(s, new Etat_24());
 				break;
 			default :

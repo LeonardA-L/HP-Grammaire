@@ -28,15 +28,15 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(ASTERIX) :
+		case(Symbole::ASTERIX) :
 			Etat_40 *etat40=new Etat_40();
 			a.decalage(s,etat40);
 			break;
-		case(SLASH) :
+		case(Symbole::SLASH) :
 			Etat_41 *etat41=new Etat_41();
 			a.decalage(s, etat41);
 			break;
-		case(POINT_VIRGULE || PLUS || MOINS || PARENTHESIS_CLOSE) :
+		case(Symbole::POINT_VIRGULE || Symbole::PLUS || Symbole::MOINS || Symbole::PARENTHESIS_CLOSE) :
 			int previousState= a.getPreviousState(1);
 			T *t=new T();
 			switch (previousState)

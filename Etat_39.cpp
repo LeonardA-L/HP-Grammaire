@@ -34,10 +34,10 @@ bool Etat_39::transition ( Automate & a, Symbole * s )
 		//Symboles terminaux
 		switch(*s)
 		{
-			case(POINT_VIRGULE) :
-			case(PLUS) :
-			case(MOINS) :
-			case(PARENTHESIS_CLOSE) :
+			case(Symbole::POINT_VIRGULE) :
+			case(Symbole::PLUS) :
+			case(Symbole::MOINS) :
+			case(Symbole::PARENTHESIS_CLOSE) :
 				if(a.getPreviousState(3) == 34)
 				{
 					a.reduction(3, new E(), new Etat_34());
@@ -46,10 +46,10 @@ bool Etat_39::transition ( Automate & a, Symbole * s )
 					a.reduction(3, new E(), new Etat_25());
 				}
 				break;
-			case(ASTERIX) :
+			case(Symbole::ASTERIX) :
 				a.decalage(s, new Etat_40());
 				break;
-			case(SLASH) :
+			case(Symbole::SLASH) :
 				a.decalage(s, new Etat_41());
 				break;
 			default :

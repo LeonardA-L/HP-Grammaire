@@ -27,13 +27,13 @@ bool Etat_45::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(PLUS) :
+		case(Symbole::PLUS) :
 			a.decalage(s, new Etat_30());
 			break;
-		case(MOINS) :
+		case(Symbole::MOINS) :
 			a.decalage(s, new Etat_31());
 			break;
-		case(PARENTHESIS_CLOSE) :
+		case(Symbole::PARENTHESIS_CLOSE) :
 			a.decalage(s, new Etat_46());
 			break;
 	}

@@ -24,7 +24,7 @@ bool Etat_16::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(EGAL) :
+		case(Symbole::EGAL) :
 			a.decalage(s, new Etat_17());
 			break;
 	}

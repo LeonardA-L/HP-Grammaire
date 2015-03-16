@@ -33,13 +33,13 @@ bool Etat_42::transition ( Automate & a, Symbole * s )
 		//Symboles terminaux
 		switch(*s)
 		{
-			case(ID) :
+			case(Symbole::ID) :
 				a.decalage(s, new Etat_28());
 				break;
-			case(VAL) :
+			case(Symbole::VAL) :
 				a.decalage(s, new Etat_29());
 				break;
-			case(PARENTHESIS_OPEN) :
+			case(Symbole::PARENTHESIS_OPEN) :
 				a.decalage(s, new Etat_44());
 				break;
 			default :

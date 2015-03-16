@@ -26,10 +26,10 @@ bool Etat_14::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(POINT_VIRGULE) :
+		case(Symbole::POINT_VIRGULE) :
 			a.decalage(s, new Etat_19());
 			break;
-		case(VIRGULE) :
+		case(Symbole::VIRGULE) :
 			a.decalage(s, new Etat_15());
 			break;
 	}

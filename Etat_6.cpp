@@ -30,7 +30,7 @@ bool Etat_6::transition ( Automate & a, Symbole * s )
 		//Symboles terminaux
 		switch(*s)
 		{
-			case(ID) :
+			case(Symbole::ID) :
 				a.decalage(s, new Etat_7());
 				break;
 			default :

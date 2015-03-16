@@ -23,7 +23,7 @@ bool Etat_1::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(DOLLAR) :
+		case(Symbole::DOLLAR) :
 			a.accept();
 			break;
 	}

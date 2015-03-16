@@ -26,19 +26,19 @@ bool Etat_26::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(POINT_VIRGULE) :
+		case(Symbole::POINT_VIRGULE) :
 		{
 			Etat_27 *etat27=new Etat_27();
 			a.decalage(s,etat27);
 			break;
 		}
-		case(PLUS) :
+		case(Symbole::PLUS) :
 		{
 			Etat_30 *etat30=new Etat_30();
 			a.decalage(s, etat30);
 			break;
 		}
-		case(MOINS) :
+		case(Symbole::MOINS) :
 		{
 			Etat_31 *etat31=new Etat_31();
 			a.decalage(s, etat31);
