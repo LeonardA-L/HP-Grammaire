@@ -23,7 +23,7 @@ bool Etat_26::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(0) :
+		case(Symbole::POINT_VIRGULE) :
 			break;
 	}
 } 

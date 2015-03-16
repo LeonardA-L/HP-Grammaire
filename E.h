@@ -3,8 +3,8 @@
 
 #include <map>
 #include "Symbole.h"
-#include "Id.h"
-#include "Val.h"
+class Id;
+class Val;
 
 using namespace std;
 
