@@ -4,6 +4,7 @@
 #include "Symbole.h"
 #include "Id.h"
 #include "Val.h"
+#include <list>
 
 using namespace std;
 
@@ -11,10 +12,10 @@ class MC : public Symbole{
 	
 	public :
 		MC() : Symbole(Symbole::MC){}
-		void addIdVal(Id* id, Val* val);
+		void addId(Id* id);
 	
 	private :
-		list<pair<Id*,Val*>> listIdVal;
+		list<Id*> listId;
 	
 };
 

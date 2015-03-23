@@ -2,6 +2,6 @@
 
 using namespace std;
 
-void MC::addIdVal(Id* id, Val* val){
-	listIdVal.pushback(new pair<Id*, Val*>(id,val));
+void MC::addId(Id* id){
+	listIdVal.push_back(id);
 }

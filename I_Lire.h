@@ -15,7 +15,6 @@ class I_Lire : public SI{
 		
 	private :
 		Id *id;
-		Val *val;
 	
 };
 
