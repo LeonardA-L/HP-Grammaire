@@ -23,7 +23,7 @@ using namespace std;
 
 bool Etat_29::transition ( Automate & a, Symbole * s )
 {
-	list<Symbole> list = a.reductionUnstack(1);
+	list<Symbole *> list = a.reductionUnstack(1);
 	a.reductionPush(list.back(), new Etat_32());
 	return true;
 } 

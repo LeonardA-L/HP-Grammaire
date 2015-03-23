@@ -24,7 +24,7 @@ using namespace std;
 bool Etat_28::transition ( Automate & a, Symbole * s )
 {
 
-	list<Symbole> list = a.reductionUnstack(1);
+	list<Symbole* > list = a.reductionUnstack(1);
 	a.reductionPush(list.back(), new Etat_32());
 	return true;
 } 

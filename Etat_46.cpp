@@ -22,7 +22,7 @@ using namespace std;
 bool Etat_46::transition ( Automate & a, Symbole * s )
 {
 	//Reduction (20) F -> ( E )
-	list<Symbole> list = a.reductionUnstack(3);
+	list<Symbole* > list = a.reductionUnstack(3);
 	list.pop_back(); // Pop parenthesis
 	a.reductionPush(list.back(), new Etat_43());
 	return true;

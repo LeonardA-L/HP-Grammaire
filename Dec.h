@@ -13,11 +13,11 @@ class Dec : public Symbole{
 	
 	private :
 		
-		list<SD> _dList;
+		list<SD*> _dList;
 
 	public :
 		Dec() : Symbole(DEC) {}
-		void add(SD s)
+		void add(SD* s)
 		{
 			_dList.push_back(s);
 		}
