@@ -7,6 +7,7 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_4.h"
 #include "Etat_5.h"
+#include "MV.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -23,7 +24,6 @@ using namespace std;
 bool Etat_4::transition ( Automate & a, Symbole * s )
 {
 	a.reductionPush(new MV(), new Etat_5());
-
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

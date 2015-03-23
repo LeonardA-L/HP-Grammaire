@@ -3,11 +3,16 @@
 //-------------------------------------------------------- Include système
 using namespace std;
 #include <iostream>
+#include <list>
 
 //------------------------------------------------------ Include personnel
 #include "Etat_8.h"
 #include "Etat_9.h"
 #include "SD.h"
+#include "MV.h"
+#include "D_var.h"
+#include "Id.h"
+
 //------------------------------------------------------------- Constantes
 
 //---------------------------------------------------- Variables de classe
@@ -28,13 +33,13 @@ bool Etat_8::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//R5 : D -> var id MV ;
-		List<Symbole*> list = reductionUnstack(4);
-		D_var d = new D_var();
-		list->pop_front();
-		d.add(list->front()->getList());
-		list->pop_front();
-		d.addId(list->front());
-		void reductionPush(d, new Etat_9());
+		list<Symbole*> list = a.reductionUnstack(4);
+		D_var* d = new D_var();
+		list.pop_front();
+		d->add(((MV *)list.front())->getList());
+		list.pop_front();
+		d->addId((Id*) list.front());
+		a.reductionPush(d, new Etat_9());
 	}
 	
 } 

@@ -3,11 +3,13 @@
 //-------------------------------------------------------- Include système
 using namespace std;
 #include <iostream>
+#include <list>
 
 //------------------------------------------------------ Include personnel
 #include "Etat_24.h"
 #include "SI.h"
 #include "Etat_21.h"
+#include "I_Lire.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -24,11 +26,11 @@ using namespace std;
 bool Etat_24::transition ( Automate & a, Symbole * s )
 {
 	list<Symbole*> liste =a.reductionUnstack(3);
-	if(	liste.size()==3))
+	if(	liste.size()==3 )
 	{
-		liste.popfront();
-		I_Lire *i=new I_Lire((E*)liste.front());
-		a.reductionPush(i,etat21);
+		liste.pop_front();
+		I_Lire *i=new I_Lire((Id*)liste.front());
+		a.reductionPush(i,new Etat_21());
 		return true;
 	}
 	return false;

@@ -14,6 +14,7 @@ class MV : public Symbole{
 		MV() : Symbole(Symbole::MV) { }
 		
 		void addId(Id* id);
+		list<Id*> getList(){return listId;};
 	
 	private :
 		list<Id*> listId;
