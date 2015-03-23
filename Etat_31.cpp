@@ -23,9 +23,8 @@ using namespace std;
 
 bool Etat_31::transition ( Automate & a, Symbole * s )
 {
-	OpA *opa = new OpA();
-	Etat_38 *etat38= new Etat_38();
-	a.reduction(1,opa,etat38);
+	a.reductionUnstack(1);
+	a.reductionPush(new ExprMoins(), new Etat_38());
 	return true;
 } 
 

@@ -23,9 +23,8 @@ using namespace std;
 
 bool Etat_29::transition ( Automate & a, Symbole * s )
 {
-	F *f = new F();
-	Etat_32 *etat32= new Etat_32();
-	a.reduction(1,f,etat32);
+	list<Symbole> list = a.reductionUnstack(1);
+	a.reductionPush(list.back(), new Etat_32());
 	return true;
 } 
 

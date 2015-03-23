@@ -23,7 +23,6 @@ using namespace std;
 
 void accept()
 {
-
 }
 
 void Automate::decalage(Symbole *s, Etat* etat)
@@ -38,7 +37,7 @@ void Automate::decalage(Symbole *s, Etat* etat)
 	List<Symbole> liste=new List<Symbole>();
 	for(int i=0; i<nbUnstack; i++)
 	{
-		liste.add(pileSymboles->top());
+		liste.push_back(pileSymboles->top());
 		pileSymboles->pop();
 		pileEtats->pop();
 	}
@@ -72,8 +71,3 @@ int Automate::getPreviousState(int value)
 		return state->getNumState();
 	}
 }
-
-
-
-
-

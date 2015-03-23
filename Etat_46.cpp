@@ -21,7 +21,11 @@ using namespace std;
 
 bool Etat_46::transition ( Automate & a, Symbole * s )
 {
-	a.reduction(3, new F(), new Etat_43());
+	//Reduction (20) F -> ( E )
+	list<Symbole> list = a.reductionUnstack(3);
+	list.pop_back(); // Pop parenthesis
+	a.reductionPush(list.back(), new Etat_43());
+	return true;
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs
