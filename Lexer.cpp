@@ -65,7 +65,7 @@ bool checkRegexMatch(string s, regex re){
 Symbole* Lexer::ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
-		cerr << "sending "<< s << endl;
+		//cerr << "sending "<< s << endl;
 		
 		Symbole* sbl;
 		

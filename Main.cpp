@@ -42,6 +42,10 @@ int main(int argc, char* argv[]){
 			source = true;
 			sourceFile = s;
 			sin = new ifstream(argv[i]);
+			if(sin->fail()){
+				cerr << "Erreur a l'ouverture du fichier " << sourceFile << endl;
+				return 1;
+			}
 		}
 	}
 	
@@ -57,6 +61,7 @@ int main(int argc, char* argv[]){
 		cerr << "      [-a] analyse le programme de maniere statique" << endl;
 		cerr << "      [-e] execute interactivement le programme" << endl;
 		cerr << "      [-o] optimise les expressions et instructions" << endl;
+		return 1;
 	}
 	
 	
