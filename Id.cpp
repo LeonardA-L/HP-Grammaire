@@ -37,6 +37,10 @@ void Id::setVal(Val* newVal){
 	_val = newVal;
 }
 
+double Id::eval(){
+	return _val->eval();
+}
+
 Id::Id (string name)
 {
 	_var = false;

@@ -29,10 +29,10 @@ bool Etat_21::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//R7 : Inst -> Inst I
-		list<Symbole*> list = reductionUnstack(2);
+		list<Symbole*> list = a.reductionUnstack(2);
 		Inst* inst = (Inst*) list.back();
-		inst.add((SI)list.front());
-		void reductionPush(inst, new Etat_20());
+		inst->add((SI*)list.front());
+		a.reductionPush(inst, new Etat_20());
 	}
 	
 } 

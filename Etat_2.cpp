@@ -10,6 +10,7 @@ using namespace std;
 #include "Etat_3.h"
 #include "Etat_10.h"
 #include "Etat_20.h"
+#include "Inst.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -34,7 +35,7 @@ bool Etat_2::transition ( Automate & a, Symbole * s )
 			a.decalage(s, new Etat_3());
 			break;
 		default :
-			void reductionPush(new Inst(), new Etat_20());
+			a.reductionPush(new Inst(), new Etat_20());
 			break;
 	}
 }

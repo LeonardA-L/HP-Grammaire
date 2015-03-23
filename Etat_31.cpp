@@ -7,7 +7,7 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_31.h"
 #include "Etat_38.h"
-#include "OpA.h"
+#include "ExprMoins.h"
 
 //------------------------------------------------------------- Constantes
 

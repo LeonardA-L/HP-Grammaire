@@ -1,4 +1,4 @@
-//---------------------------------------------------------------- INCLUDE
+	//---------------------------------------------------------------- INCLUDE
 
 //-------------------------------------------------------- Include système
 using namespace std;
@@ -27,16 +27,13 @@ bool Etat_34::transition ( Automate & a, Symbole * s )
 	switch(*s)
 	{
 		case(Symbole::ID) :
-			Etat_28 *etat28=new Etat_28();
-			a.decalage(s,etat28);
+			a.decalage(s,new Etat_28());
 			break;
 		case(Symbole::VAL) :
-			Etat_29 *etat29=new Etat_29();
-			a.decalage(s, etat29);
+			a.decalage(s, new Etat_29());
 			break;
 		case(Symbole::PARENTHESIS_OPEN) :
-			Etat_44 *etat44=new Etat_44();
-			a.decalage(s, etat44);
+			a.decalage(s, new Etat_44());
 			break;	
 		default : 
 			return false;

@@ -10,7 +10,7 @@ class Val : public E {
 		double _value;
 	public :
 	 	Val() : E(VAL) {}
-	 	double eval(map<Id,Val> variables);	
+	 	double eval();	
 	 	void setValue(double value);
 };
 

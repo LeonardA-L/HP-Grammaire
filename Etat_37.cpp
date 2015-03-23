@@ -28,22 +28,17 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 {
 	if(*s==Symbole::POINT_VIRGULE || *s==Symbole::PLUS || *s==Symbole::MOINS || *s==Symbole::PARENTHESIS_CLOSE) {
 			int previousState= a.getPreviousState(1);
+			list<Symbole*> liste=a.reductionUnstack(1);
 			switch (previousState)
 			{
 				case 25: 
-					Etat_26 etat26= new Etat_26();
-					list<Symbole> liste=a.reductionUnstack(1);
-					a.reductionPush((E*)liste.front(),etat26);
+					a.reductionPush((E*)liste.front(),new Etat_26());
 					break;
 				case 34: 
-					Etat_35 etat35= new Etat_35();
-					list<Symbole> liste=a.reductionUnstack(1);
-					a.reductionPush((E*)liste.front(),etat35);
+					a.reductionPush((E*)liste.front(),new Etat_35());
 					break;
 				case 44: 
-					Etat_45 etat45= new Etat_45();
-					list<Symbole> liste=a.reductionUnstack(1);
-					a.reductionPush((E*)liste.front(),etat45);
+					a.reductionPush((E*)liste.front(),new Etat_45());
 					break;
 			}
 			return true;
@@ -52,12 +47,10 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 	switch(*s)
 	{
 		case(Symbole::ASTERIX) :
-			Etat_40 *etat40=new Etat_40();
-			a.decalage(s,etat40);
+			a.decalage(s,new Etat_40());
 			break;
 		case(Symbole::SLASH) :
-			Etat_41 *etat41=new Etat_41();
-			a.decalage(s, etat41);
+			a.decalage(s, new Etat_41());
 			break;		
 		default : 
 			return false;

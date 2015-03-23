@@ -7,6 +7,7 @@ using namespace std;
 
 class ExprMoins : public ExprBin {
 
+	public:
 		ExprMoins() : ExprBin(){}
 		double eval(){return _exprLeft->eval() - _exprRight->eval();}
 

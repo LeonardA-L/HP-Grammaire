@@ -21,7 +21,7 @@ using namespace std;
 	
 }
 
-void accept()
+void Automate::accept()
 {
 }
 

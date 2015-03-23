@@ -6,8 +6,9 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_7.h"
-#include "Etat_5.h"
 
+#include "Etat_5.h"
+#include "MV.h"
 //------------------------------------------------------------- Constantes
 
 //---------------------------------------------------- Variables de classe
@@ -22,7 +23,7 @@ using namespace std;
 
 bool Etat_7::transition ( Automate & a, Symbole * s )
 {
-	list<Symbole> liste=a.reductionUnstack(3);
+	list<Symbole*> liste=a.reductionUnstack(3);
 	if(liste.size()==3)
 	{
 		MV *mv=(MV*)liste.front();

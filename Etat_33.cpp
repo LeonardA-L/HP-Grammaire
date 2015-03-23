@@ -25,9 +25,11 @@ bool Etat_33::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
-		case(Symbole::DOUBLE_POINT_EGAL) :
-			Etat_34 *etat34=new Etat_34();
-			a.decalage(s,etat34);
+		case(Symbole::DOUBLE_POINT_EGAL) : 
+			{
+				Etat_34 *etat34=new Etat_34();
+				a.decalage(s,etat34);
+			}
 			break;
 		default : 
 			return false;
