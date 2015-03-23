@@ -13,6 +13,8 @@ class MC : public Symbole{
 	public :
 		MC() : Symbole(Symbole::MC){}
 		void addId(Id* id);
+		list<Id*> getList(){return listId;};
+
 	
 	private :
 		list<Id*> listId;

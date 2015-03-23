@@ -3,11 +3,14 @@
 //-------------------------------------------------------- Include système
 using namespace std;
 #include <iostream>
+#include <list>
 
 //------------------------------------------------------ Include personnel
 #include "Etat_19.h"
 #include "Etat_9.h"
 #include "SD.h"
+#include "D_const.h"
+#include "MC.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -29,19 +32,19 @@ bool Etat_19::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//R6 : D -> const id = val MC ;
-		List<Symbole*> list = reductionUnstack(6);
+		list<Symbole*> list = a.reductionUnstack(6);
 		D_const* d = new D_const();
-		list->pop_front();
-		d->add(list->front()->getList());
-		list->pop_front();
-		Val val = list->front();
-		list->pop_front();
-		list->pop_front();
-		Id* id = list->front();
-		list->pop_front();
-		id->setVal(val)
+		list.pop_front();
+		d->add(((MC*)list.front())->getList());
+		list.pop_front();
+		Val* val = (Val*) list.front();
+		list.pop_front();
+		list.pop_front();
+		Id* id = (Id*) list.front();
+		list.pop_front();
+		id->setVal(val);
 		d->addId(id);
-		void reductionPush(d, new Etat_9();
+		a.reductionPush(d, new Etat_9());
 	}
 	
 } 

@@ -3,5 +3,5 @@
 using namespace std;
 
 void MC::addId(Id* id){
-	listIdVal.push_back(id);
+	listId.push_back(id);
 }
