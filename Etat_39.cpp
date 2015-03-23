@@ -26,26 +26,38 @@ using namespace std;
 
 bool Etat_39::transition ( Automate & a, Symbole * s )
 {
-	if(*s >= 100)
-	{
-		//Symboles non terminaux
-	}else
-	{
-		//Symboles terminaux
-		switch(*s)
+
+		if(*s==Symbole::POINT_VIRGULE || *s==Symbole::PLUS || *s==Symbole::MOINS || *s==Symbole::PARENTHESIS_CLOSE)
 		{
-			case(Symbole::POINT_VIRGULE) :
-			case(Symbole::PLUS) :
-			case(Symbole::MOINS) :
-			case(Symbole::PARENTHESIS_CLOSE) :
 				if(a.getPreviousState(3) == 34)
 				{
-					a.reduction(3, new E(), new Etat_34());
+					list<Symbole> liste=a.reductionUnstack(3);
+					if(liste.size()==3)
+					{
+						E *exprLeft=liste.popfront();
+						ExprBin *exprbin=liste.front();
+						expbin->addExprLeft(exprLeft);
+						expbin->addExprRight(liste.back())
+						a.reductionPush(exprbin,new Etat_34());
+						return true;
+					}
 				}else if(a.getPreviousState(3) == 25)
 				{
-					a.reduction(3, new E(), new Etat_25());
+					list<Symbole> liste=a.reductionUnstack(3);
+					if(liste.size()==3)
+					{
+						E *exprLeft=liste.popfront();
+						ExprBin *exprbin=liste.front();
+						expbin->addExprLeft(exprLeft);
+						expbin->addExprRight(liste.back())
+						a.reductionPush(exprbin,new Etat_25()););
+						return true;
+					}
 				}
-				break;
+		}
+		
+		switch(*s)
+		{
 			case(Symbole::ASTERIX) :
 				a.decalage(s, new Etat_40());
 				break;
@@ -55,7 +67,6 @@ bool Etat_39::transition ( Automate & a, Symbole * s )
 			default :
 				break;
 		}
-	}
 	
 } 
 
