@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_moins : public Symbole{
 	
-
+public :
+	ST_moins() : Symbole(MOINS) {}
 	
 };
 

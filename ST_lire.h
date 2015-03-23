@@ -8,7 +8,10 @@ using namespace std;
 
 
 class ST_lire : public Symbole{
-	
+
+public :
+	ST_lire() : Symbole(LIRE) {}
+
 };
 
 #endif STLI_H

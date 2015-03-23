@@ -3,6 +3,7 @@
 
 #include <string>
 #include "E.h"
+#include "Val.h"
 
 using namespace std;
 
@@ -18,7 +19,10 @@ class Id : public E {
 		void setAssigned(bool a);
 		void setUsed(bool u);
 		Id(string name);
+		double eval();
 		virtual ~Id();
+		Val* getVal();
+		void setVal(Val* newVal);
 	
 	private :
 		string _name;
@@ -26,6 +30,7 @@ class Id : public E {
 		bool _declared;
 		bool _assigned;
 		bool _used;
+		Val* _val;
 };
 
 #endif Id_H

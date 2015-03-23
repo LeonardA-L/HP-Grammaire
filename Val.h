@@ -7,7 +7,11 @@ using namespace std;
 
 class Val : public E {
 	private :
-	double _value;	
+		double _value;
+	public :
+	 	Val() : E(VAL) {}
+	 	double eval();	
+	 	void setValue(double value);
 };
 
 #endif Val_H

@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_virgule : public Symbole{
 	
-
+public :
+	ST_virgule() : Symbole(VIRGULE) {}	
 	
 };
 

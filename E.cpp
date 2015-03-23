@@ -2,6 +2,6 @@
 
 using namespace std;
 
-double E::eval(map<Id,Val> variables){
+double E::eval(){
 	return 0;
 }

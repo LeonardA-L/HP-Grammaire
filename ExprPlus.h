@@ -6,7 +6,11 @@
 using namespace std;
 
 class ExprPlus : public ExprBin {
-	
+	public:
+		ExprPlus() : ExprBin(){}
+		double eval(){return _exprLeft->eval() + _exprRight->eval();}
+
+
 };
 
 #endif ExprPlus_H

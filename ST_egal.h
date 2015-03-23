@@ -9,7 +9,8 @@ using namespace std;
 
 class ST_egal : public Symbole{
 	
-
+public :
+	ST_egal() : Symbole(EGAL) {}
 	
 };
 

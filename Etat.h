@@ -3,12 +3,12 @@
 
 //--------------------------------------------------- Interfaces utilisées
 #include "Symbole.h"
+#include "Automate.h"
 
 
 //------------------------------------------------------------- Constantes 
 
 //------------------------------------------------------------------ Types 
-class Automate;
 
 class Etat
 {
@@ -17,10 +17,12 @@ class Etat
 public:
 //----------------------------------------------------- Méthodes publiques
     virtual bool transition ( Automate & a, Symbole * s ) = 0;
+    int getNumState(){return _state_num;};
 
 
 //------------------------------------------------- Surcharge d'opérateurs
     bool operator == ( const Etat & unEtat );
+
 
 
 

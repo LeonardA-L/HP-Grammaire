@@ -1,17 +1,21 @@
-#if ! defined ( I_Lire_H )
-#define  I_Lire_H
+#if ! defined ( I_LIRE_H )
+#define I_LIRE_H
 
 
-#include "I.h"
+#include "SI.h"
 #include "Id.h"
 
 using namespace std;
 
 
-class  I_Lire : public I {
+class I_Lire : public SI{
+		
+	public :
+		I_Lire(Id *_id);
+		void execute();
 	private :
-		Id *_id;
+		Id *id;
 	
 };
 
-#endif  I_Lire_H
+#endif I_LIRE_H
