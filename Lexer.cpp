@@ -3,6 +3,8 @@
 using namespace std;
 using namespace boost;
 
+typedef map<string, Symbole*>MAP;
+MAP laTable;
 string text;
 int i;
 
@@ -63,9 +65,11 @@ bool checkRegexMatch(string s, regex re){
 Symbole* Lexer::ship(string& s, bool& matched)
 {
 	if(s != "" && matched){
-		cerr << "sending "<< s << endl;
+		//cerr << "sending "<< s << endl;
 		
 		Symbole* sbl;
+		
+		bool pushedToTable = false;
 		
 		if(checkRegexMatch(s,re_const)){
 			sbl = new ST_const();
@@ -80,11 +84,20 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		else if(checkRegexMatch(s,re_ecrire)){
 			sbl = new ST_ecrire();
 		}
-		else if (checkRegexMatch(s,re_identifier)) {
-			sbl = new Id();
-		}
 		else if (checkRegexMatch(s,re_numeral)) {
 			sbl = new Val();
+		}
+		else if (checkRegexMatch(s,re_identifier)) {
+			pushedToTable = true;
+			MAP::const_iterator pos = laTable.find(s);
+			if(pos == laTable.end()){
+				sbl = new Id(s);
+				laTable.insert(make_pair(s,sbl));
+				smbl_table->push_back(sbl);
+			}
+			else{
+				sbl = pos->second;
+			}
 		}
 		else if (checkRegexMatch(s,re_equals)) {
 			sbl = new ST_egal();
@@ -98,6 +111,10 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		
 		s = "";
 		matched = false;
+		
+		if(!pushedToTable){
+			smbl_table->push_back(sbl);
+		}
 		
 		return sbl;
 	}
@@ -141,7 +158,9 @@ Symbole* Lexer::analyse()
 	
 }
 
-Lexer::Lexer(){
+Lexer::Lexer(vector<Symbole*> * symbol_table, istream* is){
+	smbl_table = symbol_table;
+	sin = is;
 	parseStdin();
 }
 
@@ -149,7 +168,7 @@ void Lexer::parseStdin()
 {
 	text = "";
 	string code;
-	while(getline(cin,code)){
+	while(getline(*sin,code)){
 		text+=code;
 		//analyse(code);
 		//cin.ignore();
@@ -158,14 +177,4 @@ void Lexer::parseStdin()
 
 
 
-int main(){
-	Lexer l;
-	Symbole* s;
-	do{
-		s = l.getNext();
-		//cout << s << endl;
-	}
-	while(s != NULL);
-	
-	return 0;
-};
+

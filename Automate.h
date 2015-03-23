@@ -18,7 +18,7 @@ using namespace std;
 class Automate{
 	
 	public : 
-	Automate();
+		Automate(vector<Symbole*> * smbl_table, istream* is) : lex(smbl_table, is) {};
 	void lecture();
 	void decalage(Symbole *s, Etat* etat);
 	list<Symbole> reductionUnstack(int nbUnstack);
@@ -27,10 +27,10 @@ class Automate{
 	void accept();
 	
 	private :
-	stack<Symbole*> *pileSymboles;
-	stack<Etat*> *pileEtats; 
-	map<Id, Val> variables;
-	Lexer lex;
+		stack<Symbole*> *pileSymboles;
+		stack<Etat*> *pileEtats; 
+		map<Id, Val> variables;
+		Lexer lex;
 };
 
 #endif Automate_H

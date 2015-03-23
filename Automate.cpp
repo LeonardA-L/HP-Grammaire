@@ -2,12 +2,12 @@
 #include "Etat.h"
 
 using namespace std;
-
-	Automate::Automate()
+/*
+	Automate::Automate(vector<Symbole*> & smbl_table)
 	{
 		lex=Lexer();
 	}
-
+*/
  void Automate::lecture(){
 	Symbole * i=lex.getNext();
 	

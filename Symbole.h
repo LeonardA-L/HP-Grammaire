@@ -7,6 +7,15 @@ using namespace std;
 //A créer : ID, VAL
 
 class Symbole{
+	protected : 
+		int ident;
+
+	public :
+		Symbole(int id);
+		Symbole();
+		virtual ~Symbole();
+		void print();
+		//operator int();
 
 protected : 
 	int ident;
@@ -23,5 +32,6 @@ public :
 				VAR, VIRGULE, ID, VAL, DOLLAR}; 
 	enum symbole_nt { P=100, DEC, D, EXPR, I, INST, MC, MV, F, T, OPA, OPM, I_AFFECT, I_ECRIRE, I_LIRE };
 };
+
 
 #endif Symbole_H

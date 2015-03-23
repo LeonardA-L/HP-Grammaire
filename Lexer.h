@@ -5,6 +5,7 @@
 #include <string> 
 #include <boost/regex.hpp>
 #include <queue>
+#include <map>
 
 #include "Symbole.h"
 #include "ST_const.h"
@@ -26,15 +27,19 @@
 
 using namespace std;
 
+bool checkRegexMatch(string s, boost::regex re);
+
 class Lexer {
 	public:
 		Symbole* getNext();
-		Lexer();
+		Lexer(vector<Symbole*> * symbol_table, istream* is);
 	
 	private:
 		Symbole* ship(string& s, bool& matched);
 		Symbole* analyse();
 		void parseStdin();
+		vector<Symbole*> * smbl_table;
+		istream* sin;
 		
 };
 
