@@ -10,10 +10,10 @@ using namespace std;
 class I_Lire : public SI{
 		
 	public :
-		I_Lire(E _e);
+		I_Lire(E *_e);
 		
 	private :
-		E e;
+		E *e;
 	
 };
 

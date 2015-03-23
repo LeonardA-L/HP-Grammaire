@@ -10,10 +10,10 @@ using namespace std;
 class I_Affect : public SI{
 		
 	public :
-		I_Affect() (Id _id, E _e;
+		I_Affect() (Id *_id, E *_e;
 	private :
-		Id id;
-		E e;
+		Id *id;
+		E *e;
 	
 };
 

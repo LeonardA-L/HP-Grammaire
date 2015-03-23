@@ -32,7 +32,7 @@ void Automate::decalage(Symbole *s, Etat* etat)
 	
 }
 
- List<Symbole> Automate::reductionUnstack(int nbUnstack)
+ List<Symbole*> Automate::reductionUnstack(int nbUnstack)
 {
 	List<Symbole> liste=new List<Symbole>();
 	for(int i=0; i<nbUnstack; i++)

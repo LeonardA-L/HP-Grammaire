@@ -12,10 +12,10 @@ class MV : public Symbole{
 		MV() : Symbole(Symbole::MV) {
 		}
 		
-		void addId(Id id);
+		void addId(Id* id);
 	
 	private :
-		list<Id> listId;
+		list<Id*> listId;
 	
 };
 

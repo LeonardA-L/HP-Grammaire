@@ -10,10 +10,10 @@ using namespace std;
 class I_Ecrire : public SI{
 		
 	public :
-		I_Ecrire(E _e);
+		I_Ecrire(E *_e);
 		
 	private :
-		E e;
+		E *e;
 	
 };
 

@@ -2,6 +2,6 @@
 
 using namespace std;
 
-void MV::addId(Id id){
+void MV::addId(Id* id){
 	listeId.pushback(id);
 }
