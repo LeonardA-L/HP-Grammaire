@@ -1,1 +1,2 @@
-variable non utilisee : b
+Erreur : variable b : 
+	 La variable n'est pas utilisée.

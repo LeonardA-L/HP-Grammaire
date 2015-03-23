@@ -1,1 +1,2 @@
-une valeur dans l'expression a*b n'est pas connue.
+Erreur : variable b : 
+	 La variable n'a pas de valeur assignée.

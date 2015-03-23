@@ -1,2 +1,3 @@
-variable non affectee : b
-variable non utilisee : b
+Erreur : variable b : 
+	 La variable n'a pas de valeur assignée.
+	 La variable n'est pas utilisée.

@@ -37,7 +37,7 @@ int main(int argc, char* argv[]){
 			optimize = true;
 		}
 		
-		regex re_source("\\w+\\.lt");
+		regex re_source("(.+)(\\.lt)");
 		if(checkRegexMatch(s,re_source)){
 			source = true;
 			sourceFile = s;
