@@ -30,7 +30,12 @@ void Id::setAssigned(bool a){
 void Id::setUsed(bool u){
 	_used = u;
 }
-
+int Id::getVal(){
+	return _val;
+}
+void Id::setVal(int newVal){
+	_val = newVal;
+}
 
 Id::Id (string name)
 {

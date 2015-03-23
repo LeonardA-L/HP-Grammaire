@@ -12,7 +12,7 @@ using namespace std;
 class E : public Symbole{
 	
 	public :
-		virtual double eval(map<Id,Val> variables) = 0;
+		virtual double eval() = 0;
 		E() : Symbole(EXPR) {}
 		E(int id) : Symbole(id) {}
 
