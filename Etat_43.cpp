@@ -29,7 +29,8 @@ bool Etat_43::transition ( Automate & a, Symbole * s )
 		list<Symbole*> liste = a.reductionUnstack(3);
 		if(liste.size()==3)
 		{
-			E *leftE=liste.pop_front();
+			E *leftE=liste.front();
+			liste.pop_front();
 			ExprBin *exprMult=(ExprBin)liste.front();
 			exprMult->addExprLeft(leftE);
 			exprMult->addExprRight((E*)liste.back());
@@ -39,7 +40,8 @@ bool Etat_43::transition ( Automate & a, Symbole * s )
 		list<Symbole *> liste=a.reductionUnstack(3);
 		if(liste.size()==3)
 		{
-			E *leftE=liste.pop_front();
+			E *leftE=liste.front();
+			liste.pop_front();
 			ExprBin *exprMult=(ExprBin)liste.front();
 			exprMult->addExprLeft(leftE);
 			exprMult->addExprRight((E*)liste.back());
