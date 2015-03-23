@@ -22,7 +22,7 @@ class D_var : public SD{
 		};
 	
 	private :
-		list<Id> listId;
+		list<Id*> listId;
 	
 };
 

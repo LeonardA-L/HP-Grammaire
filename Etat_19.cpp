@@ -28,9 +28,20 @@ bool Etat_19::transition ( Automate & a, Symbole * s )
 		//Symboles non terminaux
 	}else
 	{
-		//Symboles terminaux
-		List<Symbole> reductionUnstack(6);
-		void reductionPush(new SD(), new Etat_9();
+		//R6 : D -> const id = val MC ;
+		List<Symbole*> list = reductionUnstack(6);
+		D_const* d = new D_const();
+		list->pop_front();
+		d->add(list->front()->getList());
+		list->pop_front();
+		Val val = list->front();
+		list->pop_front();
+		list->pop_front();
+		Id* id = list->front();
+		list->pop_front();
+		id->setVal(val)
+		d->addId(id);
+		void reductionPush(d, new Etat_9();
 	}
 	
 } 
