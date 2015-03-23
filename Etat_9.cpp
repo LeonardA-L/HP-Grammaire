@@ -7,6 +7,7 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_2.h"
 #include "Etat_9.h"
+#include "Symbole.h"
 #include "Dec.h"
 //------------------------------------------------------------- Constantes
 

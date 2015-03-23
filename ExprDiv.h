@@ -9,7 +9,7 @@ class ExprDiv : public ExprBin {
 
 	public :
 		ExprDiv() : ExprBin(){}
-		double eval(map<Id,Val> variables){return _exprLeft->eval() / _exprRight->eval()}
+		double eval(map<Id,Val> variables){return _exprLeft->eval(variables) / _exprRight->eval(variables);}
 
 };
 

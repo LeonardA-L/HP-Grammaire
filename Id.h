@@ -18,6 +18,7 @@ class Id : public E {
 		void setAssigned(bool a);
 		void setUsed(bool u);
 		Id(string name);
+		double eval(map<Id,Val> variables);
 		virtual ~Id();
 	
 	private :

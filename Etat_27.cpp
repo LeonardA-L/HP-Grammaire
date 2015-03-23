@@ -8,6 +8,8 @@ using namespace std;
 #include "Etat_27.h"
 #include "Etat_21.h"
 #include "SI.h"
+#include "I_Ecrire.h"
+
 
 //------------------------------------------------------------- Constantes
 
@@ -27,7 +29,7 @@ bool Etat_27::transition ( Automate & a, Symbole * s )
 	list<Symbole*> liste=a.reductionUnstack(3);
 	if(liste.size()==3)
 	{
-		liste.popfront();
+		liste.pop_front();
 		I_Ecrire *i=new I_Ecrire((E*)liste.front());
 		a.reductionPush(i,etat21);
 		return true;

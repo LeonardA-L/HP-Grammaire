@@ -7,11 +7,13 @@
 using namespace std;
 
 
-virtual class SI : public Symbole{
+class SI : public Symbole{
 		
 	public :
 		SI() : Symbole(Symbole::I) {}
-	
+		SI(int id) : Symbole(id) {}
+
+		virtual void execute(map<Id,Val> variables)=0; 
 };
 
 #endif SI_H

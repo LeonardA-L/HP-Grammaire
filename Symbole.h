@@ -11,21 +11,11 @@ class Symbole{
 		int ident;
 
 	public :
-		Symbole(int id);
-		Symbole();
-		virtual ~Symbole();
-		void print();
-		//operator int();
-
-protected : 
-	int ident;
-
-
-public :
-	Symbole(int id) : ident(id) {}
-	virtual ~Symbole(){}
-	void print();
-	operator int() const {return ident;}
+		Symbole(){};
+		Symbole(int id) : ident(id) {}
+		virtual ~Symbole(){};
+		operator int() const {return ident;}
+		void print(){};
 	
 	enum symbole_t { ASTERIX, CONST, DOUBLE_POINT_EGAL, ECRIRE, EGAL, LIRE, MOINS, 
 				PARENTHESIS_CLOSE, PARENTHESIS_OPEN, PLUS, POINT_VIRGULE, SLASH, 

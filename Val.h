@@ -9,7 +9,8 @@ class Val : public E {
 	private :
 		double _value;
 	public :
-	 	Val() : E(VAL) {}		
+	 	Val() : E(VAL) {}
+	 	double eval(map<Id,Val> variables);	
 };
 
 #endif Val_H
