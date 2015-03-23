@@ -26,13 +26,13 @@ bool Etat_18::transition ( Automate & a, Symbole * s )
 	list<Symbole*> liste=a.reductionUnstack(5);
 	if(liste.size()==5)
 	{
-		MC *mc=liste.front();
+		MC *mc=(MC*) liste.front();
 		liste.pop_front();
 		liste.pop_front(); // on enlève la ,
 		Id * id=(Id*)liste.front();
 		Val *val=(Val*) liste.back();
-		id.setVal(val);
-		id.setVar(false);
+		id->setVal(val);
+		id->setVar(false);
 		mc->addId(id);
 		a.reductionPush(mc,new Etat_14());
 		return true;

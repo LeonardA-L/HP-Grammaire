@@ -15,7 +15,7 @@ class P : public Symbole{
 		Dec *_dec;
 		Inst *_inst;
 	public :
-		P() : Symbole(Symbole::P) {}
+		P(Dec* dec, Inst* inst) : Symbole(Symbole::P), _dec(dec), _inst(inst) {}
 	
 };
 
