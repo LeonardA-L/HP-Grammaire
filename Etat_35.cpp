@@ -54,7 +54,7 @@ Etat_35::Etat_35 ( )
 #ifdef MAP
     cout << "Appel au constructeur de <Etat_35>" << endl;
 #endif
-    _state_num = 0;
+    _state_num = 35;
 }
 
 
