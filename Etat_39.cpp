@@ -10,7 +10,7 @@ using namespace std;
 #include "Etat_34.h"
 #include "Etat_40.h"
 #include "Etat_41.h"
-
+#include "ExprBin.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -31,26 +31,28 @@ bool Etat_39::transition ( Automate & a, Symbole * s )
 		{
 				if(a.getPreviousState(3) == 34)
 				{
-					list<Symbole> liste=a.reductionUnstack(3);
+					list<Symbole*> liste=a.reductionUnstack(3);
 					if(liste.size()==3)
 					{
-						E *exprLeft=liste.popfront();
-						ExprBin *exprbin=liste.front();
-						expbin->addExprLeft(exprLeft);
-						expbin->addExprRight(liste.back())
+						E *exprLeft=(E*)liste.front();
+						liste.pop_front();
+						ExprBin *exprbin=(ExprBin*)liste.front();
+						exprbin->addExprLeft(exprLeft);
+						exprbin->addExprRight((E*)liste.back());
 						a.reductionPush(exprbin,new Etat_34());
 						return true;
 					}
 				}else if(a.getPreviousState(3) == 25)
 				{
-					list<Symbole> liste=a.reductionUnstack(3);
+					list<Symbole*> liste=a.reductionUnstack(3);
 					if(liste.size()==3)
 					{
-						E *exprLeft=liste.popfront();
-						ExprBin *exprbin=liste.front();
-						expbin->addExprLeft(exprLeft);
-						expbin->addExprRight(liste.back())
-						a.reductionPush(exprbin,new Etat_25()););
+						E *exprLeft=(E*)liste.front();
+						liste.pop_front();
+						ExprBin *exprbin=(ExprBin*)liste.front();
+						exprbin->addExprLeft(exprLeft);
+						exprbin->addExprRight((E*)liste.back());
+						a.reductionPush(exprbin,new Etat_25());
 						return true;
 					}
 				}
