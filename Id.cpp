@@ -30,10 +30,10 @@ void Id::setAssigned(bool a){
 void Id::setUsed(bool u){
 	_used = u;
 }
-int Id::getVal(){
+Val* Id::getVal(){
 	return _val;
 }
-void Id::setVal(int newVal){
+void Id::setVal(Val* newVal){
 	_val = newVal;
 }
 

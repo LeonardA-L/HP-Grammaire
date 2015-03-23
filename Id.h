@@ -20,8 +20,8 @@ class Id : public E {
 		Id(string name);
 		double eval(map<Id,Val> variables);
 		virtual ~Id();
-		int getVal();
-		void setVal(int newVal);
+		Val* getVal();
+		void setVal(Val* newVal);
 	
 	private :
 		string _name;
@@ -29,7 +29,7 @@ class Id : public E {
 		bool _declared;
 		bool _assigned;
 		bool _used;
-		int _val;
+		Val* _val;
 };
 
 #endif Id_H
