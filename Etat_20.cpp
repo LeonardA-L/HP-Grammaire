@@ -28,7 +28,11 @@ bool Etat_20::transition ( Automate & a, Symbole * s )
 	switch(*s)
 	{
 		case(Symbole::DOLLAR) :
-			a.reduction(2, new P(), new Etat_1());
+			list<Symbole* > list = a.reductionUnstack(2);
+			Dec* dec = list.back();
+			Inst* inst = list.front();
+			P* p = new P(dec, inst);
+			a.reductionPush(P, new Etat_1());
 			break;
 		case(Symbole::LIRE) :
 			a.decalage(s, new Etat_22());
