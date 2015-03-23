@@ -27,9 +27,14 @@ bool Etat_8::transition ( Automate & a, Symbole * s )
 		//Symboles non terminaux
 	}else
 	{
-		//Symboles terminaux
-		List<Symbole> list = reductionUnstack(4);
-		void reductionPush(new SD_Var(), new Etat_9());
+		//R5 : D -> var id MV ;
+		List<Symbole*> list = reductionUnstack(4);
+		D_var d = new D_var();
+		list->pop_front();
+		d.add(list->front()->getList());
+		list->pop_front();
+		d.addId(list->front());
+		void reductionPush(d, new Etat_9());
 	}
 	
 } 

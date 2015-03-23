@@ -17,6 +17,10 @@ class Dec : public Symbole{
 
 	public :
 		Dec() : Symbole(DEC) {}
+		void add(SD s)
+		{
+			_dList.push_back(s);
+		}
 	
 };
 

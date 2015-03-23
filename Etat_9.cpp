@@ -22,9 +22,11 @@ using namespace std;
 
 bool Etat_9::transition ( Automate & a, Symbole * s )
 {
-	//Symboles terminaux
+	//R3 : Dec -> Dec D
 	List<Symbole> reductionUnstack(2);
-	void reductionPush(new Dec(), new Etat_2());
+	Dec* inst = (Dec*) list.back();
+	inst.add((SI)list.front());
+	a.reductionPush(new Dec(), new Etat_2());
 	
 } 
 
