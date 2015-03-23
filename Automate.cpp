@@ -34,7 +34,7 @@ void Automate::decalage(Symbole *s, Etat* etat)
 
  list<Symbole*> Automate::reductionUnstack(int nbUnstack)
 {
-	list<Symbole> liste=new list<Symbole>();
+	list<Symbole*> liste;
 	for(int i=0; i<nbUnstack; i++)
 	{
 		liste.push_back(pileSymboles->top());
