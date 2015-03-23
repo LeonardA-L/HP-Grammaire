@@ -21,7 +21,7 @@ class Automate{
 	Automate();
 	void lecture();
 	void decalage(Symbole *s, Etat* etat);
-	List<Symbole> reductionUnstack(int nbUnstack);
+	list<Symbole> reductionUnstack(int nbUnstack);
 	void reductionPush(Symbole* s, Etat* etat);
 	int getPreviousState(int value);
 	void accept();

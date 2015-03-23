@@ -9,7 +9,13 @@ using namespace std;
 class MV : public Symbole{
 	
 	public :
-		MV() : Symbole(MV) {}
+		MV() : Symbole(Symbole::MV) {
+		}
+		
+		void addId(Id id);
+	
+	private :
+		list<Id> listId;
 	
 };
 

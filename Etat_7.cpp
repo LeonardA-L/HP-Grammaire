@@ -22,14 +22,14 @@ using namespace std;
 
 bool Etat_7::transition ( Automate & a, Symbole * s )
 {
-	if(*s >= 100)
+	list<Symbole> liste=a.reductionUnstack(3);
+	if(liste.size()==3)
 	{
-		//Symboles non terminaux
-	}else
-	{
-		//Symboles terminaux
-		a.reduction(3, new MV(), new Etat_5());
+		MV *mv=new MV((MV)liste.front(), (Id)liste.back());
+		a.reductionPush(mv, new Etat_5());
+		return true;
 	}
+		return false;
 	
 } 
 

@@ -22,15 +22,8 @@ using namespace std;
 
 bool Etat_4::transition ( Automate & a, Symbole * s )
 {
-	if(*s >= 100)
-	{
-		//Symboles non terminaux
-	}else
-	{
-		//Symboles terminaux
-		a.reduction(0, new MV(), new Etat_5());
-	}
-	
+	a.reductionPush(new MV(), new Etat_5());
+
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

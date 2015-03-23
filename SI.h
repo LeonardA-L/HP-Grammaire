@@ -7,7 +7,7 @@
 using namespace std;
 
 
-class SI : public Symbole{
+virtual class SI : public Symbole{
 		
 	public :
 		SI() : Symbole(Symbole::I) {}

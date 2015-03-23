@@ -6,7 +6,7 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "Etat_36.h"
-#include "SI.h"
+#include "I_Affect.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -23,9 +23,14 @@ using namespace std;
 bool Etat_36::transition ( Automate & a, Symbole * s )
 {
 	Etat_21 *etat21=new Etat_21();
-	SI *i=new SI();
-	a.reduction(4,i,etat21);
-	return true;
+	
+	list<Symbole> liste=a.reductionUnstack(4);
+	if(liste.size()==4){
+		I_Affect *i=new I_Affect((Id)liste.front(), (E)liste.last());
+		a.reductionPush(i,etat21);
+		return true;
+	}
+	return false;
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

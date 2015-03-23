@@ -24,9 +24,15 @@ using namespace std;
 bool Etat_27::transition ( Automate & a, Symbole * s )
 {
 	Etat_21 *etat21=new Etat_21();
-	SI *i=new SI();
-	a.reduction(3,i,etat21);
-	return true;
+	list<Symbole> liste=a.reductionUnstack(3);
+	if(liste.size()==3)
+	{
+		liste.popfront();
+		I_Ecrire *i=new I_Ecrire((E)liste.front());
+		a.reductionPush(i,etat21);
+		return true;
+	}
+	return false;
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs
