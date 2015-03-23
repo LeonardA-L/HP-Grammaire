@@ -28,20 +28,22 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 {
 	if(*s==Symbole::POINT_VIRGULE || *s==Symbole::PLUS || *s==Symbole::MOINS || *s==Symbole::PARENTHESIS_CLOSE) {
 			int previousState= a.getPreviousState(1);
-			T *t=new T();
 			switch (previousState)
 			{
 				case 25: 
 					Etat_26 etat26= new Etat_26();
-					a.reduction(1,t,etat26);
+					list<Symbole> liste=a.reductionUnstack(1);
+					a.reductionPush((E*)liste.front(),etat26);
 					break;
 				case 34: 
 					Etat_35 etat35= new Etat_35();
-					a.reduction(1,t,etat35);
+					list<Symbole> liste=a.reductionUnstack(1);
+					a.reductionPush((E*)liste.front(),etat35);
 					break;
 				case 44: 
-				Etat_45 etat45= new Etat_45();
-					a.reduction(1,t,etat45);
+					Etat_45 etat45= new Etat_45();
+					list<Symbole> liste=a.reductionUnstack(1);
+					a.reductionPush((E*)liste.front(),etat45);
 					break;
 			}
 			return true;
