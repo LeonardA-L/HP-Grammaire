@@ -11,7 +11,7 @@ class ExprBin : public E {
 		E *_exprRight;
 
 	public :
-		virtual double eval(map<Id,Val> variables) = 0;
+		virtual double eval() = 0;
 		ExprBin() : E(EXPR) {} //TODO Add ExprBin to Enum ???
 		void addExprLeft(E* val){ _exprLeft = val; }
 		void addExprRight(E* val){ _exprRight = val; }

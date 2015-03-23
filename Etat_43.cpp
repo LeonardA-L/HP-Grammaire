@@ -9,6 +9,7 @@ using namespace std;
 
 #include "Etat_39.h"
 #include "Etat_37.h"
+#include "ExprBin.h"
 //------------------------------------------------------------- Constantes
 
 //---------------------------------------------------- Variables de classe
@@ -24,21 +25,23 @@ using namespace std;
 bool Etat_43::transition ( Automate & a, Symbole * s )
 {
 	int prev = a.getPreviousState(3);
-	if(prev == 37
-		list<Symbole> liste=a.reductionUnstack(3);
+	if(prev == 37) {
+		list<Symbole*> liste = a.reductionUnstack(3);
 		if(liste.size()==3)
 		{
-			E *leftE=liste.pop_front();
+			E *leftE=liste.front();
+			liste.pop_front();
 			ExprBin *exprMult=(ExprBin)liste.front();
 			exprMult->addExprLeft(leftE);
 			exprMult->addExprRight((E*)liste.back());
 			a.reductionPush(exprMult, new Etat_37());
 		}
 	} else if(prev == 39) {
-		list<Symbole> liste=a.reductionUnstack(3);
+		list<Symbole *> liste=a.reductionUnstack(3);
 		if(liste.size()==3)
 		{
-			E *leftE=liste.pop_front();
+			E *leftE=liste.front();
+			liste.pop_front();
 			ExprBin *exprMult=(ExprBin)liste.front();
 			exprMult->addExprLeft(leftE);
 			exprMult->addExprRight((E*)liste.back());
