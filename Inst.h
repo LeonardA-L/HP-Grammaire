@@ -14,6 +14,7 @@ class Inst : public Symbole{
 		list<SI> _iList;
 	public :
 		Inst() : Symbole(Symbole::INST) {}
+		void add(SI s){  _iList.push_back(s) };
 };
 
 #endif Inst_H

@@ -28,8 +28,11 @@ bool Etat_21::transition ( Automate & a, Symbole * s )
 		//Symboles non terminaux
 	}else
 	{
-		//Symboles terminaux
-		a.reduction(2, new Inst(), new Etat_20());
+		//R7 : Inst -> Inst I
+		list<Symbole> list = reductionUnstack(2);
+		Inst* inst = (Inst*) list.back();
+		inst.add((SI)list.front());
+		void reductionPush(inst, new Etat_20());
 	}
 	
 } 

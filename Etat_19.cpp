@@ -29,7 +29,8 @@ bool Etat_19::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//Symboles terminaux
-		a.reduction(6, new SD(), new Etat_9());
+		List<Symbole> reductionUnstack(6);
+		void reductionPush(new SD(), new Etat_9();
 	}
 	
 } 

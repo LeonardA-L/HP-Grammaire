@@ -29,7 +29,7 @@ bool Etat_0::transition ( Automate & a, Symbole * s )
 	}else
 	{
 		//Symboles terminaux
-		a.reduction(0, new Dec(), new Etat_2());
+		void reductionPush(new Dec(), new Etat_2());
 	}
 	
 } 

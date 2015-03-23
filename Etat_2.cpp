@@ -34,7 +34,7 @@ bool Etat_2::transition ( Automate & a, Symbole * s )
 			a.decalage(s, new Etat_3());
 			break;
 		default :
-			a.reduction(0, new Inst(), new Etat_20());
+			void reductionPush(new Inst(), new Etat_20());
 			break;
 	}
 }
