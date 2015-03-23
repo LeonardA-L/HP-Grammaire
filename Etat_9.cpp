@@ -24,10 +24,10 @@ using namespace std;
 bool Etat_9::transition ( Automate & a, Symbole * s )
 {
 	//R3 : Dec -> Dec D
-	List<Symbole> reductionUnstack(2);
-	Dec* inst = (Dec*) list.back();
-	inst.add((SI)list.front());
-	a.reductionPush(new Dec(), new Etat_2());
+	List<Symbole*> list = reductionUnstack(2);
+	Dec* dec = (Dec*) list.back();
+	dec.add((SD)list.front());
+	a.reductionPush(dec, new Etat_2());
 	
 } 
 
