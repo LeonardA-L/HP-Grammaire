@@ -11,6 +11,7 @@ class Val : public E {
 	public :
 	 	Val() : E(VAL) {}
 	 	double eval(map<Id,Val> variables);	
+	 	void setValue(double value);
 };
 
 #endif Val_H

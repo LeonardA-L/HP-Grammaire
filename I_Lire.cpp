@@ -2,7 +2,14 @@
 
 using namespace std;
 
-I_Lire::I_Lire(E *_e) {
+I_Lire::I_Lire(Id *_id) {
 				SI(Symbole::I_ECRIRE);
-				e=_e;
+				id=_id;
+				val=new Val();
+}
+
+void I_Lire::execute(){
+	double x;
+	cin >> x;
+	val.setValue(x);
 }

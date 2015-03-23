@@ -13,7 +13,7 @@ class SI : public Symbole{
 		SI() : Symbole(Symbole::I) {}
 		SI(int id) : Symbole(id) {}
 
-		virtual void execute(map<Id,Val> variables)=0; 
+		virtual void execute()=0; 
 };
 
 #endif SI_H

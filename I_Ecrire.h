@@ -12,7 +12,7 @@ class I_Ecrire : public SI{
 		
 	public :
 		I_Ecrire(E *_e) : SI(Symbole::I_ECRIRE), e(_e) { };
-		void execute(map<Id,Val> variables){cout << e->eval(variables) << endl;}
+		void execute();
 
 	private :
 		E *e;
