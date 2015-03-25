@@ -17,7 +17,8 @@ int i;
 	// Symbols
 	regex re_oppA("[+-]");
 	regex re_oppM("[*/]");
-	regex re_equals(":?=?");
+	regex re_equals("=");
+	regex re_affect(":=");
 	regex re_coma(",");
 	regex re_semicolon(";");
 	// Terminal
@@ -99,6 +100,9 @@ Symbole* Lexer::ship(string& s, bool& matched)
 				sbl = pos->second;
 			}
 		}
+		else if (checkRegexMatch(s,re_affect)) {
+			sbl = new ST_doublePoint();
+		}
 		else if (checkRegexMatch(s,re_equals)) {
 			sbl = new ST_egal();
 		}
@@ -142,6 +146,7 @@ Symbole* Lexer::analyse()
 			or checkRegexMatch(tmp,re_identifier) 
 			or checkRegexMatch(tmp,re_numeral) 
 			or checkRegexMatch(tmp,re_equals)
+			or checkRegexMatch(tmp,re_affect)
 			or checkRegexMatch(tmp,re_coma)
 			or checkRegexMatch(tmp,re_semicolon)
 			)

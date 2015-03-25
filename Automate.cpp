@@ -1,5 +1,6 @@
 #include "Automate.h"
 #include "Etat.h"
+#include "Etat_0.h"
 #include <iostream>
 
 using namespace std;
@@ -11,6 +12,7 @@ using namespace std;
 */
  void Automate::lecture(){
 	Symbole * i=lex.getNext();
+    pileEtats.push(new Etat_0());
 	printProgress(i);
 	while(i!=NULL)
 	{
