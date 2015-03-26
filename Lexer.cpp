@@ -15,8 +15,12 @@ int i;
 	regex re_lire("lire");
 	regex re_ecrire("ecrire");
 	// Symbols
-	regex re_oppA("[+-]");
-	regex re_oppM("[*/]");
+	regex re_plus("\\\+");
+	regex re_minus("-");
+	regex re_mult("\\\*");
+	regex re_divide("/");
+	regex re_par_open("\\\(");
+	regex re_par_close("\\\)");
 	regex re_equals(":?=?");
 	regex re_equals_simple("=");
 	regex re_equals_affect(":=");
@@ -117,7 +121,26 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		else if (checkRegexMatch(s,re_dollar)) {
 			sbl = new Dollar();
 		}
+		else if (checkRegexMatch(s,re_plus)) {
+			sbl = new ST_plus();
+		}
+		else if (checkRegexMatch(s,re_minus)) {
+			sbl = new ST_moins();
+		}
+		else if (checkRegexMatch(s,re_mult)) {
+			sbl = new ST_asterix();
+		}
+		else if (checkRegexMatch(s,re_divide)) {
+			sbl = new ST_slash();
+		}
+		else if (checkRegexMatch(s,re_par_open)) {
+			sbl = new ST_parenthesisOpen();
+		}
+		else if (checkRegexMatch(s,re_par_close)) {
+			sbl = new ST_parenthesisClose();
+		}
 		
+
 		s = "";
 		matched = false;
 		
@@ -152,6 +175,12 @@ Symbole* Lexer::analyse()
 			or checkRegexMatch(tmp,re_coma)
 			or checkRegexMatch(tmp,re_semicolon)
 			or checkRegexMatch(tmp,re_dollar)
+			or checkRegexMatch(tmp,re_minus)
+			or checkRegexMatch(tmp,re_plus)
+			or checkRegexMatch(tmp,re_mult)
+			or checkRegexMatch(tmp,re_divide)
+			or checkRegexMatch(tmp,re_par_open)
+			or checkRegexMatch(tmp,re_par_close)
 			)
 		{
 			buff+=c;

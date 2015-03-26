@@ -8,6 +8,7 @@ using namespace std;
 #include "Etat_46.h"
 
 #include "Etat_43.h"
+#include "Etat_32.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -24,9 +25,20 @@ using namespace std;
 bool Etat_46::transition ( Automate & a, Symbole * s )
 {
 	//Reduction (20) F -> ( E )
+	int previousState= a.getPreviousState(3);
 	list<Symbole* > list = a.reductionUnstack(3);
 	list.pop_back(); // Pop parenthesis
-	a.reductionPush(list.back(), new Etat_43());
+	switch (previousState)
+	{
+		case 25:
+		case 34: 
+		case 38: 
+			a.reductionPush((E*)list.front(),new Etat_32());
+			break;
+		case 42: 
+			a.reductionPush((E*)list.front(),new Etat_43());
+			break;
+	}
 	return true;
 } 
 

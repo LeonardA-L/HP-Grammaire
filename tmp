@@ -1,0 +1,9789 @@
+Caractère lu : var
+####################
+Next Symbol : 12
+State Stack :
+	Size : 1
+	Content : 0 
+--------------------
+Symbole Stack :
+	Size : 0
+	Content : 
+####################
+Next Symbol : 12
+State Stack :
+	Size : 2
+	Content : 0 2 
+--------------------
+Symbole Stack :
+	Size : 1
+	Content : 101 
+Caractère lu : x
+####################
+Next Symbol : 14
+State Stack :
+	Size : 3
+	Content : 0 2 3 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 12 
+Caractère lu : ;
+####################
+Next Symbol : 10
+State Stack :
+	Size : 4
+	Content : 0 2 3 4 
+--------------------
+Symbole Stack :
+	Size : 3
+	Content : 101 12 14 
+####################
+Next Symbol : 10
+State Stack :
+	Size : 5
+	Content : 0 2 3 4 5 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 12 14 107 
+Caractère lu : var
+####################
+Next Symbol : 12
+State Stack :
+	Size : 6
+	Content : 0 2 3 4 5 8 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 12 14 107 10 
+####################
+Next Symbol : 12
+State Stack :
+	Size : 3
+	Content : 0 2 9 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 102 
+####################
+Next Symbol : 12
+State Stack :
+	Size : 2
+	Content : 0 2 
+--------------------
+Symbole Stack :
+	Size : 1
+	Content : 101 
+Caractère lu : z
+####################
+Next Symbol : 14
+State Stack :
+	Size : 3
+	Content : 0 2 3 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 12 
+Caractère lu : ,
+####################
+Next Symbol : 13
+State Stack :
+	Size : 4
+	Content : 0 2 3 4 
+--------------------
+Symbole Stack :
+	Size : 3
+	Content : 101 12 14 
+####################
+Next Symbol : 13
+State Stack :
+	Size : 5
+	Content : 0 2 3 4 5 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 12 14 107 
+Caractère lu : t
+####################
+Next Symbol : 14
+State Stack :
+	Size : 6
+	Content : 0 2 3 4 5 6 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 12 14 107 13 
+Caractère lu : ;
+####################
+Next Symbol : 10
+State Stack :
+	Size : 7
+	Content : 0 2 3 4 5 6 7 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 12 14 107 13 14 
+####################
+Next Symbol : 10
+State Stack :
+	Size : 5
+	Content : 0 2 3 4 5 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 12 14 107 
+Caractère lu : const
+####################
+Next Symbol : 1
+State Stack :
+	Size : 6
+	Content : 0 2 3 4 5 8 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 12 14 107 10 
+####################
+Next Symbol : 1
+State Stack :
+	Size : 3
+	Content : 0 2 9 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 102 
+####################
+Next Symbol : 1
+State Stack :
+	Size : 2
+	Content : 0 2 
+--------------------
+Symbole Stack :
+	Size : 1
+	Content : 101 
+Caractère lu : a
+####################
+Next Symbol : 14
+State Stack :
+	Size : 3
+	Content : 0 2 10 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 1 
+Caractère lu : =
+####################
+Next Symbol : 4
+State Stack :
+	Size : 4
+	Content : 0 2 10 11 
+--------------------
+Symbole Stack :
+	Size : 3
+	Content : 101 1 14 
+Caractère lu : 3
+####################
+Next Symbol : 15
+State Stack :
+	Size : 5
+	Content : 0 2 10 11 12 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 1 14 4 
+Caractère lu : ;
+####################
+Next Symbol : 10
+State Stack :
+	Size : 6
+	Content : 0 2 10 11 12 13 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 1 14 4 15 
+####################
+Next Symbol : 10
+State Stack :
+	Size : 7
+	Content : 0 2 10 11 12 13 14 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 1 14 4 15 106 
+Caractère lu : const
+####################
+Next Symbol : 1
+State Stack :
+	Size : 8
+	Content : 0 2 10 11 12 13 14 19 
+--------------------
+Symbole Stack :
+	Size : 7
+	Content : 101 1 14 4 15 106 10 
+####################
+Next Symbol : 1
+State Stack :
+	Size : 3
+	Content : 0 2 9 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 102 
+####################
+Next Symbol : 1
+State Stack :
+	Size : 2
+	Content : 0 2 
+--------------------
+Symbole Stack :
+	Size : 1
+	Content : 101 
+Caractère lu : b
+####################
+Next Symbol : 14
+State Stack :
+	Size : 3
+	Content : 0 2 10 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 1 
+Caractère lu : =
+####################
+Next Symbol : 4
+State Stack :
+	Size : 4
+	Content : 0 2 10 11 
+--------------------
+Symbole Stack :
+	Size : 3
+	Content : 101 1 14 
+Caractère lu : 4
+####################
+Next Symbol : 15
+State Stack :
+	Size : 5
+	Content : 0 2 10 11 12 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 1 14 4 
+Caractère lu : ,
+####################
+Next Symbol : 13
+State Stack :
+	Size : 6
+	Content : 0 2 10 11 12 13 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 1 14 4 15 
+####################
+Next Symbol : 13
+State Stack :
+	Size : 7
+	Content : 0 2 10 11 12 13 14 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 1 14 4 15 106 
+Caractère lu : n
+####################
+Next Symbol : 14
+State Stack :
+	Size : 8
+	Content : 0 2 10 11 12 13 14 15 
+--------------------
+Symbole Stack :
+	Size : 7
+	Content : 101 1 14 4 15 106 13 
+Caractère lu : =
+####################
+Next Symbol : 4
+State Stack :
+	Size : 9
+	Content : 0 2 10 11 12 13 14 15 16 
+--------------------
+Symbole Stack :
+	Size : 8
+	Content : 101 1 14 4 15 106 13 14 
+Caractère lu : 5
+####################
+Next Symbol : 15
+State Stack :
+	Size : 10
+	Content : 0 2 10 11 12 13 14 15 16 17 
+--------------------
+Symbole Stack :
+	Size : 9
+	Content : 101 1 14 4 15 106 13 14 4 
+Caractère lu : ;
+####################
+Next Symbol : 10
+State Stack :
+	Size : 11
+	Content : 0 2 10 11 12 13 14 15 16 17 18 
+--------------------
+Symbole Stack :
+	Size : 10
+	Content : 101 1 14 4 15 106 13 14 4 15 
+####################
+Next Symbol : 10
+State Stack :
+	Size : 7
+	Content : 0 2 10 11 12 13 14 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 1 14 4 15 106 
+Caractère lu : ecrire
+####################
+Next Symbol : 3
+State Stack :
+	Size : 8
+	Content : 0 2 10 11 12 13 14 19 
+--------------------
+Symbole Stack :
+	Size : 7
+	Content : 101 1 14 4 15 106 10 
+####################
+Next Symbol : 3
+State Stack :
+	Size : 3
+	Content : 0 2 9 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 102 
+####################
+Next Symbol : 3
+State Stack :
+	Size : 2
+	Content : 0 2 
+--------------------
+Symbole Stack :
+	Size : 1
+	Content : 101 
+####################
+Next Symbol : 3
+State Stack :
+	Size : 3
+	Content : 0 2 20 
+--------------------
+Symbole Stack :
+	Size : 2
+	Content : 101 105 
+Caractère lu : a
+####################
+Next Symbol : 14
+State Stack :
+	Size : 4
+	Content : 0 2 20 25 
+--------------------
+Symbole Stack :
+	Size : 3
+	Content : 101 105 3 
+Caractère lu : *
+####################
+Next Symbol : 0
+State Stack :
+	Size : 5
+	Content : 0 2 20 25 28 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 105 3 14 
+####################
+Next Symbol : 0
+State Stack :
+	Size : 5
+	Content : 0 2 20 25 32 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 105 3 14 
+####################
+Next Symbol : 0
+State Stack :
+	Size : 5
+	Content : 0 2 20 25 37 
+--------------------
+Symbole Stack :
+	Size : 4
+	Content : 101 105 3 14 
+Caractère lu : (
+####################
+Next Symbol : 8
+State Stack :
+	Size : 6
+	Content : 0 2 20 25 37 40 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 105 3 14 0 
+####################
+Next Symbol : 8
+State Stack :
+	Size : 6
+	Content : 0 2 20 25 37 42 
+--------------------
+Symbole Stack :
+	Size : 5
+	Content : 101 105 3 14 103 
+Caractère lu : b
+####################
+Next Symbol : 14
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+Caractère lu : +
+####################
+Next Symbol : 9
+State Stack :
+	Size : 8
+	Content : 0 2 20 25 37 42 44 28 
+--------------------
+Symbole Stack :
+	Size : 7
+	Content : 101 105 3 14 103 8 14 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
+--------------------
+Symbole Stack :
+	Size : 6
+	Content : 101 105 3 14 103 8 
+####################
+Next Symbol : 9
+State Stack :
+	Size : 7
+	Content : 0 2 20 25 37 42 44 
