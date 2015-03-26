@@ -17,20 +17,25 @@ using namespace std;
 
 class Automate{
 	
-	public : 
+	public: 
 		Automate(vector<Symbole*> * smbl_table, istream* is) : lex(smbl_table, is) {};
-	void lecture();
-	void decalage(Symbole *s, Etat* etat);
-	list<Symbole* > reductionUnstack(int nbUnstack);
-	void reductionPush(Symbole* s, Etat* etat);
-	int getPreviousState(int value);
-	void accept();
+		void lecture();
+		void decalage(Symbole *s, Etat* etat);
+		list<Symbole* > reductionUnstack(int nbUnstack);
+		void reductionPush(Symbole* s, Etat* etat);
+		int getPreviousState(int value);
+		void accept();
 	
-	private :
-		stack<Symbole*> *pileSymboles;
-		stack<Etat*> *pileEtats; 
-		// TODO map<Id, Val> variables;
+	protected:
+		void printProgress(Symbole* next);
+		void printStateStack();
+		void printSymbolStack();
+
+	private:
+		stack<Symbole*> pileSymboles;
+		stack<Etat*> pileEtats; 
 		Lexer lex;
+		bool isAccepted = false;
 };
 
 #endif Automate_H

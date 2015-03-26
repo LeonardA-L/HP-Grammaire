@@ -24,29 +24,23 @@ using namespace std;
 
 bool Etat_43::transition ( Automate & a, Symbole * s )
 {
+	// (18) T -> T opM F
 	int prev = a.getPreviousState(3);
-	if(prev == 37) {
-		list<Symbole*> liste = a.reductionUnstack(3);
-		if(liste.size()==3)
-		{
-			E *leftE=(E*) liste.front();
-			liste.pop_front();
-			ExprBin *exprMult=(ExprBin*)liste.front();
-			exprMult->addExprLeft(leftE);
-			exprMult->addExprRight((E*)liste.back());
+	list<Symbole*> liste = a.reductionUnstack(3);
+	E *leftE=(E*) liste.front();
+	liste.pop_front();
+	ExprBin *exprMult=(ExprBin*)liste.front();
+	exprMult->addExprLeft(leftE);
+	exprMult->addExprRight((E*)liste.back());
+	switch(prev){
+		case 25 :
+		case 34 :
+		case 44 :
 			a.reductionPush(exprMult, new Etat_37());
-		}
-	} else if(prev == 39) {
-		list<Symbole *> liste=a.reductionUnstack(3);
-		if(liste.size()==3)
-		{
-			E *leftE = (E*) liste.front();
-			liste.pop_front();
-			ExprBin *exprMult=(ExprBin*)liste.front();
-			exprMult->addExprLeft(leftE);
-			exprMult->addExprRight((E*)liste.back());
+			break;
+		case 38 :
 			a.reductionPush(exprMult, new Etat_39());
-		}
+			break;
 	}
 } 
 

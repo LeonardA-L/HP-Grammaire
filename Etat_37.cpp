@@ -51,7 +51,29 @@ bool Etat_37::transition ( Automate & a, Symbole * s )
 			break;
 		case(Symbole::SLASH) :
 			a.decalage(s, new Etat_41());
-			break;		
+			break;
+		case(Symbole::POINT_VIRGULE) :
+		case(Symbole::PLUS) :
+		case(Symbole::MOINS) :
+		case(Symbole::PARENTHESIS_CLOSE) :
+			{
+				// (17) E -> T
+				int previousState= a.getPreviousState(1);
+				list<Symbole*> liste=a.reductionUnstack(1);
+				switch (previousState)
+				{
+					case 25: 
+						a.reductionPush((E*)liste.front(),new Etat_26());
+						break;
+					case 34: 
+						a.reductionPush((E*)liste.front(),new Etat_35());
+						break;
+					case 44: 
+						a.reductionPush((E*)liste.front(),new Etat_45());
+						break;
+				}
+			}
+			break;	
 		default : 
 			return false;
 	}

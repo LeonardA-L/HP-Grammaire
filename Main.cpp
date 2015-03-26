@@ -3,6 +3,7 @@
 #include <fstream>
 #include "StaticAnalyse.h"
 #include "Symbole.h"
+#include "Automate.h"
 #include <vector>
 #include <boost/regex.hpp>
 
@@ -69,6 +70,7 @@ int main(int argc, char* argv[]){
 	
 	// Parsing
 	
+	/*
 	// ----- TMP
 	cerr << "Parse" << endl;
 	Lexer l(&symbol_table, sin);
@@ -80,8 +82,9 @@ int main(int argc, char* argv[]){
 	}
 	while(s != NULL);
 	// -------
-	
-	
+	*/
+	Automate a(&symbol_table, sin);
+	a.lecture();
 	
 	// Static analyse
 	cerr << "Analyse" << endl;

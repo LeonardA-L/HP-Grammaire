@@ -23,8 +23,17 @@ using namespace std;
 
 bool Etat_31::transition ( Automate & a, Symbole * s )
 {
+	// (24) opA ->  -
+	int previousState= a.getPreviousState(1);
 	a.reductionUnstack(1);
-	a.reductionPush(new ExprMoins(), new Etat_38());
+	switch (previousState)
+	{
+		case 26:
+		case 35: 
+		case 45: 
+			a.reductionPush(new ExprMoins(), new Etat_38());
+			break;
+	}
 	return true;
 } 
 

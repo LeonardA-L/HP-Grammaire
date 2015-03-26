@@ -23,8 +23,16 @@ using namespace std;
 
 bool Etat_41::transition ( Automate & a, Symbole * s )
 {
+	// (26) opM -> /
+	int previousState= a.getPreviousState(1);
 	a.reductionUnstack(1);
-	a.reductionPush(new ExprDiv(), new Etat_42());
+	switch (previousState)
+	{
+		case 39:
+		case 37: 
+			a.reductionPush(new ExprDiv(), new Etat_42());
+			break;
+	}
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

@@ -7,6 +7,8 @@ using namespace std;
 //------------------------------------------------------ Include personnel
 #include "Etat_32.h"
 #include "Etat_37.h"
+#include "Etat_39.h"
+
 
 //------------------------------------------------------------- Constantes
 
@@ -23,9 +25,19 @@ using namespace std;
 bool Etat_32::transition ( Automate & a, Symbole * s )
 {
 	// (19) T -> F
-	list<Symbole* > list = a.reductionUnstack(1);
-	a.reductionPush(list.back(), new Etat_37());
-
+	int previousState= a.getPreviousState(1);
+	list<Symbole*> liste=a.reductionUnstack(1);
+	switch (previousState)
+	{
+		case 25:
+		case 34:
+		case 44: 
+			a.reductionPush((E*)liste.front(),new Etat_37());
+			break;
+		case 38: 
+			a.reductionPush((E*)liste.front(),new Etat_39());
+			break;
+	}
 	return true;
 } 
 

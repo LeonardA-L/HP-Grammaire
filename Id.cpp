@@ -41,7 +41,7 @@ double Id::eval(){
 	return _val->eval();
 }
 
-Id::Id (string name)
+Id::Id (string name) : E(Symbole::ID)
 {
 	_var = false;
 	_declared = false;

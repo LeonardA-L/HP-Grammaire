@@ -26,27 +26,20 @@ using namespace std;
 
 bool Etat_19::transition ( Automate & a, Symbole * s )
 {
-	if(*s >= 100)
-	{
-		//Symboles non terminaux
-	}else
-	{
-		//R6 : D -> const id = val MC ;
-		list<Symbole*> list = a.reductionUnstack(6);
-		D_const* d = new D_const();
-		list.pop_front();
-		d->add(((MC*)list.front())->getList());
-		list.pop_front();
-		Val* val = (Val*) list.front();
-		list.pop_front();
-		list.pop_front();
-		Id* id = (Id*) list.front();
-		list.pop_front();
-		id->setVal(val);
-		d->addId(id);
-		a.reductionPush(d, new Etat_9());
-	}
-	
+	//R6 : D -> const id = val MC ;
+	list<Symbole*> list = a.reductionUnstack(6);
+	D_const* d = new D_const();
+	list.pop_front();
+	d->add(((MC*)list.front())->getList());
+	list.pop_front();
+	Val* val = (Val*) list.front();
+	list.pop_front();
+	list.pop_front();
+	Id* id = (Id*) list.front();
+	list.pop_front();
+	id->setVal(val);
+	d->addId(id);
+	a.reductionPush(d, new Etat_9());
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

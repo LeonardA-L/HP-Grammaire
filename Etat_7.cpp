@@ -24,14 +24,10 @@ using namespace std;
 bool Etat_7::transition ( Automate & a, Symbole * s )
 {
 	list<Symbole*> liste=a.reductionUnstack(3);
-	if(liste.size()==3)
-	{
-		MV *mv=(MV*)liste.front();
-		mv->addId((Id*)liste.back());
-		a.reductionPush(mv, new Etat_5());
-		return true;
-	}
-		return false;
+	MV *mv=(MV*)liste.back();
+	mv->addId((Id*)liste.front());
+	a.reductionPush(mv, new Etat_5());
+	return true;
 	
 } 
 

@@ -15,11 +15,18 @@ int i;
 	regex re_lire("lire");
 	regex re_ecrire("ecrire");
 	// Symbols
-	regex re_oppA("[+-]");
-	regex re_oppM("[*/]");
+	regex re_plus("\\\+");
+	regex re_minus("-");
+	regex re_mult("\\\*");
+	regex re_divide("/");
+	regex re_par_open("\\\(");
+	regex re_par_close("\\\)");
 	regex re_equals(":?=?");
+	regex re_equals_simple("=");
+	regex re_equals_affect(":=");
 	regex re_coma(",");
 	regex re_semicolon(";");
+	regex re_dollar("\\\$");
 	// Terminal
 	regex re_identifier("(^(?!const|var|lire|ecrire)(\\w+)|^\w+(const|var|lire|ecrire)|(const|var|lire|ecrire)\\w+)");
 	//regex re_identifier("\\w+");
@@ -99,7 +106,10 @@ Symbole* Lexer::ship(string& s, bool& matched)
 				sbl = pos->second;
 			}
 		}
-		else if (checkRegexMatch(s,re_equals)) {
+		else if (checkRegexMatch(s,re_equals_affect)) {
+			sbl = new ST_doublePoint();
+		}
+		else if (checkRegexMatch(s,re_equals_simple)) {
 			sbl = new ST_egal();
 		}
 		else if (checkRegexMatch(s,re_coma)) {
@@ -107,15 +117,36 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		}
 		else if (checkRegexMatch(s,re_semicolon)) {
 			sbl = new ST_ptVirgule();
+		}		
+		else if (checkRegexMatch(s,re_dollar)) {
+			sbl = new Dollar();
+		}
+		else if (checkRegexMatch(s,re_plus)) {
+			sbl = new ST_plus();
+		}
+		else if (checkRegexMatch(s,re_minus)) {
+			sbl = new ST_moins();
+		}
+		else if (checkRegexMatch(s,re_mult)) {
+			sbl = new ST_asterix();
+		}
+		else if (checkRegexMatch(s,re_divide)) {
+			sbl = new ST_slash();
+		}
+		else if (checkRegexMatch(s,re_par_open)) {
+			sbl = new ST_parenthesisOpen();
+		}
+		else if (checkRegexMatch(s,re_par_close)) {
+			sbl = new ST_parenthesisClose();
 		}
 		
+
 		s = "";
 		matched = false;
 		
 		if(!pushedToTable){
 			smbl_table->push_back(sbl);
 		}
-		
 		return sbl;
 	}
 }
@@ -123,7 +154,7 @@ Symbole* Lexer::ship(string& s, bool& matched)
 Symbole* Lexer::analyse()
 {
 	string line = text;
-	line+="|";							// end line character
+	line+="$|";							// end line character
 	char c;
 	string buff("");
 	bool matched = false;
@@ -133,7 +164,6 @@ Symbole* Lexer::analyse()
 
 		string tmp("");
 		tmp+=buff+c;
-		
 		// Continue until it doesn't match anymore
 		if(checkRegexMatch(tmp,re_const) 
 			or checkRegexMatch(tmp,re_var) 
@@ -144,6 +174,13 @@ Symbole* Lexer::analyse()
 			or checkRegexMatch(tmp,re_equals)
 			or checkRegexMatch(tmp,re_coma)
 			or checkRegexMatch(tmp,re_semicolon)
+			or checkRegexMatch(tmp,re_dollar)
+			or checkRegexMatch(tmp,re_minus)
+			or checkRegexMatch(tmp,re_plus)
+			or checkRegexMatch(tmp,re_mult)
+			or checkRegexMatch(tmp,re_divide)
+			or checkRegexMatch(tmp,re_par_open)
+			or checkRegexMatch(tmp,re_par_close)
 			)
 		{
 			buff+=c;
@@ -152,6 +189,7 @@ Symbole* Lexer::analyse()
 		}
 		
 		if(matched){
+			cout <<"Caractère lu : "<< buff << endl;
 			return ship(buff,matched);
 		}		
 	}
