@@ -22,6 +22,7 @@
 #include "ST_ptVirgule.h"
 #include "ST_slash.h"
 #include "ST_virgule.h"
+#include "Dollar.h"
 #include "Id.h"
 #include "Val.h"
 

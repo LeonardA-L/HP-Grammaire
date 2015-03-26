@@ -17,10 +17,12 @@ int i;
 	// Symbols
 	regex re_oppA("[+-]");
 	regex re_oppM("[*/]");
-	regex re_equals("=");
-	regex re_affect(":=");
+	regex re_equals(":?=?");
+	regex re_equals_simple("=");
+	regex re_equals_affect(":=");
 	regex re_coma(",");
 	regex re_semicolon(";");
+	regex re_dollar("\\\$");
 	// Terminal
 	regex re_identifier("(^(?!const|var|lire|ecrire)(\\w+)|^\w+(const|var|lire|ecrire)|(const|var|lire|ecrire)\\w+)");
 	//regex re_identifier("\\w+");
@@ -100,10 +102,10 @@ Symbole* Lexer::ship(string& s, bool& matched)
 				sbl = pos->second;
 			}
 		}
-		else if (checkRegexMatch(s,re_affect)) {
+		else if (checkRegexMatch(s,re_equals_affect)) {
 			sbl = new ST_doublePoint();
 		}
-		else if (checkRegexMatch(s,re_equals)) {
+		else if (checkRegexMatch(s,re_equals_simple)) {
 			sbl = new ST_egal();
 		}
 		else if (checkRegexMatch(s,re_coma)) {
@@ -111,6 +113,9 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		}
 		else if (checkRegexMatch(s,re_semicolon)) {
 			sbl = new ST_ptVirgule();
+		}		
+		else if (checkRegexMatch(s,re_dollar)) {
+			sbl = new Dollar();
 		}
 		
 		s = "";
@@ -119,7 +124,6 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		if(!pushedToTable){
 			smbl_table->push_back(sbl);
 		}
-		
 		return sbl;
 	}
 }
@@ -127,7 +131,7 @@ Symbole* Lexer::ship(string& s, bool& matched)
 Symbole* Lexer::analyse()
 {
 	string line = text;
-	line+="|";							// end line character
+	line+="$|";							// end line character
 	char c;
 	string buff("");
 	bool matched = false;
@@ -137,7 +141,6 @@ Symbole* Lexer::analyse()
 
 		string tmp("");
 		tmp+=buff+c;
-		
 		// Continue until it doesn't match anymore
 		if(checkRegexMatch(tmp,re_const) 
 			or checkRegexMatch(tmp,re_var) 
@@ -146,9 +149,9 @@ Symbole* Lexer::analyse()
 			or checkRegexMatch(tmp,re_identifier) 
 			or checkRegexMatch(tmp,re_numeral) 
 			or checkRegexMatch(tmp,re_equals)
-			or checkRegexMatch(tmp,re_affect)
 			or checkRegexMatch(tmp,re_coma)
 			or checkRegexMatch(tmp,re_semicolon)
+			or checkRegexMatch(tmp,re_dollar)
 			)
 		{
 			buff+=c;
@@ -157,6 +160,7 @@ Symbole* Lexer::analyse()
 		}
 		
 		if(matched){
+			cout <<"Caractère lu : "<< buff << endl;
 			return ship(buff,matched);
 		}		
 	}

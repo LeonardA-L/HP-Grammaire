@@ -24,12 +24,12 @@ using namespace std;
 
 bool Etat_36::transition ( Automate & a, Symbole * s )
 {
-	Etat_21 *etat21=new Etat_21();
-	
+	// (9) I -> id := E ;
 	list<Symbole*> liste=a.reductionUnstack(4);
 	if(liste.size()==4){
-		I_Affect *i=new I_Affect((Id*)liste.front(), (E*)liste.back());
-		a.reductionPush(i,etat21);
+		liste.pop_front();
+		I_Affect *i=new I_Affect((Id*)liste.back(), (E*)liste.front());
+		a.reductionPush(i,new Etat_21());
 		return true;
 	}
 	return false;

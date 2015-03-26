@@ -34,8 +34,8 @@ class Automate{
 	private:
 		stack<Symbole*> pileSymboles;
 		stack<Etat*> pileEtats; 
-		// TODO map<Id, Val> variables;
 		Lexer lex;
+		bool isAccepted = false;
 };
 
 #endif Automate_H

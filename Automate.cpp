@@ -12,21 +12,22 @@ using namespace std;
 */
  void Automate::lecture(){
 	Symbole * i=lex.getNext();
-    pileEtats.push(new Etat_0());
-	printProgress(i);
+	pileEtats.push(new Etat_0());
 	while(i!=NULL)
 	{
 		do{
-			pileEtats.top()->transition(*(this), i);
 			printProgress(i);
-		} while(pileSymboles.top() != i);
+			pileEtats.top()->transition(*(this), i);
+		} while(pileSymboles.top() != i && !isAccepted);
 		i=lex.getNext();
 	}
-	printProgress(i);	
+	// Last reduction
+	printProgress(NULL);
 }
 
 void Automate::accept()
 {
+	isAccepted = true;
 }
 
 void Automate::decalage(Symbole *s, Etat* etat)
@@ -79,7 +80,7 @@ int Automate::getPreviousState(int value)
 void Automate::printProgress(Symbole* next){
 	cout << "####################" << endl;
 	if(next == NULL){
-		cout << "Fin du flux" << endl;
+		cout << "No more Symbol" << endl;
 	} else {
 		cout << "Next Symbol : "<< ((int)*next)<<endl;
 	}
