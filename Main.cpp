@@ -70,19 +70,8 @@ int main(int argc, char* argv[]){
 	
 	// Parsing
 	
-	/*
-	// ----- TMP
-	cerr << "Parse" << endl;
-	Lexer l(&symbol_table, sin);
-	Symbole* s;
-	do{
-		s = l.getNext();
-		
-		//cout << s << endl;
-	}
-	while(s != NULL);
+
 	// -------
-	*/
 	Automate a(&symbol_table, sin);
 	a.lecture();
 	
@@ -100,7 +89,7 @@ int main(int argc, char* argv[]){
 		if(display){
 			// Display
 			cerr << "Display" << endl;
-			//...
+			a.display();
 		}
 		
 		if(execute){

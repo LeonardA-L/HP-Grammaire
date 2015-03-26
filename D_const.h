@@ -2,24 +2,22 @@
 #define D_const_H
 
 #include <map>
+#include <list>
 #include "Symbole.h"
+#include "SD.h"
+#include "Id.h"
 
 using namespace std;
 
-class D_const : public SD{
+class D_const : public SD {
 	
 	public :
-		D_const() {
-		}
+		D_const() { }
 		
-		void addId(Id* id){ listId.push_back(id);};
-		void add(list<Id*> _listId){
-			for(int i=0;i<_listId.size();i++)
-			{
-				listId.push_back(_listId.front());
-				_listId.pop_front();
-			}
-		};
+		void addId(Id* id);
+		void add(list<Id*> _listId);
+		virtual void print();
+		static void print_ID(Id* id);
 	
 	private :
 		list<Id*> listId;

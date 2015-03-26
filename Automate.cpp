@@ -2,6 +2,7 @@
 #include "Etat.h"
 #include "Etat_0.h"
 #include <iostream>
+#include <algorithm>    // std::for_each
 
 using namespace std;
 /*
@@ -16,19 +17,40 @@ using namespace std;
 	while(i!=NULL)
 	{
 		do{
+#ifdef DEBUG
 			printProgress(i);
+#endif
 			pileEtats.top()->transition(*(this), i);
 		} while(pileSymboles.top() != i && !isAccepted);
 		i=lex.getNext();
 	}
 	// Last reduction
+#ifdef DEBUG
 	printProgress(NULL);
+#endif
 }
 
 void Automate::accept()
 {
 	isAccepted = true;
 }
+
+void Automate::display()
+{
+	stack<Symbole*> tmp;
+	unsigned int size = pileSymboles.size();
+	for(int i = 0; i < size ; i++){
+		tmp.push(pileSymboles.top());
+		pileSymboles.pop();
+	}
+	for(int i = 0; i < size ; i++){
+		pileSymboles.push(tmp.top());
+		tmp.top()->print();
+		tmp.pop();
+	}
+}
+
+
 
 void Automate::decalage(Symbole *s, Etat* etat)
 {

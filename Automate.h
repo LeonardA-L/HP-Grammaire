@@ -20,11 +20,12 @@ class Automate{
 	public: 
 		Automate(vector<Symbole*> * smbl_table, istream* is) : lex(smbl_table, is) {};
 		void lecture();
-		void decalage(Symbole *s, Etat* etat);
-		list<Symbole* > reductionUnstack(int nbUnstack);
-		void reductionPush(Symbole* s, Etat* etat);
-		int getPreviousState(int value);
 		void accept();
+		void display();
+		void decalage(Symbole *s, Etat* etat);
+		int getPreviousState(int value);
+		void reductionPush(Symbole* s, Etat* etat);
+		list<Symbole* > reductionUnstack(int nbUnstack);
 	
 	protected:
 		void printProgress(Symbole* next);

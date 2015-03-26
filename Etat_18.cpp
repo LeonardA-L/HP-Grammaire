@@ -24,6 +24,7 @@ using namespace std;
 bool Etat_18::transition ( Automate & a, Symbole * s )
 {
 	// MC , id = val
+	list<Symbole*> liste=a.reductionUnstack(5);
 	MC *mc=(MC*) liste.back();
 	Val *val=(Val*) liste.front();
 	liste.pop_front(); // on enlève le val

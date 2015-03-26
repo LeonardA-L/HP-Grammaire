@@ -17,11 +17,9 @@ class Dec : public Symbole{
 
 	public :
 		Dec() : Symbole(DEC) {}
-		void add(SD* s)
-		{
-			_dList.push_back(s);
-		}
-	
+		void add(SD* s);
+		virtual void print();
+		static void print_SD(SD* sd);
 };
 
 #endif Dec_H
