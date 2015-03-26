@@ -24,6 +24,7 @@ using namespace std;
 
 bool Etat_43::transition ( Automate & a, Symbole * s )
 {
+	// (18) T -> T opM F
 	int prev = a.getPreviousState(3);
 	list<Symbole*> liste = a.reductionUnstack(3);
 	E *leftE=(E*) liste.front();
@@ -31,11 +32,15 @@ bool Etat_43::transition ( Automate & a, Symbole * s )
 	ExprBin *exprMult=(ExprBin*)liste.front();
 	exprMult->addExprLeft(leftE);
 	exprMult->addExprRight((E*)liste.back());
-
-	if(prev == 25 || prev == 34) {
-		a.reductionPush(exprMult, new Etat_37());
-	} else if(prev == 38) {
-		a.reductionPush(exprMult, new Etat_39());
+	switch(prev){
+		case 25 :
+		case 34 :
+		case 44 :
+			a.reductionPush(exprMult, new Etat_37());
+			break;
+		case 38 :
+			a.reductionPush(exprMult, new Etat_39());
+			break;
 	}
 } 
 

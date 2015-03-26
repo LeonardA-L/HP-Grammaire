@@ -27,25 +27,6 @@ using namespace std;
 
 bool Etat_39::transition ( Automate & a, Symbole * s )
 {
-
-	if(*s==Symbole::POINT_VIRGULE || *s==Symbole::PLUS || *s==Symbole::MOINS || *s==Symbole::PARENTHESIS_CLOSE)
-	{
-		int previousState= a.getPreviousState(3);
-		list<Symbole*> liste=a.reductionUnstack(3);
-		E *exprLeft=(E*)liste.front();
-		liste.pop_front();
-		ExprBin *exprbin=(ExprBin*)liste.front();
-		exprbin->addExprLeft(exprLeft);
-		exprbin->addExprRight((E*)liste.back());
-		if(previousState == 34) {
-			a.reductionPush(exprbin,new Etat_35());
-		} else if(previousState == 25) {
-			a.reductionPush(exprbin,new Etat_26());
-		} else if(previousState == 44) {
-			a.reductionPush(exprbin,new Etat_45());
-		}
-	}
-	
 	switch(*s)
 	{
 		case(Symbole::ASTERIX) :
@@ -53,6 +34,33 @@ bool Etat_39::transition ( Automate & a, Symbole * s )
 			break;
 		case(Symbole::SLASH) :
 			a.decalage(s, new Etat_41());
+			break;
+		case(Symbole::POINT_VIRGULE) :
+		case(Symbole::PLUS) :
+		case(Symbole::MOINS) :
+		case(Symbole::PARENTHESIS_CLOSE) :
+			{
+				// (16) E -> E opA T
+				int previousState= a.getPreviousState(3);
+				list<Symbole*> liste=a.reductionUnstack(3);
+				E *exprLeft=(E*)liste.front();
+				liste.pop_front();
+				ExprBin *exprbin=(ExprBin*)liste.front();
+				exprbin->addExprLeft(exprLeft);
+				exprbin->addExprRight((E*)liste.back());
+				switch (previousState)
+				{
+					case 25: 
+						a.reductionPush(exprbin,new Etat_26());
+						break;
+					case 34: 
+						a.reductionPush(exprbin,new Etat_35());
+						break;
+					case 44: 
+						a.reductionPush(exprbin,new Etat_45());
+						break;
+				}
+			}
 			break;
 		default :
 			break;

@@ -29,17 +29,13 @@ bool Etat_32::transition ( Automate & a, Symbole * s )
 	list<Symbole*> liste=a.reductionUnstack(1);
 	switch (previousState)
 	{
-		case 25: 
-			a.reductionPush((E*)liste.front(),new Etat_37());
-			break;
-		case 34: 
+		case 25:
+		case 34:
+		case 44: 
 			a.reductionPush((E*)liste.front(),new Etat_37());
 			break;
 		case 38: 
 			a.reductionPush((E*)liste.front(),new Etat_39());
-			break;
-		case 44: 
-			a.reductionPush((E*)liste.front(),new Etat_37());
 			break;
 	}
 	return true;

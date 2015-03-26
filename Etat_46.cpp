@@ -33,6 +33,7 @@ bool Etat_46::transition ( Automate & a, Symbole * s )
 		case 25:
 		case 34: 
 		case 38: 
+		case 44: 
 			a.reductionPush((E*)list.front(),new Etat_32());
 			break;
 		case 42: 

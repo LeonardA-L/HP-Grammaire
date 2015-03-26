@@ -26,14 +26,10 @@ using namespace std;
 bool Etat_24::transition ( Automate & a, Symbole * s )
 {
 	list<Symbole*> liste =a.reductionUnstack(3);
-	if(	liste.size()==3 )
-	{
-		liste.pop_front();
-		I_Lire *i=new I_Lire((Id*)liste.front());
-		a.reductionPush(i,new Etat_21());
-		return true;
-	}
-	return false;
+	liste.pop_front();
+	I_Lire *i=new I_Lire((Id*)liste.front());
+	a.reductionPush(i,new Etat_21());
+	return true;
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

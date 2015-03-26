@@ -26,13 +26,10 @@ bool Etat_36::transition ( Automate & a, Symbole * s )
 {
 	// (9) I -> id := E ;
 	list<Symbole*> liste=a.reductionUnstack(4);
-	if(liste.size()==4){
-		liste.pop_front();
-		I_Affect *i=new I_Affect((Id*)liste.back(), (E*)liste.front());
-		a.reductionPush(i,new Etat_21());
-		return true;
-	}
-	return false;
+	liste.pop_front();
+	I_Affect *i=new I_Affect((Id*)liste.back(), (E*)liste.front());
+	a.reductionPush(i,new Etat_21());
+	return true;
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs

@@ -23,18 +23,11 @@ using namespace std;
 
 bool Etat_21::transition ( Automate & a, Symbole * s )
 {
-	if(*s >= 100)
-	{
-		//Symboles non terminaux
-	}else
-	{
-		//R7 : Inst -> Inst I
-		list<Symbole*> list = a.reductionUnstack(2);
-		Inst* inst = (Inst*) list.back();
-		inst->add((SI*)list.front());
-		a.reductionPush(inst, new Etat_20());
-	}
-	
+	//R7 : Inst -> Inst I
+	list<Symbole*> list = a.reductionUnstack(2);
+	Inst* inst = (Inst*) list.back();
+	inst->add((SI*)list.front());
+	a.reductionPush(inst, new Etat_20());
 } 
 
 //------------------------------------------------- Surcharge d'opérateurs
