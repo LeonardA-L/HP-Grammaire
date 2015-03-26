@@ -1,6 +1,6 @@
 # Declaration of variables
 CC = g++
-CC_FLAGS = -w -g #-DDEBUG
+CC_FLAGS = -w -g -std=c++11 #-DDEBUG
 LINKER_FLAGS = -lboost_regex
 
 # File names

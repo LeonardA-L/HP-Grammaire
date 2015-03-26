@@ -1,5 +1,7 @@
 #include "Lexer.h"
 
+#include <string>     // std::string, std::stod
+
 using namespace std;
 using namespace boost;
 
@@ -81,7 +83,6 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		if(checkRegexMatch(s,re_const)){
 			sbl = new ST_const();
 		}
-		
 		else if(checkRegexMatch(s,re_var)){
 			sbl = new ST_var();
 		}
@@ -93,6 +94,7 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		}
 		else if (checkRegexMatch(s,re_numeral)) {
 			sbl = new Val();
+			((Val*)sbl)->setValue(stod(s, NULL));
 		}
 		else if (checkRegexMatch(s,re_identifier)) {
 			pushedToTable = true;
@@ -189,7 +191,6 @@ Symbole* Lexer::analyse()
 		}
 		
 		if(matched){
-			cout <<"Caractère lu : "<< buff << endl;
 			return ship(buff,matched);
 		}		
 	}

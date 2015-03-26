@@ -12,8 +12,8 @@ void D_const::addId(Id* id){
 void D_const::add(list<Id*> _listId){
 	for(int i=0;i<_listId.size();i++)
 	{
-		listId.push_back(_listId.front());
-		listId.pop_front();
+		listId.push_front(_listId.front());
+		_listId.pop_front();
 	}
 }
 
