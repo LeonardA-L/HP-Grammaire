@@ -26,6 +26,16 @@ bool Etat_28::transition ( Automate & a, Symbole * s )
 	//(21) F -> id
 	int previousState= a.getPreviousState(1);
 	list<Symbole* > list = a.reductionUnstack(1);
+
+	std::list<Symbole*>::const_iterator iterator;
+	for (iterator = list.begin(); iterator != list.end(); ++iterator) {
+		Symbole* ss = *iterator;
+		
+		if (Id* id = dynamic_cast<Id*>(ss)) {
+			id->setUsed(true);
+		}
+	}
+
 	switch (previousState)
 	{
 		case 25:

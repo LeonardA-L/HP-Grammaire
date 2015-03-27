@@ -6,6 +6,7 @@ using namespace std;
 
 I_Lire::I_Lire(Id *_id) : SI(Symbole::I_LIRE){
 	id=_id;
+	id->setUsed(true);
 }
 
 void I_Lire::execute(){
