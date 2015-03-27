@@ -192,6 +192,7 @@ Symbole* Lexer::analyse()
 			return ship(buff,matched);
 		}		
 	}
+	return NULL;
 	
 }
 
