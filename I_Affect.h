@@ -18,6 +18,7 @@ class I_Affect : public SI{
 		}
 		void execute();
 		virtual void print();
+		virtual void optimise();
 	private :
 		Id *id;
 		E *e;

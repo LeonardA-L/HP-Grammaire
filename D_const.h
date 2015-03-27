@@ -12,7 +12,7 @@ using namespace std;
 class D_const : public SD {
 	
 	public :
-		D_const() { }
+		D_const() : SD(Symbole::D_CONST) { }
 		
 		void addId(Id* id);
 		void add(list<Id*> _listId);

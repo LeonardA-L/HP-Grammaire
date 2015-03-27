@@ -24,6 +24,7 @@ class Id : public E {
 		Val* getVal();
 		void setVal(Val* newVal);
 		virtual void print();
+		virtual E* optimise();
 	
 	private :
 		string _name;

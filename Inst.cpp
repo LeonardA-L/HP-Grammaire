@@ -17,3 +17,12 @@ void Inst::print()
 void Inst::print_SI(SI* si){
 	si->print();
 }
+
+void Inst::optimise()
+{
+	for_each (_iList.begin(), _iList.end(), optimise_SI);
+}
+
+void Inst::optimise_SI(SI* si){
+	si->optimise();
+}

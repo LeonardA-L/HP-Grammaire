@@ -12,9 +12,10 @@ class ExprBin : public E {
 
 	public :
 		virtual double eval() = 0;
-		ExprBin() : E(EXPR) {} //TODO Add ExprBin to Enum ???
-		void addExprLeft(E* val){ _exprLeft = val; }
-		void addExprRight(E* val){ _exprRight = val; }
+		ExprBin(int val) : E(val) {}
+		void addExprLeft(E* val);
+		void addExprRight(E* val);
+		virtual E* optimise();
 };
 
 #endif ExprBin_H

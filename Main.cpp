@@ -68,10 +68,7 @@ int main(int argc, char* argv[]){
 	
 	vector<Symbole*> symbol_table;
 	
-	// Parsing
-	
-
-	// -------
+	// Parsing-
 	Automate a(&symbol_table, sin);
 	a.lecture();
 	
@@ -83,7 +80,7 @@ int main(int argc, char* argv[]){
 		if(optimize){
 			// Transformation
 			cerr << "Optimize" << endl;
-			//...
+			a.optimise();
 		}
 		
 		if(display){

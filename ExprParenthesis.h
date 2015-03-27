@@ -11,9 +11,10 @@ class ExprParenthesis : public E {
 		E* e;
 
 	public:
-		ExprParenthesis(E* _e) : e(_e) {}
+		ExprParenthesis(E* _e) : E(Symbole::EXPR_PAR), e(_e) {}
 		double eval();
 		virtual void print();
+		virtual E* optimise();
 
 };
 

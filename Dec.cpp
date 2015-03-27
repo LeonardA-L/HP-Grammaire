@@ -16,3 +16,11 @@ void Dec::print()
 void Dec::print_SD(SD* sd){
 	sd->print();
 }
+
+void Dec::optimise(){
+	for(int i = _dList.size()-1;i>=0;i--){
+		if(((int)*_dList[i]) == Symbole::D_CONST){
+  			_dList.erase(_dList.begin()+i);
+		}
+	}
+}

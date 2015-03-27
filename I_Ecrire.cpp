@@ -14,3 +14,11 @@ void I_Ecrire::print()
 	e->print();
 	cout << ";"<< endl;
 }
+
+void I_Ecrire::optimise(){
+	E* newExpr = e->optimise();
+	if(newExpr != NULL){
+		// TODO delete e;
+		e = newExpr;
+	}
+}

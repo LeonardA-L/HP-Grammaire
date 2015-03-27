@@ -16,3 +16,11 @@ void I_Affect::print()
  	e->print();
 	cout <<";"<< endl;
 }
+
+void I_Affect::optimise(){
+	E* newExpr = e->optimise();
+	if(newExpr != NULL){
+		// TODO delete e;
+		e = newExpr;
+	}
+}

@@ -7,3 +7,7 @@ void P::print(){
 	_inst->print();
 }
 
+void P::optimise(){
+	_inst->optimise();
+	_dec->optimise();
+}

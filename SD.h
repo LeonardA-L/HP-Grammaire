@@ -10,8 +10,7 @@ using namespace std;
 class SD : public Symbole{
 
 public :
-	SD() : Symbole(Symbole::D) {}		
-	
+	SD(int val) : Symbole(val) {}		
 };
 
 #endif SD_H

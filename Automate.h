@@ -22,6 +22,7 @@ class Automate{
 		void lecture();
 		void accept();
 		void display();
+		void optimise();
 		void decalage(Symbole *s, Etat* etat);
 		int getPreviousState(int value);
 		void reductionPush(Symbole* s, Etat* etat);

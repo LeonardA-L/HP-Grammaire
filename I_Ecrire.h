@@ -14,6 +14,7 @@ class I_Ecrire : public SI{
 		I_Ecrire(E *_e) : SI(Symbole::I_ECRIRE), e(_e) { };
 		void execute();
 		virtual void print();
+		virtual void optimise();
 	private :
 		E *e;
 	

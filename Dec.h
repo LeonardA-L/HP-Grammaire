@@ -3,7 +3,7 @@
 
 
 #include "Symbole.h"
-#include <list>
+#include <vector>
 #include "SD.h"
 
 using namespace std;
@@ -13,12 +13,13 @@ class Dec : public Symbole{
 	
 	private :
 		
-		list<SD*> _dList;
+		vector<SD*> _dList;
 
 	public :
 		Dec() : Symbole(DEC) {}
 		void add(SD* s);
-		virtual void print();
+		void print();
+		void optimise();
 		static void print_SD(SD* sd);
 };
 

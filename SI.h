@@ -14,6 +14,7 @@ class SI : public Symbole{
 		SI(int id) : Symbole(id) {}
 
 		virtual void execute()=0; 
+		virtual void optimise() {};
 };
 
 #endif SI_H

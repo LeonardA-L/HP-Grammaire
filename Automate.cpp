@@ -1,6 +1,7 @@
 #include "Automate.h"
 #include "Etat.h"
 #include "Etat_0.h"
+#include "P.h"
 #include <iostream>
 #include <algorithm>    // std::for_each
 
@@ -36,20 +37,17 @@ void Automate::accept()
 
 void Automate::display()
 {
-	stack<Symbole*> tmp;
-	unsigned int size = pileSymboles.size();
-	for(int i = 0; i < size ; i++){
-		tmp.push(pileSymboles.top());
-		pileSymboles.pop();
-	}
-	for(int i = 0; i < size ; i++){
-		pileSymboles.push(tmp.top());
-		tmp.top()->print();
-		tmp.pop();
+	if(((int)*pileSymboles.top()) == Symbole::P){
+		((P*)pileSymboles.top())->print();
 	}
 }
 
-
+void Automate::optimise()
+{
+	if((int)(*pileSymboles.top()) == Symbole::P){
+		((P*)pileSymboles.top())->optimise();
+	}
+}
 
 void Automate::decalage(Symbole *s, Etat* etat)
 {

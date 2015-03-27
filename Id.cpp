@@ -46,6 +46,14 @@ void Id::print(){
 	cout << _name;
 }
 
+E* Id::optimise() {
+	if(_var){
+		return NULL;
+	} else {
+		return _val;
+	}
+}
+
 Id::Id (string name) : E(Symbole::ID)
 {
 	_var = false;

@@ -12,8 +12,7 @@ using namespace std;
 class D_var : public SD {
 	
 	public :
-		D_var() {
-		}
+		D_var() : SD(Symbole::D_VAR) { }
 		
 		void addId(Id* id);
 		void add(list<Id* > _listId);

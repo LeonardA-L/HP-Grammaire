@@ -8,7 +8,7 @@ using namespace std;
 class ExprMoins : public ExprBin {
 
 	public:
-		ExprMoins() : ExprBin(){}
+		ExprMoins() : ExprBin(Symbole::EXPR_MOINS){}
 		double eval();
 		virtual void print();
 

@@ -16,6 +16,7 @@ class E : public Symbole{
 		E() : Symbole(EXPR) {}
 		E(int id) : Symbole(id) { }
 		virtual void print(){ };
+		virtual E* optimise(){ return NULL; };
 
 };
 
