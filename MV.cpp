@@ -4,4 +4,5 @@ using namespace std;
 
 void MV::addId(Id* id){
 	listId.push_back(id);
+	id->setDeclared(true);
 }

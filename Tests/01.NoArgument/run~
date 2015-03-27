@@ -1,4 +1,0 @@
-../lut
-var x;
-x=3;
-lire x;
