@@ -8,6 +8,7 @@ void D_var::addId(Id* id)
 {
 	listId.push_back(id);
 	id->setDeclared(true);
+	id->setVar(true);
 }
 
 void D_var::add(list<Id*> _listId)
@@ -15,6 +16,7 @@ void D_var::add(list<Id*> _listId)
 	for(int i=0;i<_listId.size();i++)
 	{
 		_listId.front()->setDeclared(true);
+		_listId.front()->setVar(true);
 		listId.push_back(_listId.front());
 		_listId.pop_front();
 	}
