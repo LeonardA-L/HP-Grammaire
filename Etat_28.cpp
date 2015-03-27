@@ -8,7 +8,6 @@ using namespace std;
 #include "Etat_28.h"
 #include "Etat_32.h"
 #include "Etat_43.h"
-#include "F.h"
 
 //------------------------------------------------------------- Constantes
 

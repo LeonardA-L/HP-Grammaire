@@ -81,16 +81,16 @@ Symbole* Lexer::ship(string& s, bool& matched)
 		bool pushedToTable = false;
 		
 		if(checkRegexMatch(s,re_const)){
-			sbl = new ST_const();
+			sbl = new Symbole(Symbole::CONST);
 		}
 		else if(checkRegexMatch(s,re_var)){
-			sbl = new ST_var();
+			sbl = new Symbole(Symbole::VAR);
 		}
 		else if(checkRegexMatch(s,re_lire)){
-			sbl = new ST_lire();
+			sbl = new Symbole(Symbole::LIRE);
 		}
 		else if(checkRegexMatch(s,re_ecrire)){
-			sbl = new ST_ecrire();
+			sbl = new Symbole(Symbole::ECRIRE);
 		}
 		else if (checkRegexMatch(s,re_numeral)) {
 			sbl = new Val();
@@ -109,37 +109,37 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			}
 		}
 		else if (checkRegexMatch(s,re_equals_affect)) {
-			sbl = new ST_doublePoint();
+			sbl = new Symbole(Symbole::DOUBLE_POINT_EGAL);
 		}
 		else if (checkRegexMatch(s,re_equals_simple)) {
-			sbl = new ST_egal();
+			sbl = new Symbole(Symbole::EGAL);
 		}
 		else if (checkRegexMatch(s,re_coma)) {
-			sbl = new ST_virgule();
+			sbl = new Symbole(Symbole::VIRGULE);
 		}
 		else if (checkRegexMatch(s,re_semicolon)) {
-			sbl = new ST_ptVirgule();
+			sbl = new Symbole(Symbole::POINT_VIRGULE);
 		}		
 		else if (checkRegexMatch(s,re_dollar)) {
-			sbl = new Dollar();
+			sbl = new Symbole(Symbole::DOLLAR);
 		}
 		else if (checkRegexMatch(s,re_plus)) {
-			sbl = new ST_plus();
+			sbl = new Symbole(Symbole::PLUS);
 		}
 		else if (checkRegexMatch(s,re_minus)) {
-			sbl = new ST_moins();
+			sbl = new Symbole(Symbole::MOINS);
 		}
 		else if (checkRegexMatch(s,re_mult)) {
-			sbl = new ST_asterix();
+			sbl = new Symbole(Symbole::ASTERIX);
 		}
 		else if (checkRegexMatch(s,re_divide)) {
-			sbl = new ST_slash();
+			sbl = new Symbole(Symbole::SLASH);
 		}
 		else if (checkRegexMatch(s,re_par_open)) {
-			sbl = new ST_parenthesisOpen();
+			sbl = new Symbole(Symbole::PARENTHESIS_OPEN);
 		}
 		else if (checkRegexMatch(s,re_par_close)) {
-			sbl = new ST_parenthesisClose();
+			sbl = new Symbole(Symbole::PARENTHESIS_CLOSE);
 		}
 		
 		s = "";

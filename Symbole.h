@@ -11,16 +11,31 @@ class Symbole{
 		int ident;
 
 	public :
-		Symbole(){};
 		Symbole(int id) : ident(id) {}
 		virtual ~Symbole(){};
 		operator int() const {return ident;}
 		virtual void print(){};
 	
-	enum symbole_t { ASTERIX, CONST, DOUBLE_POINT_EGAL, ECRIRE, EGAL, LIRE, MOINS, 
-				PARENTHESIS_CLOSE, PARENTHESIS_OPEN, PLUS, POINT_VIRGULE, SLASH, 
-				VAR, VIRGULE, ID, VAL, DOLLAR}; 
-	enum symbole_nt { P=100, DEC, D, EXPR, I, INST, MC, MV, F, T, OPA, OPM, I_AFFECT, I_ECRIRE, I_LIRE };
+	enum symbole_t { 
+			CONST,				//  0	const
+			VAR,				//  1	var
+			ECRIRE, 			//  2	ecrire
+			LIRE,				//  3	lire
+			ASTERIX, 			//  4	*
+			SLASH, 				//  5	/
+			PLUS,				//  6	+
+			MOINS, 				//  7	-
+			DOUBLE_POINT_EGAL, 	//  8	:=
+			EGAL,				//  9	=
+			PARENTHESIS_OPEN,	// 10	(
+			PARENTHESIS_CLOSE,	// 11	)
+			VIRGULE,			// 12	,
+			POINT_VIRGULE,		// 13	;
+			ID, 				// 14	azerty
+			VAL, 				// 15	0123456789
+			DOLLAR				// 16	$
+		}; 
+	enum symbole_nt { P=100, DEC, D, EXPR, I, INST, MC, MV, I_AFFECT, I_ECRIRE, I_LIRE };
 };
 
 
