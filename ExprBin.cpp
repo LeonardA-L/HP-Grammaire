@@ -11,10 +11,10 @@ void ExprBin::addExprRight(E* val)
 	_exprRight = val; 
 }
 
-E* ExprBin::optimise()
+E* ExprBin::optimise(bool _hasPriority)
 {
-	E* rightOpt = _exprRight->optimise();
-	E* leftOpt = _exprLeft->optimise();
+	E* rightOpt = _exprRight->optimise(hasPriority);
+	E* leftOpt = _exprLeft->optimise(hasPriority);
 	
 	if(rightOpt != NULL) {
 		// TODO delete _exprRight;

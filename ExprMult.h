@@ -7,7 +7,7 @@ using namespace std;
 
 class ExprMult : public ExprBin {
 	public:
-		ExprMult() : ExprBin(Symbole::EXPR_MULT){}
+		ExprMult() : ExprBin(Symbole::EXPR_MULT, true){}
 		double eval();
 		virtual void print();
 

@@ -7,7 +7,7 @@ using namespace std;
 
 class ExprPlus : public ExprBin {
 	public:
-		ExprPlus() : ExprBin(Symbole::PLUS){}
+		ExprPlus() : ExprBin(Symbole::PLUS, false){}
 		double eval();
 		virtual void print();
 

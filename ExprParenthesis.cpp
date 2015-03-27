@@ -16,9 +16,9 @@ void ExprParenthesis::print()
 	cout << " ) ";
 }
 
-E* ExprParenthesis::optimise()
+E* ExprParenthesis::optimise(bool hasPriority)
 {
-	E* newExpr = e->optimise();
+	E* newExpr = e->optimise(false);
 	if(newExpr != NULL){
 		e = newExpr;
 	}
@@ -27,7 +27,8 @@ E* ExprParenthesis::optimise()
 		|| type == Symbole::VAL
 		|| type == Symbole::EXPR_PAR
 		|| type == Symbole::EXPR_MULT
-		|| type == Symbole::EXPR_DIV)
+		|| type == Symbole::EXPR_DIV
+		|| !hasPriority)
 	{
 		return e;
 	}

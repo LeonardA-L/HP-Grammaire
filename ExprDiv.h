@@ -8,7 +8,7 @@ using namespace std;
 class ExprDiv : public ExprBin {
 
 	public :
-		ExprDiv() : ExprBin(Symbole::EXPR_DIV){}
+		ExprDiv() : ExprBin(Symbole::EXPR_DIV, true){}
 		double eval();
 		virtual void print();
 

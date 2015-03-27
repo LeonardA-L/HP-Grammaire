@@ -14,7 +14,7 @@ class ExprParenthesis : public E {
 		ExprParenthesis(E* _e) : E(Symbole::EXPR_PAR), e(_e) {}
 		double eval();
 		virtual void print();
-		virtual E* optimise();
+		virtual E* optimise(bool hasPriority);
 
 };
 

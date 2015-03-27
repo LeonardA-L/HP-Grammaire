@@ -6,16 +6,19 @@
 using namespace std;
 
 class ExprBin : public E {
+	private :
+		bool hasPriority;
+
 	protected :
 		E *_exprLeft;
 		E *_exprRight;
 
 	public :
 		virtual double eval() = 0;
-		ExprBin(int val) : E(val) {}
+		ExprBin(int val, bool priority) : E(val), hasPriority(priority) {}
 		void addExprLeft(E* val);
 		void addExprRight(E* val);
-		virtual E* optimise();
+		virtual E* optimise(bool _hasPriority);
 };
 
 #endif ExprBin_H

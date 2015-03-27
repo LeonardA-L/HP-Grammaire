@@ -6,6 +6,6 @@ double E::eval(){
 	return 0;
 }
 
-E* E::optimise(){
+E* E::optimise(bool hasPriority){
 	return NULL;
 }

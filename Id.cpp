@@ -64,7 +64,7 @@ void Id::print(){
 	cout << _name;
 }
 
-E* Id::optimise() {
+E* Id::optimise(bool hasPriority) {
 	if(_var){
 		return NULL;
 	} else {
