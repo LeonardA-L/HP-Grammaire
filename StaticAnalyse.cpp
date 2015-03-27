@@ -25,16 +25,16 @@ bool staticAnalyse(vector<Symbole*> & symbol_table){
 				idFail = true;
 				errors << "\t La " << type << " n'est pas déclarée."<<endl;
 			}
-			if(!id->isAssigned()){
+			if(id->isVar() && !id->isAssigned()){
 				idFail = true;
 				errors << "\t La " << type << " n'a pas de valeur assignée." << endl;
+			}
+			if(!id->isVar() && id->isAssigned()){
+				errors << "\t Une constante ne peut être modifiée." << endl;
 			}
 			if(!id->isUsed()){
 				idFail = true;
 				errors << "\t La " << type << " n'est pas utilisée." << endl;
-			}
-			if(!id->isVar() && id->isAssigned()){
-				errors << "\t Une constante ne peut être modifiée." << endl;
 			}
 			
 			if(idFail){
