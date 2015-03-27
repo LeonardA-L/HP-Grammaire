@@ -142,10 +142,8 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			sbl = new ST_parenthesisClose();
 		}
 		
-
 		s = "";
 		matched = false;
-		
 		if(!pushedToTable){
 			smbl_table->push_back(sbl);
 		}

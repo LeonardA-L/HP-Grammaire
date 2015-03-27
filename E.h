@@ -14,7 +14,8 @@ class E : public Symbole{
 	public :
 		virtual double eval() = 0;
 		E() : Symbole(EXPR) {}
-		E(int id) : Symbole(id) {}
+		E(int id) : Symbole(id) { }
+		virtual void print(){ };
 
 };
 

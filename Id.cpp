@@ -1,4 +1,5 @@
 #include "Id.h"
+#include <iostream>
 
 
 using namespace std;
@@ -39,6 +40,10 @@ void Id::setVal(Val* newVal){
 
 double Id::eval(){
 	return _val->eval();
+}
+
+void Id::print(){
+	cout << _name;
 }
 
 Id::Id (string name) : E(Symbole::ID)

@@ -15,3 +15,8 @@ void I_Lire::execute(){
 	val->setValue(x);
 	id->setVal(val);
 }
+
+void I_Lire::print()
+{
+	cout << "lire " << id->getName() << ";"<< endl;
+}

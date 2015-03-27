@@ -9,7 +9,8 @@ class ExprDiv : public ExprBin {
 
 	public :
 		ExprDiv() : ExprBin(){}
-		double eval(){return _exprLeft->eval() / _exprRight->eval();}
+		double eval();
+		virtual void print();
 
 };
 

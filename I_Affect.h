@@ -3,6 +3,7 @@
 
 
 #include "SI.h"
+#include "E.h"
 #include "Id.h"
 
 using namespace std;
@@ -16,6 +17,7 @@ class I_Affect : public SI{
 			id->setAssigned(true);
 		}
 		void execute();
+		virtual void print();
 	private :
 		Id *id;
 		E *e;

@@ -23,6 +23,7 @@ class Id : public E {
 		virtual ~Id();
 		Val* getVal();
 		void setVal(Val* newVal);
+		virtual void print();
 	
 	private :
 		string _name;

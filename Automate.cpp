@@ -24,7 +24,6 @@ using namespace std;
 		} while(pileSymboles.top() != i && !isAccepted);
 		i=lex.getNext();
 	}
-	// Last reduction
 #ifdef DEBUG
 	printProgress(NULL);
 #endif

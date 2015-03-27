@@ -8,8 +8,10 @@ using namespace std;
 class ExprMult : public ExprBin {
 	public:
 		ExprMult() : ExprBin(){}
-		double eval(){return _exprLeft->eval() * _exprRight->eval();}
+		double eval();
+		virtual void print();
 
 };
 
 #endif ExprMult_H
+

@@ -14,7 +14,9 @@ class Inst : public Symbole{
 		list<SI*> _iList;
 	public :
 		Inst() : Symbole(Symbole::INST) {}
-		void add(SI* s){  _iList.push_back(s); };
+		void add(SI* s);
+		void print();
+		static void print_SI(SI* si);
 };
 
 #endif Inst_H

@@ -12,6 +12,7 @@ class Val : public E {
 	 	Val() : E(VAL) {}
 	 	double eval();	
 	 	void setValue(double value);
+		virtual void print();
 };
 
 #endif Val_H

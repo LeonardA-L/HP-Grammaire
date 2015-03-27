@@ -13,6 +13,7 @@ class I_Lire : public SI{
 	public :
 		I_Lire(Id *_id);
 		void execute();
+		virtual void print();
 	private :
 		Id *id;
 	

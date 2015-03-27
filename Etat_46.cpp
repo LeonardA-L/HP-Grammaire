@@ -9,6 +9,7 @@ using namespace std;
 
 #include "Etat_43.h"
 #include "Etat_32.h"
+#include "ExprParenthesis.h"
 
 //------------------------------------------------------------- Constantes
 
@@ -34,10 +35,10 @@ bool Etat_46::transition ( Automate & a, Symbole * s )
 		case 34: 
 		case 38: 
 		case 44: 
-			a.reductionPush((E*)list.front(),new Etat_32());
+			a.reductionPush(new ExprParenthesis((E*)list.back()),new Etat_32());
 			break;
 		case 42: 
-			a.reductionPush((E*)list.front(),new Etat_43());
+			a.reductionPush(new ExprParenthesis((E*)list.back()),new Etat_43());
 			break;
 	}
 	return true;

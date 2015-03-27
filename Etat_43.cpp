@@ -27,11 +27,11 @@ bool Etat_43::transition ( Automate & a, Symbole * s )
 	// (18) T -> T opM F
 	int prev = a.getPreviousState(3);
 	list<Symbole*> liste = a.reductionUnstack(3);
-	E *leftE=(E*) liste.front();
+	E *rightE=(E*) liste.front();
 	liste.pop_front();
 	ExprBin *exprMult=(ExprBin*)liste.front();
-	exprMult->addExprLeft(leftE);
-	exprMult->addExprRight((E*)liste.back());
+	exprMult->addExprLeft((E*)liste.back());
+	exprMult->addExprRight(rightE);
 	switch(prev){
 		case 25 :
 		case 34 :
