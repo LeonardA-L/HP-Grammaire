@@ -73,31 +73,31 @@ int main(int argc, char* argv[]){
 	a.lecture();
 	
 	// Static analyse
-	cerr << "Analyse" << endl;
+	//cerr << "Analyse" << endl;
 	if(!analyse || staticAnalyse(symbol_table)){
 		// If the analyse is successful,
 
 		if(optimize){
 			// Transformation
-			cerr << "Optimize" << endl;
+			//cerr << "Optimize" << endl;
 			a.optimise();
 		}
 		
 		if(display){
 			// Display
-			cerr << "Display" << endl;
+			//cerr << "Display" << endl;
 			a.display();
 		}
 		
 		if(execute){
 			// Execution
-			cerr << "Execute" << endl;
+			//cerr << "Execute" << endl;
 			//...
 		}
 	}
 	
 	// Destroy stuff
-	cerr << "Destroy" << endl;
+	//cerr << "Destroy" << endl;
 	
 	for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
 		Symbole* s = *it;

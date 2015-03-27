@@ -13,11 +13,15 @@ class Id : public E {
 		bool isDeclared();
 		bool isAssigned();
 		bool isUsed();
+		bool isUsedBeforeAssigned();
+		bool isAssignedBeforeDeclared();
 		string getName();
 		void setVar(bool v);
 		void setDeclared(bool d);
 		void setAssigned(bool a);
 		void setUsed(bool u);
+		void setUsedBeforeAssigned(bool u);
+		void setAssignedBeforeDeclared(bool a);
 		Id(string name);
 		double eval();
 		virtual ~Id();
@@ -32,6 +36,8 @@ class Id : public E {
 		bool _declared;
 		bool _assigned;
 		bool _used;
+		bool _usedBeforeAssigned;
+		bool _assignedBeforeDeclared;
 		Val* _val;
 };
 

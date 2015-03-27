@@ -16,8 +16,14 @@ bool Id::isAssigned(){
 bool Id::isUsed(){
 	return _used;
 }
+bool Id::isUsedBeforeAssigned(){
+	return _usedBeforeAssigned;
+}
 string Id::getName(){
-	return _name;
+return _name;
+}
+bool Id::isAssignedBeforeDeclared(){
+	return _assignedBeforeDeclared;
 }
 void Id::setVar(bool v){
 	_var = v;
@@ -26,17 +32,28 @@ void Id::setDeclared(bool d){
 	_declared = d;
 }
 void Id::setAssigned(bool a){
+	if(!_declared){
+		_assignedBeforeDeclared = true;
+	}
 	_assigned = a;
 }
 void Id::setUsed(bool u){
 	_used = u;
+	if(_var && !_assigned){
+		_usedBeforeAssigned = true;
+	}
+}
+void Id::setUsedBeforeAssigned(bool u){
+	_usedBeforeAssigned = u;
+}
+void Id::setAssignedBeforeDeclared(bool a){
+	_assignedBeforeDeclared = a;
 }
 Val* Id::getVal(){
 	return _val;
 }
 void Id::setVal(Val* newVal){
 	_val = newVal;
-	//_assigned = true;
 }
 
 double Id::eval(){
@@ -61,6 +78,8 @@ Id::Id (string name) : E(Symbole::ID)
 	_declared = false;
 	_assigned = false;
 	_used = false;
+	_usedBeforeAssigned = false;
+	_assignedBeforeDeclared = false;
 	_name = name;
 }
 

@@ -36,6 +36,16 @@ bool staticAnalyse(vector<Symbole*> & symbol_table){
 				idFail = true;
 				errors << "\t La " << type << " n'est pas utilisée." << endl;
 			}
+
+			if(id->isAssignedBeforeDeclared()){
+				idFail = true;
+				errors << "\t La " << type << " est assignée avant d'être déclarée." << endl;
+			}
+			if(id->isUsedBeforeAssigned()){
+				idFail = true;
+				errors << "\t La " << type << " est utilisée avant d'avoir reçu une valeur." << endl;
+			}
+			
 			
 			if(idFail){
 				failed = true;

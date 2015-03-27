@@ -1,2 +1,2 @@
 Erreur : variable b : 
-	 La variable n'a pas de valeur assignée.
+	 La variable est utilisée avant d'avoir reçu une valeur.
