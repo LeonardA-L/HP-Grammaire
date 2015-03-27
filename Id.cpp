@@ -36,6 +36,7 @@ Val* Id::getVal(){
 }
 void Id::setVal(Val* newVal){
 	_val = newVal;
+	//_assigned = true;
 }
 
 double Id::eval(){
