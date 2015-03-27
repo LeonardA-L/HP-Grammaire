@@ -33,7 +33,9 @@ bool Etat_8::transition ( Automate & a, Symbole * s )
 	list.pop_front();
 	d->add(((MV *)list.front())->getList());
 	list.pop_front();
-	d->addId((Id*) list.front());
+	Id *id=(Id*)list.front();
+	id->setVar(true);
+	d->addId(id);
 	a.reductionPush(d, new Etat_9());
 } 
 

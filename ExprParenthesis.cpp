@@ -18,6 +18,10 @@ void ExprParenthesis::print()
 
 E* ExprParenthesis::optimise()
 {
+	E* newExpr = e->optimise();
+	if(newExpr != NULL){
+		e = newExpr;
+	}
 	int type = (int)(*e);
 	if(type == Symbole::ID
 		|| type == Symbole::VAL

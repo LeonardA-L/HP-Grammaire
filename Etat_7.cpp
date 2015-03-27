@@ -25,7 +25,9 @@ bool Etat_7::transition ( Automate & a, Symbole * s )
 {
 	list<Symbole*> liste=a.reductionUnstack(3);
 	MV *mv=(MV*)liste.back();
-	mv->addId((Id*)liste.front());
+	Id *id=(Id*)liste.front();
+	id->setVar(true);
+	mv->addId(id);
 	a.reductionPush(mv, new Etat_5());
 	return true;
 	
