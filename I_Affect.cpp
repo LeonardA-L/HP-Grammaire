@@ -5,7 +5,7 @@
 using namespace std;
 
 void I_Affect::execute(){
-	Val* val = new Val();
+	Val* val = new Val(false);
 	val->setValue(e->eval());
 	id->setVal(val);
 }

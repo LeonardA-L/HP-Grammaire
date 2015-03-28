@@ -25,7 +25,7 @@ E* ExprBin::optimise(bool _hasPriority)
 		_exprLeft = leftOpt;
 	}
 	if((int)(*_exprLeft) == Symbole::VAL && (int)(*_exprRight) == Symbole::VAL){
-		Val * result =	new Val();
+		Val * result =	new Val(false);
 		result->setValue(this->eval());
 		return result;
 	}
@@ -34,10 +34,10 @@ E* ExprBin::optimise(bool _hasPriority)
 }
 
 ExprBin::~ExprBin(){
-	if(_exprLeft != NULL) {
-		delete _exprLeft;
-	}
-	if(_exprRight != NULL) {
+	if(shouldDelete(_exprRight)) {
 		delete _exprRight;
+	}
+	if(shouldDelete(_exprLeft)) {
+		delete _exprLeft;
 	}
 }

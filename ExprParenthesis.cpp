@@ -36,5 +36,7 @@ E* ExprParenthesis::optimise(bool hasPriority)
 }
 
 ExprParenthesis::~ExprParenthesis(){
-	delete e;
+	if(shouldDelete(e)) {
+		delete e;
+	}
 }

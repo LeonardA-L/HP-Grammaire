@@ -15,3 +15,12 @@ void P::optimise(){
 void P::execute(){
 	_inst->execute();
 }
+
+P::~P(){
+	if(_dec != NULL) {
+		delete _dec;
+	}
+	if(_inst != NULL) {
+		delete _inst;
+	}
+}

@@ -35,3 +35,11 @@ void Inst::execute()
 void Inst::execute_SI(SI* si){
 	si->execute();
 }
+
+Inst::~Inst(){
+	while (!_iList.empty())
+	{
+		delete _iList.front();
+		_iList.pop_front();
+	}
+}

@@ -25,3 +25,10 @@ void Dec::optimise(){
 	}
 }
 
+Dec::~Dec(){	
+	while (!_dList.empty())
+	{
+		delete _dList.back();
+		_dList.pop_back();
+	}
+}

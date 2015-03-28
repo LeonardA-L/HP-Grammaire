@@ -9,8 +9,10 @@ using namespace std;
 
 class SD : public Symbole{
 
-public :
-	SD(int val) : Symbole(val) {}		
+	public :
+		SD(int val) : Symbole(val) {}
+		virtual ~SD() {};	
+
 };
 
 #endif SD_H

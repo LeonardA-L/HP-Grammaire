@@ -12,6 +12,10 @@ Automate::~Automate(){
 		delete pileEtats.top();
 		pileEtats.pop();
 	}
+	while (!pileSymboles.empty()){
+		delete pileSymboles.top();
+		pileSymboles.pop();
+	}
 }
 
 void Automate::lecture(){

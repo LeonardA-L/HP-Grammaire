@@ -38,7 +38,7 @@ class Id : public E {
 		bool _used;
 		bool _usedBeforeAssigned;
 		bool _assignedBeforeDeclared;
-		Val* _val;
+		Val* _val = NULL;
 };
 
 #endif Id_H

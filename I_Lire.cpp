@@ -22,7 +22,7 @@ void I_Lire::execute(){
 		cout << "Lecture de " << id->getName() << " : ";
 		cin >> s;
 	} while(!checkRegexMatch(s, re_numeral));
-	Val* val = new Val();
+	Val* val = new Val(false);
 	val->setValue(stod(s, NULL));
 	id->setVal(val);
 }

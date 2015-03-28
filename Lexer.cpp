@@ -93,7 +93,7 @@ Symbole* Lexer::ship(string& s, bool& matched)
 			sbl = new Symbole(Symbole::ECRIRE);
 		}
 		else if (checkRegexMatch(s,re_numeral)) {
-			sbl = new Val();
+			sbl = new Val(true);
 			((Val*)sbl)->setValue(stod(s, NULL));
 		}
 		else if (checkRegexMatch(s,re_identifier)) {

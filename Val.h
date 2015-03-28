@@ -8,9 +8,11 @@ using namespace std;
 class Val : public E {
 	private :
 		double _value;
+		bool _isParsed;
 	public :
-	 	Val() : E(VAL) {}
+	 	Val(bool isParsed) : E(Symbole::VAL), _isParsed(isParsed) {}
 	 	double eval();	
+	 	bool isParsed();	
 	 	void setValue(double value);
 		virtual void print();
 };

@@ -17,6 +17,7 @@ class Dec : public Symbole{
 
 	public :
 		Dec() : Symbole(DEC) {}
+		virtual ~Dec();
 		void add(SD* s);
 		void print();
 		void optimise();

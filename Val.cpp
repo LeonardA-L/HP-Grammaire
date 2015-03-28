@@ -11,7 +11,13 @@ double Val::eval(){
 	return _value;
 }
 
+bool Val::isParsed(){
+	return _isParsed;
+}
+
 void Val::print()
 {
 	cout << _value;
 }
+
+

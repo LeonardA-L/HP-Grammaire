@@ -14,6 +14,7 @@ class Inst : public Symbole{
 		list<SI*> _iList;
 	public :
 		Inst() : Symbole(Symbole::INST) {}
+		virtual ~Inst();
 		void add(SI* s);
 		void print();
 		void optimise();
