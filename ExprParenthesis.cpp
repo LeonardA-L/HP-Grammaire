@@ -19,10 +19,15 @@ void ExprParenthesis::print()
 E* ExprParenthesis::optimise(bool hasPriority)
 {
 	E* newExpr = e->optimise(false);
-	if(newExpr != NULL){
-		e = newExpr;
+	
+	if(newExpr == NULL){	// No optimisation
+		return NULL;
 	}
-	int type = (int)(*e);
+
+	if(shouldDelete(e)) {
+		delete e;
+	}
+	int type = (int)(*newExpr);
 	if(type == Symbole::ID
 		|| type == Symbole::VAL
 		|| type == Symbole::EXPR_PAR
@@ -30,9 +35,12 @@ E* ExprParenthesis::optimise(bool hasPriority)
 		|| type == Symbole::EXPR_DIV
 		|| !hasPriority)
 	{
-		return e;
+		e = NULL;
+		return newExpr;
+	} else {
+		e = newExpr;		
+		return NULL;
 	}
-	return NULL;
 }
 
 ExprParenthesis::~ExprParenthesis(){
@@ -40,3 +48,5 @@ ExprParenthesis::~ExprParenthesis(){
 		delete e;
 	}
 }
+
+

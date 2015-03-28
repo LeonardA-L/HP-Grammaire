@@ -20,6 +20,7 @@ void Dec::print_SD(SD* sd){
 void Dec::optimise(){
 	for(int i = _dList.size()-1;i>=0;i--){
 		if(((int)*_dList[i]) == Symbole::D_CONST){
+			delete _dList[i];
   			_dList.erase(_dList.begin()+i);
 		}
 	}

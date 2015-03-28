@@ -30,7 +30,9 @@ bool Etat_19::transition ( Automate & a, Symbole * s )
 	list<Symbole*> list = a.reductionUnstack(6);
 	D_const* d = new D_const();
 	list.pop_front();
-	d->add(((MC*)list.front())->getList());
+	MC* mc = (MC*)list.front();
+	d->add(mc->getList());
+	delete mc;
 	list.pop_front();
 	Val* val = (Val*) list.front();
 	list.pop_front();

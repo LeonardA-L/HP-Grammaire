@@ -20,7 +20,15 @@ void I_Affect::print()
 void I_Affect::optimise(){
 	E* newExpr = e->optimise(false);
 	if(newExpr != NULL){
-		// TODO delete e;
+		if(E::shouldDelete(e)){
+			delete e;
+		}
 		e = newExpr;
+	}
+}
+
+I_Affect::~I_Affect(){
+	if(E::shouldDelete(e)){
+		delete e;
 	}
 }

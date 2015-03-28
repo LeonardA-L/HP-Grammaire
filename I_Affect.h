@@ -16,6 +16,7 @@ class I_Affect : public SI{
 		{
 			id->setAssigned(true);
 		}
+		virtual ~I_Affect();
 		void execute();
 		virtual void print();
 		virtual void optimise();

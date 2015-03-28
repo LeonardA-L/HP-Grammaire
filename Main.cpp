@@ -69,36 +69,31 @@ int main(int argc, char* argv[]){
 	vector<Symbole*> symbol_table;
 	
 	// Parsing-
-	Automate a(&symbol_table, sin);
-	a.lecture();
+	Automate* a = new Automate(&symbol_table, sin);
+	a->lecture();
 	
 	// Static analyse
 	//cerr << "Analyse" << endl;
 	if(!analyse || staticAnalyse(symbol_table)){
 		// If the analyse is successful,
-
 		if(optimize){
 			// Transformation
-			//cerr << "Optimize" << endl;
-			a.optimise();
+			a->optimise();
 		}
 		
 		if(display){
 			// Display
-			//cerr << "Display" << endl;
-			a.display();
+			a->display();
 		}
 		
 		if(execute){
 			// Execution
-			//cerr << "Execute" << endl;
-			a.execute();
+			a->execute();
 		}
 	}
 	
 	// Destroy stuff
-	//cerr << "Destroy" << endl;
-	
+	delete a;
 	for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
 		Symbole* s = *it;
 		delete s;

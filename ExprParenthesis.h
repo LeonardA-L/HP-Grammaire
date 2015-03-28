@@ -8,7 +8,7 @@ using namespace std;
 class ExprParenthesis : public E {
 
 	private:
-		E* e;
+		E* e = NULL;
 
 	public:
 		ExprParenthesis(E* _e) : E(Symbole::EXPR_PAR), e(_e) {}
@@ -16,7 +16,6 @@ class ExprParenthesis : public E {
 		virtual ~ExprParenthesis();
 		virtual void print();
 		virtual E* optimise(bool hasPriority);
-
 };
 
 #endif ExprParenthesis_H

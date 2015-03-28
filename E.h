@@ -17,7 +17,7 @@ class E : public Symbole{
 		virtual ~E(){};
 		virtual void print(){ };
 		virtual E* optimise(bool hasPriority);
-	protected :
+	public :
 		static bool shouldDelete(E* e);
 
 };

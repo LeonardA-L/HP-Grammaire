@@ -10,8 +10,8 @@ class ExprBin : public E {
 		bool hasPriority;
 
 	protected :
-		E *_exprLeft;
-		E *_exprRight;
+		E *_exprLeft = NULL;
+		E *_exprRight = NULL;
 
 	public :
 		virtual double eval() = 0;

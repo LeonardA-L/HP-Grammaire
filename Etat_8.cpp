@@ -31,7 +31,9 @@ bool Etat_8::transition ( Automate & a, Symbole * s )
 	list<Symbole*> list = a.reductionUnstack(4);
 	D_var* d = new D_var();
 	list.pop_front();
-	d->add(((MV *)list.front())->getList());
+	MV* mv = (MV *)list.front();
+	d->add(mv->getList());
+	delete mv;
 	list.pop_front();
 	Id *id=(Id*)list.front();
 	id->setVar(true);

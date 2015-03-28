@@ -18,7 +18,15 @@ void I_Ecrire::print()
 void I_Ecrire::optimise(){
 	E* newExpr = e->optimise(false);
 	if(newExpr != NULL){
-		// TODO delete e;
+		if(E::shouldDelete(e)){
+			delete e;
+		}
 		e = newExpr;
+	}
+}
+
+I_Ecrire::~I_Ecrire(){
+	if(E::shouldDelete(e)){
+		delete e;
 	}
 }
