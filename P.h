@@ -5,6 +5,7 @@
 #include "Symbole.h"
 #include "Dec.h"
 #include "Inst.h"
+#define NULL 0
 
 using namespace std;
 
