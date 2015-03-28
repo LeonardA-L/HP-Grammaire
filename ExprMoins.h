@@ -11,7 +11,8 @@ class ExprMoins : public ExprBin {
 		ExprMoins() : ExprBin(Symbole::EXPR_MOINS, false){}
 		double eval();
 		virtual void print();
-
+		virtual bool isLeftNeutralElement();
+		virtual bool isRightNeutralElement();
 };
 
 #endif ExprMoins_H

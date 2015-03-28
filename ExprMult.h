@@ -10,6 +10,8 @@ class ExprMult : public ExprBin {
 		ExprMult() : ExprBin(Symbole::EXPR_MULT, true){}
 		double eval();
 		virtual void print();
+		virtual bool isLeftNeutralElement();
+		virtual bool isRightNeutralElement();
 
 };
 

@@ -12,6 +12,9 @@ class ExprBin : public E {
 	protected :
 		E *_exprLeft = NULL;
 		E *_exprRight = NULL;
+		
+		virtual bool isLeftNeutralElement() = 0;
+		virtual bool isRightNeutralElement() = 0;
 
 	public :
 		virtual double eval() = 0;

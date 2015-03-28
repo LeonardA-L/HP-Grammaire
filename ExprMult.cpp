@@ -15,3 +15,11 @@ void ExprMult::print()
 	cout << " * ";
 	_exprRight->print();
 }
+
+bool ExprMult::isLeftNeutralElement(){
+	return _exprLeft->eval() == 1;
+}
+
+bool ExprMult::isRightNeutralElement(){
+	return _exprRight->eval() == 1;
+}

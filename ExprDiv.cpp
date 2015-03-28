@@ -15,3 +15,10 @@ void ExprDiv::print()
 	_exprRight->print();
 }
 
+bool ExprDiv::isLeftNeutralElement(){
+	return false;
+}
+
+bool ExprDiv::isRightNeutralElement(){
+	return _exprRight->eval() == 1;
+}

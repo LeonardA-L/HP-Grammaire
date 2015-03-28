@@ -11,6 +11,9 @@ class ExprPlus : public ExprBin {
 		double eval();
 		virtual void print();
 
+		virtual bool isLeftNeutralElement();
+		virtual bool isRightNeutralElement();
+
 };
 
 #endif ExprPlus_H

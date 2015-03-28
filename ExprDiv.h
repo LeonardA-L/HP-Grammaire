@@ -11,6 +11,8 @@ class ExprDiv : public ExprBin {
 		ExprDiv() : ExprBin(Symbole::EXPR_DIV, true){}
 		double eval();
 		virtual void print();
+		virtual bool isLeftNeutralElement();
+		virtual bool isRightNeutralElement();
 
 };
 

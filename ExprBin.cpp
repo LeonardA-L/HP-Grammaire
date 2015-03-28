@@ -42,6 +42,22 @@ E* ExprBin::optimise(bool _hasPriority)
 		_exprLeft = NULL;
 		_exprRight = NULL;
 		return result;
+	} else if((int)(*_exprLeft) == Symbole::VAL && isLeftNeutralElement()){
+		if(!((Val*)_exprLeft)->isParsed()){
+			delete _exprLeft;
+		}
+		_exprLeft = NULL;
+		E* tmp = _exprRight;
+		_exprRight = NULL;
+		return tmp;
+	} else if((int)(*_exprRight) == Symbole::VAL && isRightNeutralElement()){
+		if(!((Val*)_exprRight)->isParsed()){
+			delete _exprRight;
+		}
+		E* tmp = _exprLeft;
+		_exprLeft = NULL;
+		_exprRight = NULL;
+		return tmp;
 	}
 	return NULL;
 }

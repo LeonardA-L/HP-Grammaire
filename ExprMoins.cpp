@@ -15,3 +15,11 @@ void ExprMoins::print()
 	cout << " - ";
 	_exprRight->print();
 }
+
+bool ExprMoins::isLeftNeutralElement(){
+	return false;
+}
+
+bool ExprMoins::isRightNeutralElement(){
+	return false;
+}

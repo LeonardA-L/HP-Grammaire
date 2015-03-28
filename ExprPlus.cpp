@@ -15,3 +15,11 @@ void ExprPlus::print()
 	cout << " + ";
 	_exprRight->print();
 }
+
+bool ExprPlus::isLeftNeutralElement(){
+	return _exprLeft->eval() == 0;
+}
+
+bool ExprPlus::isRightNeutralElement(){
+	return _exprRight->eval() == 0;
+}
