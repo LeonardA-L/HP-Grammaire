@@ -6,13 +6,15 @@
 #include <algorithm>    // std::for_each
 
 using namespace std;
-/*
-	Automate::Automate(vector<Symbole*> & smbl_table)
-	{
-		lex=Lexer();
+
+Automate::~Automate(){
+	while (!pileEtats.empty()){
+		delete pileEtats.top();
+		pileEtats.pop();
 	}
-*/
- void Automate::lecture(){
+}
+
+void Automate::lecture(){
 	Symbole * i=lex.getNext();
 	pileEtats.push(new Etat_0());
 	while(i!=NULL)
@@ -70,6 +72,7 @@ void Automate::decalage(Symbole *s, Etat* etat)
 	{
 		liste.push_back(pileSymboles.top());
 		pileSymboles.pop();
+		delete pileEtats.top();
 		pileEtats.pop();
 	}
 	return liste;
