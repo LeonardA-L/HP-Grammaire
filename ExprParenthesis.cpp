@@ -34,3 +34,7 @@ E* ExprParenthesis::optimise(bool hasPriority)
 	}
 	return NULL;
 }
+
+ExprParenthesis::~ExprParenthesis(){
+	delete e;
+}

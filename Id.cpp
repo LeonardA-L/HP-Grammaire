@@ -53,6 +53,9 @@ Val* Id::getVal(){
 	return _val;
 }
 void Id::setVal(Val* newVal){
+	if(_val != NULL){
+		delete _val;
+	}
 	_val = newVal;
 }
 
@@ -86,5 +89,7 @@ Id::Id (string name) : E(Symbole::ID)
 
 Id::~Id ( )
 {
-
+	if(_val != NULL){
+		delete _val;
+	}
 }

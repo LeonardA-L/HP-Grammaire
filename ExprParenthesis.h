@@ -13,6 +13,7 @@ class ExprParenthesis : public E {
 	public:
 		ExprParenthesis(E* _e) : E(Symbole::EXPR_PAR), e(_e) {}
 		double eval();
+		virtual ~ExprParenthesis();
 		virtual void print();
 		virtual E* optimise(bool hasPriority);
 

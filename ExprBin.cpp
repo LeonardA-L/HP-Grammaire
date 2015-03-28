@@ -32,3 +32,12 @@ E* ExprBin::optimise(bool _hasPriority)
 	return NULL;
 
 }
+
+ExprBin::~ExprBin(){
+	if(_exprLeft != NULL) {
+		delete _exprLeft;
+	}
+	if(_exprRight != NULL) {
+		delete _exprRight;
+	}
+}
