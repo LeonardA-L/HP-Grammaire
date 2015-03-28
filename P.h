@@ -18,6 +18,7 @@ class P : public Symbole{
 		P(Dec* dec, Inst* inst) : Symbole(Symbole::P), _dec(dec), _inst(inst) {}
 		void print();
 		void optimise();
+		void execute();
 };
 
 #endif P_H

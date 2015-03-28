@@ -92,7 +92,7 @@ int main(int argc, char* argv[]){
 		if(execute){
 			// Execution
 			//cerr << "Execute" << endl;
-			//...
+			a.execute();
 		}
 	}
 	

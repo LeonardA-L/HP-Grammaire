@@ -11,3 +11,7 @@ void P::optimise(){
 	_inst->optimise();
 	_dec->optimise();
 }
+
+void P::execute(){
+	_inst->execute();
+}

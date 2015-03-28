@@ -26,3 +26,12 @@ void Inst::optimise()
 void Inst::optimise_SI(SI* si){
 	si->optimise();
 }
+
+void Inst::execute()
+{
+	for_each (_iList.begin(), _iList.end(), execute_SI);
+}
+
+void Inst::execute_SI(SI* si){
+	si->execute();
+}

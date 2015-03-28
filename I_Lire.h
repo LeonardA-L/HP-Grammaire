@@ -4,6 +4,7 @@
 
 #include "SI.h"
 #include "Id.h"
+#include <boost/regex.hpp>
 
 using namespace std;
 

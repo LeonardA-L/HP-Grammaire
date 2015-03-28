@@ -17,8 +17,10 @@ class Inst : public Symbole{
 		void add(SI* s);
 		void print();
 		void optimise();
+		void execute();
 		static void print_SI(SI* si);
 		static void optimise_SI(SI* si);
+		static void execute_SI(SI* si);
 };
 
 #endif Inst_H

@@ -1,8 +1,12 @@
 #include "I_Lire.h"
 #include <iostream>
+#include <string>     // std::string, std::stod
+
 #include "Val.h"
+#include "Lexer.h"
 
 using namespace std;
+using namespace boost;
 
 I_Lire::I_Lire(Id *_id) : SI(Symbole::I_LIRE){
 	id=_id;
@@ -12,9 +16,14 @@ I_Lire::I_Lire(Id *_id) : SI(Symbole::I_LIRE){
 
 void I_Lire::execute(){
 	double x;
-	cin >> x;
+	string s;
+	boost::regex re_numeral("(\\d+)");
+	do {
+		cout << "Lecture de " << id->getName() << " : ";
+		cin >> s;
+	} while(!checkRegexMatch(s, re_numeral));
 	Val* val = new Val();
-	val->setValue(x);
+	val->setValue(stod(s, NULL));
 	id->setVal(val);
 }
 

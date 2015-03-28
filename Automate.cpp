@@ -49,6 +49,13 @@ void Automate::optimise()
 	}
 }
 
+void Automate::execute()
+{
+	if((int)(*pileSymboles.top()) == Symbole::P){
+		((P*)pileSymboles.top())->execute();
+	}
+}
+
 void Automate::decalage(Symbole *s, Etat* etat)
 {
 	pileSymboles.push(s);
