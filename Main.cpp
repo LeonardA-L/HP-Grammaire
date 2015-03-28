@@ -54,7 +54,7 @@ int main(int argc, char* argv[]){
 		cerr << "Pas de fichier .lt en entrée. Lecture de l'entrée standard" << endl;
 	}
 	
-	if(!display && !analyse && !execute && !optimize){	// You do nothing, John Snow
+	if(!source && !display && !analyse && !execute && !optimize){	// You do nothing, John Snow
 		cerr << "Erreur, veuillez specifier des arguments" << endl;
 		cerr << "  Utilisation :" << endl;
 		cerr << "    " << argv[0] << " [-p] [-a] [-e] [-o] source.lt" << endl;
