@@ -6,7 +6,7 @@ Test ID;Return code validation;Out result;StdErr result;File creation result;Glo
 05.DoubleDeclaration;Ok;Non testé;Ok;Non testé;Ok
 06.1.AnalyseStatique;Ok;Non testé;Ok;Non testé;Ok
 06.2.AnalyseStatique;Ok;Non testé;Ok;Non testé;Ok
-06.3.AnalyseStatique;Ok;Non testé;Echec;Non testé;Echec
+06.3.AnalyseStatique;Ok;Non testé;Ok;Non testé;Ok
 06.4.AnalyseStatique;Ok;Non testé;Ok;Non testé;Ok
 07.Execution;Ok;Ok;Non testé;Non testé;Ok
 08.1.Optimisation;Ok;Echec;Non testé;Non testé;Echec
