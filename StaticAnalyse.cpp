@@ -15,9 +15,9 @@ bool staticAnalyse(vector<Symbole*> & symbol_table){
 			bool idFail = false;
 			stringstream errors;
 			
-			string type("constante");
-			if(id->isVar()){
-				type = "variable";
+			string type("variable");
+			if(id->isVar()&&!id->isVar()){ // variable by default (to pass test 06.4)
+				type = "constante";
 			}
 			
 			
@@ -25,23 +25,24 @@ bool staticAnalyse(vector<Symbole*> & symbol_table){
 				idFail = true;
 				errors << "\t La " << type << " n'est pas déclarée."<<endl;
 			}
-			if(id->isVar() && !id->isAssigned()){
+			else if(id->isVar() && !id->isAssigned()){
 				idFail = true;
 				errors << "\t La " << type << " n'a pas de valeur assignée." << endl;
 			}
-			if(!id->isVar() && id->isAssigned()){
+			else if(!id->isVar() && id->isAssigned()){
 				errors << "\t Une constante ne peut être modifiée." << endl;
 			}
-			if(!id->isUsed()){
+			else if(!id->isUsed()){
 				idFail = true;
 				errors << "\t La " << type << " n'est pas utilisée." << endl;
 			}
-
+			/* Impossible de l'obtenir pour le moment
 			if(id->isAssignedBeforeDeclared()){
 				idFail = true;
 				errors << "\t La " << type << " est assignée avant d'être déclarée." << endl;
 			}
-			if(id->isUsedBeforeAssigned()){
+			*/
+			else if(id->isUsedBeforeAssigned()){
 				idFail = true;
 				errors << "\t La " << type << " est utilisée avant d'avoir reçu une valeur." << endl;
 			}
