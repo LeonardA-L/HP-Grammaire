@@ -18,22 +18,37 @@ Automate::~Automate(){
 	}
 }
 
-void Automate::lecture(){
+bool Automate::lecture(){
 	Symbole * i=lex.getNext();
 	pileEtats.push(new Etat_0());
 	while(i!=NULL)
 	{
+		int lastSymbol;
+		int lastState;		
 		do{
 #ifdef DEBUG
 			printProgress(i);
 #endif
+			// Save ctx
+			if(pileSymboles.size()>0){
+				lastSymbol = (int) *(pileSymboles.top());
+			} else {
+				lastSymbol = -1;
+			}
+			lastState = pileEtats.top()->getNumState();
+			// Make transition
 			pileEtats.top()->transition(*(this), i);
+			if(lastSymbol == (int) *(pileSymboles.top()) && lastState == pileEtats.top()->getNumState() && !isAccepted){
+				cerr << "Erreur inconnue, merci de vérifier le fichier d'entrée" << endl;
+				return false;
+			}
 		} while(pileSymboles.top() != i && !isAccepted);
 		i=lex.getNext();
 	}
 #ifdef DEBUG
 	printProgress(NULL);
 #endif
+	return true;
 }
 
 void Automate::accept()
@@ -47,6 +62,7 @@ void Automate::display()
 		((P*)pileSymboles.top())->print();
 	}
 }
+
 
 void Automate::optimise()
 {

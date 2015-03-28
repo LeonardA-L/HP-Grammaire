@@ -20,7 +20,7 @@ class Automate{
 	public: 
 		Automate(vector<Symbole*> * smbl_table, istream* is) : lex(smbl_table, is) {};
 		virtual ~Automate();
-		void lecture();
+		bool lecture();
 		void accept();
 		void display();
 		void optimise();

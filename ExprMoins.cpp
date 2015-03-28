@@ -21,5 +21,5 @@ bool ExprMoins::isLeftNeutralElement(){
 }
 
 bool ExprMoins::isRightNeutralElement(){
-	return false;
+	return _exprRight->eval() == 0;
 }

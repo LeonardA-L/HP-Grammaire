@@ -70,11 +70,10 @@ int main(int argc, char* argv[]){
 	
 	// Parsing-
 	Automate* a = new Automate(&symbol_table, sin);
-	a->lecture();
-	
+	bool success = a->lecture();
 	// Static analyse
 	//cerr << "Analyse" << endl;
-	if(!analyse || staticAnalyse(symbol_table)){
+	if(success && (!analyse || staticAnalyse(symbol_table))){
 		// If the analyse is successful,
 		if(optimize){
 			// Transformation
@@ -94,9 +93,11 @@ int main(int argc, char* argv[]){
 	
 	// Destroy stuff
 	delete a;
-	for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
-		Symbole* s = *it;
-		delete s;
+	if(success){ // TODO debug
+		for (vector<Symbole*>::iterator it = symbol_table.begin(); it != symbol_table.end(); ++it){
+			Symbole* s = *it;
+			delete s;
+		}
 	}
 	
 	if(source){
