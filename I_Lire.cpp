@@ -10,8 +10,8 @@ using namespace boost;
 
 I_Lire::I_Lire(Id *_id) : SI(Symbole::I_LIRE){
 	id=_id;
-	id->setUsed(true);
 	id->setAssigned(true);
+	id->setUsed(true);
 }
 
 void I_Lire::execute(){
