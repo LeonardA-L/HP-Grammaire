@@ -10,7 +10,6 @@ MAP laTable;
 string text;
 vector<int> lengths;
 int i;
-unsigned k;
 
 	//regex
 	// Keywords
@@ -235,7 +234,6 @@ Lexer::Lexer(vector<Symbole*> * symbol_table, istream* is){
 	smbl_table = symbol_table;
 	sin = is;
 	i = 0;
-	k=0;
 	parseStdin();
 }
 
