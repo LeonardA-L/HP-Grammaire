@@ -6,3 +6,4 @@ lire b;
 ecrire a * b;
 e := b + 6;
 ecrire e;
+

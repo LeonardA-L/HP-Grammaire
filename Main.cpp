@@ -51,7 +51,7 @@ int main(int argc, char* argv[]){
 	}
 	
 	if(!source){
-		cerr << "Pas de fichier .lt en entrée. Lecture de l'entrée standard" << endl;
+//		cerr << "Pas de fichier .lt en entrée. Lecture de l'entrée standard" << endl;
 	}
 	
 	if(!source && !display && !analyse && !execute && !optimize){	// You do nothing, John Snow

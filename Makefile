@@ -4,7 +4,7 @@ CC_FLAGS = -w -g -std=c++11 #-DDEBUG
 LINKER_FLAGS = -lboost_regex
 
 # File names
-EXEC = run
+EXEC = lut
 SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 
@@ -21,4 +21,4 @@ clean:
 	rm -f $(EXEC) $(OBJECTS)
 
 tests:
-	make && cp $(EXEC) Tests/lut && cd Tests && ./mktest.sh && cd ..
+	make && cd Tests && ./mktest.sh && cd ..

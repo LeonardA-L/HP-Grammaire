@@ -1,4 +1,3 @@
-Pas de fichier .lt en entrée. Lecture de l'entrée standard
 Erreur, veuillez specifier des arguments
   Utilisation :
     ../lut [-p] [-a] [-e] [-o] source.lt
