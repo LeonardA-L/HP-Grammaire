@@ -1,6 +1,8 @@
 #include "E.h"
 #include "Val.h"
 
+#define NULL 0
+
 using namespace std;
 
 double E::eval(){

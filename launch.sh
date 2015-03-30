@@ -1,2 +1,2 @@
 NOW=$(date +"%d-%m-%Y-%T")
-make -j4 && (clear ; echo "---------- $NOW ----------" ;  ./run -a -e test.lt)
+make tests -j4 && (clear ; echo "---------- $NOW ----------" ;  ./run -a -e test.lt)

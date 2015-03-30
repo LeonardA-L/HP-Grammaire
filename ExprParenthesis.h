@@ -3,6 +3,8 @@
 
 #include "E.h"
 
+#define NULL 0
+
 using namespace std;
 
 class ExprParenthesis : public E {
