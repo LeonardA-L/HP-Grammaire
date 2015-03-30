@@ -1,12 +1,6 @@
-var x;
-var z, y, t;
-const a=3;
-const b=4,n=5;
-ecrire (a * (b   +n));
-y := 0;
+var x, y, z;
+const a=2, b=5;
+x := 10;
+ecrire (a+b)*x;
 lire y;
-x := (123);
-z := (x - a);
-t :=z/(n + (a+x));
-ecrire t;
-t := (x+0) / 1;
+ecrire y*2;
