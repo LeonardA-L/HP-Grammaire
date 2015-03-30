@@ -1,5 +1,4 @@
 *.o
-run
 lut
 results.csv
 *~
