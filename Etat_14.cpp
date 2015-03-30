@@ -26,8 +26,20 @@ bool Etat_14::transition ( Automate & a, Symbole * s )
 {
 	switch(*s)
 	{
+		case(Symbole::VAR):
+			a.retry();
+			// TODO get LineNum
+			cerr << "Erreur syntaxique (" << a.getLineInformations() <<") symbole , ou ; attendu" << endl;
+			a.decalage(s, new Etat_19());
+			break;
 		case(Symbole::POINT_VIRGULE) :
 			a.decalage(s, new Etat_19());
+			break;
+		case(Symbole::ID):
+			a.retry();
+			// TODO get LineNum
+			cerr << "Erreur syntaxique (" << a.getLineInformations() <<") symbole , ou ; attendu" << endl;
+			a.decalage(s, new Etat_15());
 			break;
 		case(Symbole::VIRGULE) :
 			a.decalage(s, new Etat_15());

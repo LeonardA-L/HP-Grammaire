@@ -25,6 +25,8 @@ class Automate{
 		void display();
 		void optimise();
 		void execute();
+		void retry();
+		string getLineInformations();
 		void decalage(Symbole *s, Etat* etat);
 		int getPreviousState(int value);
 		void reductionPush(Symbole* s, Etat* etat);
@@ -40,6 +42,7 @@ class Automate{
 		stack<Etat*> pileEtats; 
 		Lexer lex;
 		bool isAccepted = false;
+		bool shouldRetry = false;
 };
 
 #endif Automate_H

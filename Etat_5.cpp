@@ -34,6 +34,12 @@ bool Etat_5::transition ( Automate & a, Symbole * s )
 			case(Symbole::POINT_VIRGULE) :
 				a.decalage(s, new Etat_8());
 				break;
+			case(Symbole::ID):
+				// TODO get LineNum
+				a.retry();
+				cerr << "Erreur syntaxique (" << a.getLineInformations() <<") symbole , ou ; attendu" << endl;
+				a.decalage(s, new Etat_6());
+				break;
 			case(Symbole::VIRGULE) :
 				a.decalage(s, new Etat_6());
 				break;

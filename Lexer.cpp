@@ -34,7 +34,7 @@ int i;
 	regex re_identifier("(^(?!const|var|lire|ecrire)([a-zA-Z0-9]+)|^[a-zA-Z0-9]+(const|var|lire|ecrire)[a-zA-Z0-9]+|(const|var|lire|ecrire)[a-zA-Z0-9]+)");
 	//regex re_identifier("\\w+");
 	regex re_numeral("(\\d+)");
-	regex re_skippables("[ ]");
+	regex re_skippables("[ |\\\|]");
 
 Symbole* Lexer::getNext(){
 	return analyse();
@@ -88,6 +88,10 @@ string findCoordFromIndex(int j){
 	}
 	r+=to_string(m+1)+string(":")+to_string(j+1)+string("");
 	return r;
+}
+
+string Lexer::getCoord(){
+	return findCoordFromIndex(i);
 }
 
 Symbole* Lexer::ship(string& s, bool& matched)
@@ -243,7 +247,8 @@ void Lexer::parseStdin()
 	string code;
 	while(getline(*sin,code)){
 		text+=code;
-		lengths.push_back(code.length());
+		text+="|";
+		lengths.push_back(code.length()+1);
 		//analyse(code);
 		//cin.ignore();
 	}

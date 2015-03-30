@@ -18,6 +18,7 @@ bool checkRegexMatch(string s, boost::regex re);
 class Lexer {
 	public:
 		Symbole* getNext();
+		string getCoord();
 		Lexer(vector<Symbole*> * symbol_table, istream* is);
 	
 	private:

@@ -26,13 +26,13 @@ bool Etat_33::transition ( Automate & a, Symbole * s )
 	switch(*s)
 	{
 		case(Symbole::DOUBLE_POINT_EGAL) : 
-			{
-				Etat_34 *etat34=new Etat_34();
-				a.decalage(s,etat34);
-			}
+			a.decalage(s,new Etat_34());
 			break;
-		default : 
-			return false;
+		default :
+			a.retry();
+			cerr << "Erreur syntaxique (" << a.getLineInformations() <<") operateur := attendu" << endl;
+			a.decalage(s,new Etat_34());
+			break;
 	}
 	return true;
 } 

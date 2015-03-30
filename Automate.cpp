@@ -29,6 +29,7 @@ bool Automate::lecture(){
 #ifdef DEBUG
 			printProgress(i);
 #endif
+			shouldRetry = false;
 			// Save ctx
 			if(pileSymboles.size()>0){
 				lastSymbol = (int) *(pileSymboles.top());
@@ -38,17 +39,25 @@ bool Automate::lecture(){
 			lastState = pileEtats.top()->getNumState();
 			// Make transition
 			pileEtats.top()->transition(*(this), i);
-			if(lastSymbol == (int) *(pileSymboles.top()) && lastState == pileEtats.top()->getNumState() && !isAccepted){
+			if(lastSymbol == (int) *(pileSymboles.top()) && lastState == pileEtats.top()->getNumState() && !isAccepted && !shouldRetry){
 				cerr << "Erreur inconnue, merci de vérifier le fichier d'entrée" << endl;
 				return false;
 			}
-		} while(pileSymboles.top() != i && !isAccepted);
+		} while(pileSymboles.top() != i && !isAccepted || shouldRetry);
 		i=lex.getNext();
 	}
 #ifdef DEBUG
 	printProgress(NULL);
 #endif
 	return true;
+}
+
+string Automate::getLineInformations(){
+	return lex.getCoord();
+}
+
+void Automate::retry(){
+	shouldRetry = true;
 }
 
 void Automate::accept()
