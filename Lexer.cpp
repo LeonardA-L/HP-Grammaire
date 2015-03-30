@@ -10,6 +10,7 @@ MAP laTable;
 string text;
 vector<int> lengths;
 int i;
+int j;
 
 	//regex
 	// Keywords
@@ -91,7 +92,7 @@ string findCoordFromIndex(int j){
 }
 
 string Lexer::getCoord(){
-	return findCoordFromIndex(i);
+	return findCoordFromIndex(j);
 }
 
 Symbole* Lexer::ship(string& s, bool& matched)
@@ -216,6 +217,9 @@ Symbole* Lexer::analyse()
 				or checkRegexMatch(tmp,re_par_close)
 				)
 			{
+				if(!matched){
+					j = i;
+				}				
 				buff+=c;
 				matched = true;
 				continue;
@@ -238,6 +242,7 @@ Lexer::Lexer(vector<Symbole*> * symbol_table, istream* is){
 	smbl_table = symbol_table;
 	sin = is;
 	i = 0;
+	j = 0;
 	parseStdin();
 }
 
