@@ -3,7 +3,7 @@ var a;
 var e;
 a := 25;
 lire b;
-ecrire a * b;
+ecrire 25 * b;
 e := b + 6;
 ecrire e;
 
